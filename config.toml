@@ -1,0 +1,4 @@
+baseURL = 'httsp://www.bacpop.org/'
+languageCode = 'en-gb'
+title = 'Bacterial population genomics'
+theme = "ananke"
