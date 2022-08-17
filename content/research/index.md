@@ -1,7 +1,7 @@
 ---
 title: "Research"
 description: "The Pathogen Informatics and Modelling group"
-featured_image: '/images/header2.jpg'
+featured_image: '/images/header3.jpg'
 type: 'page'
 menu:
   main:

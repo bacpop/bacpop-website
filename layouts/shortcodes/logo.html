@@ -1,0 +1,9 @@
+{{ $id := .Get 0 }}
+{{ $width := default 120 (.Get 1) }}
+{{ $height := default 120 (.Get 2) }}
+{{ $asset := resources.Get $id }}
+{{ $dim := printf "%dx%d" $width $height }}
+{{ $img := $asset.Fit $dim }}
+<figure class="image logo">
+  <img alt="{{ $id }} logo" style="float: right" src="{{ $img.RelPermalink }}" />
+</figure>

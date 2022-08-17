@@ -13,7 +13,7 @@ at EMBL-EBI.
 
 We aim to develop innovative, ethical and sharable approaches which help realise the power of sequencing to control pathogen threats. We are interested in both producing methods, and generating biological insights by applying these methods to data from a range of sources.
 
-Our main areas of work are:
+Our current main areas of work are:
 * Genomic epidemiology
 * Statistical genetics
 * Mathematical models of transmission
