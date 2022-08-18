@@ -27,9 +27,11 @@ For more information about these areas, see our [research]({{< ref "/research" >
 
 To learn who we are and who we work with, see [about us]({{< ref "/group" >}}).
 
-
 For more about our tools and methods, we have collated information on the [software]({{< ref "/software" >}}) page,
 and you can also see our [code on github](https://github.com/bacpop).
+
+We also have a [youtube channel](https://www.youtube.com/channel/UCmp3iSn08C1wAQqC-S7evLw) where we post some of our talks.
+## Guides and blog posts
 
 We publish sample workflows and recommendations for common population genomics workflows
 in our [guides]({{< ref "/guides" >}}).
