@@ -9,7 +9,7 @@ cascade:
 # bacpop (*bac*terial *pop*ulation genomics & modelling)
 
 We are the [Pathogen Informatics and Modelling](https://www.ebi.ac.uk/research/lees/) group
-at EMBL-EBI.
+at EMBL-EBI (also known as the Lees Group).
 
 We aim to develop innovative, ethical and sharable approaches which help realise the power of sequencing to control pathogen threats. We are interested in both producing methods, and generating biological insights by applying these methods to data from a range of sources.
 
@@ -23,14 +23,6 @@ Our current main areas of work are:
 
 For more information about these areas, see our [research]({{< ref "/research" >}}).
 
-## Find out more
-
-To learn who we are and who we work with, see [about us]({{< ref "/group" >}}).
-
-For more about our tools and methods, we have collated information on the [software]({{< ref "/software" >}}) page,
-and you can also see our [code on github](https://github.com/bacpop).
-
-We also have a [youtube channel](https://www.youtube.com/channel/UCmp3iSn08C1wAQqC-S7evLw) where we post some of our talks.
 ## Guides and blog posts
 
 We publish sample workflows and recommendations for common population genomics workflows
@@ -39,3 +31,11 @@ in our [guides]({{< ref "/guides" >}}).
 Other posts, such as paper summaries, reviews and short how-to guides
 can be found on our [blog]({{< ref "/blog" >}}).
 
+## Find out more
+
+To learn who we are and who we work with, see [about us]({{< ref "/group" >}}).
+
+For more about our tools and methods, we have collated information on the [software]({{< ref "/software" >}}) page,
+and you can also see our [code on github](https://github.com/bacpop).
+
+We also have a [youtube channel](https://www.youtube.com/channel/UCmp3iSn08C1wAQqC-S7evLw) where we post some of our talks.

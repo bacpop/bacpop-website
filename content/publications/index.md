@@ -50,3 +50,10 @@ We use genome-wide association studies (GWAS) to search for genetic factors asso
 *S. pneumoniae* carriage in infants versus adults, in a meta-analysis over two populations.
 Overall we find wide between-cohort differences in strain composition, and between ages, but no
 clear independent genetic signals associated with infants or adults. This supports proposals future vaccination strategies which are primarily targeted at dominant circulating serotypes in specific pathogen populations.
+
+Here's our tree and metadata ([view on microreact.org](https://microreact.org/project/f2MdBLZhSyU9eF8MBobHhA/e2a5ebd7)):
+
+{{< rawhtml >}}
+ <object title="Microreact project" width="650" height="400" classnametype="text/html" data="https://microreact.org/project/f2MdBLZhSyU9eF8MBobHhA/e2a5ebd7" />
+{{< /rawhtml >}}
+
