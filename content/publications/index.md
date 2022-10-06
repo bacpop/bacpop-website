@@ -16,7 +16,9 @@ A non-exhaustive list of papers directly from our group, with some short explana
 
 ### Mandrake: visualizing microbial population structure by embedding millions of genomes into a low-dimensional representation
 
-John A Lees, Gerry Tonkin-Hill, Zhirong Yang and Jukka Corander (2022). **Mandrake: visualizing microbial population structure by embedding millions of genomes into a low-dimensional representation**. *Philosophical Transactions of the Royal Society B* ???
+John A Lees, Gerry Tonkin-Hill, Zhirong Yang and Jukka Corander (2022). **Mandrake: visualizing microbial population structure by embedding millions of genomes into a low-dimensional representation**. *Philosophical Transactions of the Royal Society B* 377:20210237
+
+https://doi.org/10.1098/rstb.2021.0237
 
 Dimension reduction methods are a popular way to work with large amounts of genetic data: PCA, t-SNE and UMAP have all been
 used to analyse and visualise lots of samples in two-dimensions. These techniques are often used to cluster data, but have not been
