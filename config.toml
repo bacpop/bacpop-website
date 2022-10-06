@@ -1,4 +1,4 @@
-title = "Bacterial population genomics"
+title = "Pathogen Informatics and Modelling Group"
 baseURL = "https://www.bacpop.org"
 languageCode = "en-gb"
 theme = "ananke"
@@ -6,8 +6,8 @@ resourceDir = "../resources"
 
 DefaultContentLanguage = "en"
 SectionPagesMenu = "main"
-Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
-googleAnalytics = ""
+Paginate = 10 # this is set low for demonstrating with dummy content. Set to a higher number
+googleAnalytics = "G-T91W04JTYS"
 enableRobotsTXT = true
 
 [sitemap]
@@ -31,11 +31,12 @@ url = "https://github.com/bacpop"
 label = "bacpop github"
 
 [[params.ananke_socials]]
-name = "twitter"
-url = "https://twitter.com/johnlees6"
-label = "John Lees' twitter"
-
-[[params.ananke_socials]]
 name = "youtube"
 url = "https://www.youtube.com/channel/UCmp3iSn08C1wAQqC-S7evLw"
 label = "ScientificProgramming YouTube channel"
+
+[markup]
+  [markup.tableOfContents]
+    endLevel = 2
+    ordered = false
+    startLevel = 2
