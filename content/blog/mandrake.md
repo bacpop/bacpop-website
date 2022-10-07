@@ -1,7 +1,7 @@
 ---
 title: "Visualising microbial population structure with mandrake"
 description: "Embedding millions of genomes into a low-dimensional representation"
-date: 2022-04-29T12:12:42+01:00
+date: 2022-10-07T17:00:00+01:00
 type: "post"
 draft: false
 featured_image: '/images/header4.jpg'
