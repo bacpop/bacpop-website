@@ -8,21 +8,32 @@ menu:
     weight: 1
 ---
 
-We currently work in the following overlapping areas
+We currently work in the following overlapping areas:
 
 {{< toc >}}
+
+See the [software]({{< ref "/software" >}}) page if you prefer a more code/project centric view!
 ## Mathematical modelling
 
-We create stochastic, mechanistic models of competition and transmission.
+We are creating some stochastic, mechanistic models of competition and transmission. We're using
+tools developed during the COVID-19 pandemic to better understand the transmission of
+bacterial pathogens, and eventually aim to combine models of within-host pathogen evolution with models of between-host
+transmission (bacterial phylodynamics).
 
 ## Real-time genomic epidemiology
 
-Public databases of pathogen genome variation have grown rapidly, with the largest having surpassed one million sequences. We will design tools to find evolutionary signatures in the masses of genomic data available, and link these findings to function.
+Public databases of pathogen genome variation have grown rapidly, with the largest having surpassed one million sequences.
+As these sequence databases grow, they are becoming more difficult for many researchers to take full advantage of. We are developing methods which help local surveillance labs integrate their data into large sequence databases, using a ‘one-by-one’ analysis approach.
 
-We will also use this data to design and fit individual-based models of pathogen transmission which incorporate both sequence evolution and host information.
 ## Pathogen evolution and statistical genetics
 
-As sequence databases grow, they are becoming more difficult for many researchers to take full advantage of. We will develop methods which help local surveillance labs integrate their data into large sequence databases, using a ‘one-by-one’ analysis approach. We are also developing automated tools to mark and track concerning lineages as they emerge, predict antimicrobial resistance status, and observed the effects of vaccination on local populations.
+We are designing tools to find evolutionary signatures in the masses of genomic data available, and link these findings to function.
+
+We are also developing automated tools to mark and track concerning lineages as they emerge, predict antimicrobial resistance status, and observed the effects of vaccination on local populations.
+
+We've got a long standing interest in genome-wide association studies, and continue to
+develop new methods in this area.
+
 ## Sequencing within-host diversity
 
 Pathogen populations also evolve within a single host, sometimes developing mutations with consequences for the whole population. We will develop tools which combine population genetic knowledge, fast informatics approaches, and flexible sequence to streamline the process of sequencing diversity directly from complex samples.
