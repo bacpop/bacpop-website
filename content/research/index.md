@@ -29,7 +29,7 @@ Public databases of pathogen genome variation have grown rapidly, with the large
 As these sequence databases grow, they are becoming more difficult for many researchers to take full advantage of. We are developing methods which help local surveillance labs integrate their data into large sequence databases, using a ‘one-by-one’ analysis approach.
 
 Examples:
-- PopPUNK for genomic epidemiology: www.poppunk.net
+- PopPUNK for genomic epidemiology: www.poppunk.net and the paper http://dx.doi.org/10.1101/gr.241455.118
 - PopPIPE for transmission analysis: https://github.com/bacpop/PopPIPE
 - ggCaller for annotation: https://github.com/samhorsfield96/ggCaller
 ## Pathogen evolution and statistical genetics
