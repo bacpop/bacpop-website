@@ -25,7 +25,7 @@ For more information about these areas, see our [research]({{< ref "/research" >
 ## Find out more
 
 To learn who we are and who we work with, see [about us]({{< ref "/group" >}}).
-Current vacancies are listed [here]({{< ref "/group#working-with-us" >}}).
+Current vacancies are listed under [working with us]({{< ref "/jobs" >}}).
 
 For more about our tools and methods, we have collated information on the [software]({{< ref "/software" >}}) page,
 and you can also see our [code on github](https://github.com/bacpop).
