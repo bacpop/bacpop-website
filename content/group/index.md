@@ -108,30 +108,3 @@ _wachsmannj at ebi dot ac dot uk_
 {{< figure src="/images/group/2022_zoo_1.jpg" >}}
 
 {{< figure src="/images/group/2022_zoo_2.jpg" >}}
-## Collaborators
-
-Outside of EMBL, we currently work with following people and groups on some of our projects:
-
-* Nick Croucher and the [Bacterial Evolutionary Epidemiology Group](https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/hosted-initiatives-and-groups/bacterial-evolutionary-epidemiology-group/) (Imperial College London).
-* Rich Fitzjohn and the [RESIDE Group](https://reside-ic.github.io/) (Imperial College London).
-* Stephen Bentley, [his team](https://bentleygroup.sanger.ac.uk/), and the [GPS](https://www.pneumogen.net/gps/) and [Juno](https://www.gbsgen.net/) projects (Wellcome Sanger Institute).
-* Jukka Corander and the [Probabilistic Inference Lab](https://www.med.uio.no/imb/english/research/groups/probabilistic-inference-lab/index.html) (University of Oslo).
-
-We're always interested in growing this network, and have short- and medium-term
-visitors to the lab. Please get in touch if you'd like
-to collaborate with us.
-
-## Working with us
-
-For **masters projects**, please send us an email with your CV including any existing research, software and programming
-experience, and your scientific interests.
-
-For **internships**, we normally advertise these in January each year. This may be later in 2023.
-
-For **PhDs**, application is through the [EMBL programme](https://www.embl.org/about/info/embl-international-phd-programme/overview/). We don't currently expect to have a vacancy in the next round.
-
-For **postdocs**, we don't currently have any direct vacancies. However, we are participating
-in the current [EIPOD call](https://www.embl.org/about/info/postdoctoral-programme/eipod-linc-exploring-life-in-context/) which runs from October 17th 2022 until January 19th 2023.
-Please contact us if you have any idea for a project you'd like to work on.
-
-We don't currently have any vacancies for **software developers**.

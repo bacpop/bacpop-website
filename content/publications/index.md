@@ -8,7 +8,7 @@ menu:
     weight: 1
 ---
 
-A non-exhaustive list of papers directly from our group, with some short explanations.
+A list of some of the papers directly from our group, with some short explanations.
 
 {{< toc >}}
 

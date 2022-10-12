@@ -22,6 +22,15 @@ Our current main areas of work are:
 * Democratising bioinformatics
 
 For more information about these areas, see our [research]({{< ref "/research" >}}).
+## Find out more
+
+To learn who we are and who we work with, see [about us]({{< ref "/group" >}}).
+Current vacancies are listed under [working with us]({{< ref "/jobs" >}}).
+
+For more about our tools and methods, we have collated information on the [software]({{< ref "/software" >}}) page,
+and you can also see our [code on github](https://github.com/bacpop).
+
+We also have a [youtube channel](https://www.youtube.com/channel/UCmp3iSn08C1wAQqC-S7evLw) where we post some of our talks.
 
 ## Guides and blog posts
 
@@ -30,12 +39,3 @@ in our [guides]({{< ref "/guides" >}}).
 
 Other posts, such as paper summaries, reviews and short how-to guides
 can be found on our [blog]({{< ref "/blog" >}}).
-
-## Find out more
-
-To learn who we are and who we work with, see [about us]({{< ref "/group" >}}).
-
-For more about our tools and methods, we have collated information on the [software]({{< ref "/software" >}}) page,
-and you can also see our [code on github](https://github.com/bacpop).
-
-We also have a [youtube channel](https://www.youtube.com/channel/UCmp3iSn08C1wAQqC-S7evLw) where we post some of our talks.
