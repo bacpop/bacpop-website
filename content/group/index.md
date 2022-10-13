@@ -100,6 +100,7 @@ _wachsmannj at ebi dot ac dot uk_
 {{< icon_wrapper name="Johanna" >}}
     {{< social_icon github "https://github.com/johannahelene" >}}
     {{< social_icon twitter "https://twitter.com/vWachsmann" >}}
+    {{< social_icon linkedin "https://www.linkedin.com/in/johanna-helene-von-wachsmann-191b91224/" >}}
 {{< /icon_wrapper >}}
 
 
