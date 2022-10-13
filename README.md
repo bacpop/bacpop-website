@@ -29,7 +29,7 @@ Making changes
 
 New posts
 ------------
-1. Create a new post with a command such as `hugo new posts/phylogenetics.md`.
+1. Create a new post with a command such as `hugo new blog/phylogenetics.md`.
 2. Write the post (using Markdown).
 3. Preview locally with `hugo server -D`.
 4. When ready, commit to a new branch, and set `draft: false`.
