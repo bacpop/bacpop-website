@@ -22,6 +22,14 @@ _raymond at ebi dot ac dot uk_
 
 **Bruhad Dave** is an intern
 
+My work in the lab involves writing a [python package](https://github.com/bacpop/pp-netlib) that handles graph data for the population genomics tool, [PopPUNK](https://github.com/bacpop/PopPUNK), and contributing to the analysis of patterns of pneumococcal genomic variation. My past work has included looking at segmental variants in lab-evolved lines of drug-resistant _E. coli_, assembling and annotating data from nosocomial samples, and investigating the extent, rates and predicted functional effects of single-nucleotide variations in the transcriptome of _Plasmodium falciparum_. I am broadly interested in human health & disease research, and I am especially interested in the intersections of pathogen genomics, host-pathogen interactions, and evolutionary biology. 
+
+*Languages*: Python, R, Bash/Shell
+
+{{< icon_wrapper name="Bruhad" >}}
+    {{< social_icon github "https://github.com/bruhad-dave" >}}
+{{< /icon_wrapper >}}
+
 _bruhad at ebi dot ac dot uk_
 
 **Joel Hellewell** is a postdoctoral fellow
