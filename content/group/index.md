@@ -18,7 +18,9 @@ current and past group members, who we work with, and some nice pictures.
 
 **Raymond Cheng** is a visiting PhD student (based at the Wellcome Sanger Institute)
 
-I am a PhD student at Sanger Institute in [Prof. Stephen Bentley’s group](https://www.sanger.ac.uk/group/genomics-pneumonia-and-meningitis-and-neonatal-sepsis/) and also under the supervision of Dr. John Lees at the EBI. My current work is focusing on quantifying the invasiveness of *Streptococcus pneumoniae* with different genetic backgrounds by using the WGS data among populations. I am also interested in studying various modes of evolution in pathogenic bacteria and how they shape different population structures. 
+{{< figure src="/images/group/raymond_cheng.jpeg" >}}
+
+I am a PhD student at Sanger Institute in [Prof. Stephen Bentley’s group](https://www.sanger.ac.uk/group/genomics-pneumonia-and-meningitis-and-neonatal-sepsis/) and also under the supervision of Dr. John Lees at the EBI. My current work is focusing on quantifying the invasiveness of *Streptococcus pneumoniae* with different genetic backgrounds by using the WGS data among populations. I am also interested in studying various modes of evolution in pathogenic bacteria and how they shape different population structures.
 
 *Languages*: Python, R
 
@@ -26,7 +28,7 @@ _raymond at ebi dot ac dot uk_
 
 **Bruhad Dave** is an intern
 
-My work in the lab involves writing a [python package](https://github.com/bacpop/pp-netlib) that handles graph data for the population genomics tool, [PopPUNK](https://github.com/bacpop/PopPUNK), and contributing to the analysis of patterns of pneumococcal genomic variation. My past work has included looking at segmental variants in lab-evolved lines of drug-resistant _E. coli_, assembling and annotating data from nosocomial samples, and investigating the extent, rates, and predicted functional effects of single-nucleotide variations in the transcriptome of _Plasmodium falciparum_. I am broadly interested in human health & disease research, and I am especially interested in the intersections of pathogen genomics, host-pathogen interactions, and evolutionary biology. 
+My work in the lab involves writing a [python package](https://github.com/bacpop/pp-netlib) that handles graph data for the population genomics tool, [PopPUNK](https://github.com/bacpop/PopPUNK), and contributing to the analysis of patterns of pneumococcal genomic variation. My past work has included looking at segmental variants in lab-evolved lines of drug-resistant _E. coli_, assembling and annotating data from nosocomial samples, and investigating the extent, rates, and predicted functional effects of single-nucleotide variations in the transcriptome of _Plasmodium falciparum_. I am broadly interested in human health & disease research, and I am especially interested in the intersections of pathogen genomics, host-pathogen interactions, and evolutionary biology.
 
 *Languages*: Python, R, Bash/Shell
 
