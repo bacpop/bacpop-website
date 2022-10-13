@@ -26,6 +26,14 @@ _bruhad at ebi dot ac dot uk_
 
 **Joel Hellewell** is a postdoctoral fellow
 
+{{< figure src="/images/group/joel_hellewell.jpeg" >}}
+
+My background is in transmission modelling and statistics. I did my PhD at Imperial College London in the Malaria group with Tom Churcher and Azra Ghani. I then did a post-doc at the London School of Hygiene and Tropical Medicine in Sebastian Funk's group. I contributed towards models that performed routine short-term forecasts of COVID-19 deaths, hospitalisations, and reported cases in the United Kingdom. I also worked on reproduction number estimates and modelling the sensitivity of PCR tests over the course of a COVID-19 infection.
+
+I am now interested in integrating genetic and epidemiological models and data to see if this improves the answers to key questions that were repeatedly asking during the COVID-19 pandemic. For example, how early can we tell that the number of infections is increasing? Does this novel variant have a transmission advantage? Does this novel variant cause infections with more serious outcomes?
+
+*Languages and tools*: R, stan
+
 _joel at ebi dot ac dot uk_
 
 {{< icon_wrapper name="Joel" >}}
