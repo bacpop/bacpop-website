@@ -16,15 +16,37 @@ current and past group members, who we work with, and some nice pictures.
 
 ## Lab members
 
-**Raymond Cheng** is a visiting PhD student (based at the Wellcome Sanger Institute)
+**Hsueh-Chien (Raymond) Cheng** is a visiting PhD student (based at the Wellcome Sanger Institute)
+
+{{< figure src="/images/group/raymond_cheng.jpg" >}}
+
+I am a PhD student at the Wellcome Sanger Institute in [Prof. Stephen Bentley’s group](https://bentleygroup.sanger.ac.uk/#team) and also under the supervision of Dr. John Lees at the EBI. My current work is focusing on quantifying the invasiveness of *Streptococcus pneumoniae* with different genetic backgrounds by using the WGS data among populations. I am also interested in studying various modes of evolution in pathogenic bacteria and how they shape different population structures.
+
+*Languages*: Python, R
 
 _raymond at ebi dot ac dot uk_
 
 **Bruhad Dave** is an intern
 
+My work in the lab involves writing a [python package](https://github.com/bacpop/pp-netlib) that handles graph data for the population genomics tool, [PopPUNK](https://github.com/bacpop/PopPUNK), and contributing to the analysis of patterns of pneumococcal genomic variation. My past work has included looking at segmental variants in lab-evolved lines of drug-resistant _E. coli_, assembling and annotating data from nosocomial samples, and investigating the extent, rates, and predicted functional effects of single-nucleotide variations in the transcriptome of _Plasmodium falciparum_. I am broadly interested in human health & disease research, and I am especially interested in the intersections of pathogen genomics, host-pathogen interactions, and evolutionary biology.
+
+*Languages*: Python, R, Bash/Shell
+
+{{< icon_wrapper name="Bruhad" >}}
+    {{< social_icon github "https://github.com/bruhad-dave" >}}
+{{< /icon_wrapper >}}
+
 _bruhad at ebi dot ac dot uk_
 
 **Joel Hellewell** is a postdoctoral fellow
+
+{{< figure src="/images/group/joel_hellewell.jpeg" >}}
+
+My background is in transmission modelling and statistics. I did my PhD at Imperial College London in the Malaria group with Tom Churcher and Azra Ghani. I then did a post-doc at the London School of Hygiene and Tropical Medicine in Sebastian Funk's group. I contributed towards models that performed routine short-term forecasts of COVID-19 deaths, hospitalisations, and reported cases in the United Kingdom. I also worked on reproduction number estimates and modelling the sensitivity of PCR tests over the course of a COVID-19 infection.
+
+I am now interested in integrating genetic and epidemiological models and data to see if this improves the answers to key questions that were repeatedly asking during the COVID-19 pandemic. For example, how early can we tell that the number of infections is increasing? Does this novel variant have a transmission advantage? Does this novel variant cause infections with more serious outcomes?
+
+*Languages and tools*: R, stan
 
 _joel at ebi dot ac dot uk_
 
