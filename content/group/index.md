@@ -16,11 +16,11 @@ current and past group members, who we work with, and some nice pictures.
 
 ## Lab members
 
-**Raymond Cheng** is a visiting PhD student (based at the Wellcome Sanger Institute)
+**Hsueh-Chien (Raymond) Cheng** is a visiting PhD student (based at the Wellcome Sanger Institute)
 
 {{< figure src="/images/group/raymond_cheng.jpg" >}}
 
-I am a PhD student at the Wellcome Sanger Institute in [Prof. Stephen Bentley’s group](https://www.sanger.ac.uk/group/genomics-pneumonia-and-meningitis-and-neonatal-sepsis/) and also under the supervision of Dr. John Lees at the EBI. My current work is focusing on quantifying the invasiveness of *Streptococcus pneumoniae* with different genetic backgrounds by using the WGS data among populations. I am also interested in studying various modes of evolution in pathogenic bacteria and how they shape different population structures.
+I am a PhD student at the Wellcome Sanger Institute in [Prof. Stephen Bentley’s group](https://bentleygroup.sanger.ac.uk/#team) and also under the supervision of Dr. John Lees at the EBI. My current work is focusing on quantifying the invasiveness of *Streptococcus pneumoniae* with different genetic backgrounds by using the WGS data among populations. I am also interested in studying various modes of evolution in pathogenic bacteria and how they shape different population structures.
 
 *Languages*: Python, R
 
