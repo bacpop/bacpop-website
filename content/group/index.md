@@ -100,13 +100,17 @@ _jlees at ebi dot ac dot uk_
     {{< social_icon twitter "https://mobile.twitter.com/johnlees6" >}}
 {{< /icon_wrapper >}}
 
-**Leonie Lorenz** is a first year PhD student who will be working on models of
-transmission and within-host evolution.
+**Leonie Lorenz** is a PhD student
+
+Leonie will be working on models of transmission and within-host evolution.
 
 _llorenz at ebi dot ac dot uk_
 
-**Jacqueline Toussaint** is a first year PhD student who will be working on
-bioinformatic tools for genome surviellance data.
+**Jacqueline Toussaint** is a PhD student
+
+{{< figure src="/images/group/jacqueline_toussaint.jpg" >}}
+
+Jacqueline will be working on bioinformatic tools for genome surviellance data.
 
 _lilyjacqueline at ebi dot ac dot uk_
 
