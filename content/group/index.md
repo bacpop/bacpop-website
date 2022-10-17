@@ -102,9 +102,15 @@ _jlees at ebi dot ac dot uk_
 
 **Leonie Lorenz** is a PhD student
 
-_leonie at ebi dot ac dot uk_
+Leonie will be working on models of transmission and within-host evolution.
+
+_llorenz at ebi dot ac dot uk_
 
 **Jacqueline Toussaint** is a PhD student
+
+{{< figure src="/images/group/jacqueline_toussaint.jpg" >}}
+
+Jacqueline will be working on bioinformatic tools for genome surviellance data.
 
 _lilyjacqueline at ebi dot ac dot uk_
 
