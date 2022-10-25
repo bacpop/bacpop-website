@@ -18,7 +18,7 @@ enableRobotsTXT = true
 [params]
   text_color = ""
   author = ""
-  favicon = ""
+  favicon = "images/favicon.svg"
   site_logo = "images/bacpop_logo_3.svg"
   description = "Methods, software and models for analysing bacterial populations and genomes"
   # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
