@@ -135,10 +135,13 @@ _wachsmannj at ebi dot ac dot uk_
 ### Alumni
 
 **Gherard Batisti Biffignandi** was a visiting PhD student (based at the University of Pavia).
+
 ## Social and photos
 
-### 2022 group retreat
+### 2022
 
-{{< figure src="/images/group/2022_zoo_1.jpg" >}}
+{{< figure src="/images/group/2022_ib_tt.jpg" caption="Infection Biology Transversal Theme Retreat">}}
+
+{{< figure src="/images/group/2022_zoo_1.jpg" caption="Group retreat at London Zoo (Gorilla sadly not in our group)">}}
 
 {{< figure src="/images/group/2022_zoo_2.jpg" >}}
