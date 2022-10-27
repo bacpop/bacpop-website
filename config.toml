@@ -33,7 +33,7 @@ label = "bacpop github"
 
 [[params.ananke_socials]]
 name = "youtube"
-url = " youtube.com/@bacpop"
+url = "https://youtube.com/@bacpop"
 label = "Bacpop/ScientificProgramming YouTube channel"
 
 [markup]
