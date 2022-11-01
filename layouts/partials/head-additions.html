@@ -11,3 +11,4 @@
   gtag('config', '{{ $tag_id }}');
 </script>
 {{ end }}
+{{ if .Params.math }}{{ partial "helpers/katex.html" . }}{{ end }}
