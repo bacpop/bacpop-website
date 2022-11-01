@@ -3,6 +3,7 @@ title: "Peer Review of the pre-print 'Endonuclease fingerprint indicates a synth
 date: 2022-11-01T13:22:12Z
 draft: false
 author: "Joel Hellewell"
+math: true
 ---
 
 
@@ -16,7 +17,7 @@ The broad thread of the argument in the pre-print is that a synthetically engine
 
 The authors construct a null distribution of the size of the largest DNA fragments that you would expect to see as a result of cutting genomes at restriction sites. They compare the largest fragment resulting from cutting a SARS-CoV2 genome with a certain pair of restriction enzymes to the null distribution and find that the largest fragment produced is unusually small. Under the null distribution there is under 1% probability of observing a largest fragment length that is equal to, or smaller than, the largest fragment length observed for SARS-CoV2. The authors therefore conclude that the "BsaI/BsmBI map of SARS-CoV-2 is anomalous for a wild coronavirus and more likely to have originated from an infectious clone designed as an efficient reverse genetics system".
 
-We argue that the issue with the argument in the pre-print is that it confuses the null hypothesis that it is actually rejecting, a claim that is strictly about the distribution of restriction sites across the genome, with a claim about the origin of the distribution of the restriction sites in the genome. The argument presented here is that the null distribution constructed in the pre-print gives the distribution of largest fragment sizes that we would expect to observe if restriction sites were uniformly distributed across the genome. That is, writing restriction site location in the genome as `x =  nucleotide location / genome length` then `x ~ uniform(0, 1)` so `prob(x = k) = 1` for all `0 <= k <= 1` and `0` elsewhere. Therefore, an observation having a low probability of belonging to this null distribution is evidence that restriction sites do not occur uniformly across the genome.
+We argue that the issue with the argument in the pre-print is that it confuses the null hypothesis that it is actually rejecting, a claim that is strictly about the distribution of restriction sites across the genome, with a claim about the origin of the distribution of the restriction sites in the genome. The argument presented here is that the null distribution constructed in the pre-print gives the distribution of largest fragment sizes that we would expect to observe if restriction sites were uniformly distributed across the genome. That is, writing restriction site location in the genome as $x = \frac{\mathrm{nucleotide \\, location}}{\mathrm{genome \\, length}}$ then $x \sim \mathrm{uniform}(0, 1)$ so $prob(x = k) = 1$ for all $0 <= k <= 1$ and $0$ elsewhere. Therefore, an observation having a low probability of belonging to this null distribution is evidence that restriction sites do not occur uniformly across the genome.
 
 The rejection of this null hypothesis is not evidence that this lack of being uniformly distributed is due to a specific origin, namely scientists altering restriction sites. We argue that our understanding of how mutations occur naturally in a genome might lead to restriction sites locations that are not uniformly distributed. This is because locations in the genome where a restriction site can or is likely to emerge depends on the evolutionary history of the genome. Therefore, the viral genomes that we highlight here having a low probability of belonging to the null distribution constructed in the pre-print can be explained by a non-uniform distribution of restriction site locations occurring in genomes naturally.
 
@@ -30,7 +31,7 @@ We argue that constructing the null distribution in such a way gives an approxim
 
 Firstly, we will use samples from the uniform distribution to construct our own theoretical null hypothesis. If we wish to cut a genome into N fragments, we can take N draws from the uniform distribution between 0 and 1, order them, and then treat them as the location of restriction sites (right hand side of Figure 1). The biggest difference between our ordered samples is the largest fragment size as a proportion of the entire genome length. We can then look at the 95% quantiles across many simulations to give an approximation of the distribution of largest fragment length. We can plot this simulated distribution next to the null distribution from Figure 3C in the pre-print and see that they look very similar (Figure 2). Below is some R code that will quickly construct the desired distribution.
 
-```
+```r
 library(data.table)
 # A vector for number of cuts into the genome, 10000 samples for each
 # number of cuts
