@@ -8,6 +8,8 @@ menu:
     weight: 1
 ---
 
+For **research software engineers** we are involved in a project joint with Imperial College London, who are currently hiring: https://www.imperial.ac.uk/jobs/description/MED03479/research-software-engineer-web-development/
+
 For **masters projects**, please send us an email with your CV including any existing research, software and programming
 experience, and your scientific interests.
 
