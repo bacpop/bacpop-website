@@ -2,8 +2,15 @@
 {{ $width := default 120 (.Get 1) }}
 {{ $height := default 120 (.Get 2) }}
 {{ $asset := resources.Get $id }}
-{{ $dim := printf "%dx%d" $width $height }}
-{{ $img := $asset.Fit $dim }}
-<figure class="image logo">
-  <img alt="{{ $id }} logo" style="float: right" src="{{ $img.RelPermalink }}" />
-</figure>
+{{ if strings.HasSuffix $id ".svg" }}
+    {{ $dim := printf "width:%dpx;height%dpx;float: right" $width $height }}
+    <figure class="image logo">
+        <img alt="{{ $id }} logo" style="{{ $dim | safeCSS }}" src="{{ $asset.RelPermalink }}" />
+    </figure>
+{{ else }}
+    {{ $dim := printf "%dx%d" $width $height }}
+    {{ $img := $asset.Fit $dim }}
+    <figure class="image logo">
+        <img alt="{{ $id }} logo" style="float: right" src="{{ $img.RelPermalink }}" />
+    </figure>
+{{ end }}

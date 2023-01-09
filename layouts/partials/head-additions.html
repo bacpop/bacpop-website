@@ -1,0 +1,14 @@
+{{ $production := eq (getenv "HUGO_ENV") "production" | or (eq site.Params.env "production") }}
+{{ $tag_id := site.Params.googleAnalyticsNew }}
+{{ if $production }}
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ $tag_id }}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '{{ $tag_id }}');
+</script>
+{{ end }}
+{{ if .Params.math }}{{ partial "helpers/katex.html" . }}{{ end }}

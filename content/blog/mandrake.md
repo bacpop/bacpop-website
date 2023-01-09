@@ -4,6 +4,7 @@ description: "Embedding millions of genomes into a low-dimensional representatio
 date: 2022-10-07T17:00:00+01:00
 type: "post"
 draft: false
+author: "John Lees"
 featured_image: '/images/header4.jpg'
 ---
 Paper: https://doi.org/10.1098/rstb.2021.0237
