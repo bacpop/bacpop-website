@@ -15,7 +15,7 @@ menu:
 
 ### {{< logo "images/poppunk_logo.png" >}} PopPUNK
 
-See our website: https://www.poppunk.net/
+List of databases is on the [PopPUNK page]({{< ref "/poppunk" >}}).
 
 Tools for bacterial genomic epidemiology. Quickly find core and accessory distances between whole-genome sequences, and use these to find genetically clusters. New data can be rapidly ‘queried’ against existing clusters, giving consistent nomenclature.
 *In collaboration with [Nicholas Croucher](https://www.imperial.ac.uk/people/n.croucher).*

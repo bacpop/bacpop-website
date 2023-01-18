@@ -26,18 +26,6 @@ I am a PhD student at the Wellcome Sanger Institute in [Prof. Stephen Bentley’
 
 _raymond at ebi dot ac dot uk_
 
-**Bruhad Dave** is an intern
-
-My work in the lab involves writing a [python package](https://github.com/bacpop/pp-netlib) that handles graph data for the population genomics tool, [PopPUNK](https://github.com/bacpop/PopPUNK), and contributing to the analysis of patterns of pneumococcal genomic variation. My past work has included looking at segmental variants in lab-evolved lines of drug-resistant _E. coli_, assembling and annotating data from nosocomial samples, and investigating the extent, rates, and predicted functional effects of single-nucleotide variations in the transcriptome of _Plasmodium falciparum_. I am broadly interested in human health & disease research, and I am especially interested in the intersections of pathogen genomics, host-pathogen interactions, and evolutionary biology.
-
-*Languages*: Python, R, Bash/Shell
-
-{{< icon_wrapper name="Bruhad" >}}
-    {{< social_icon github "https://github.com/bruhad-dave" >}}
-{{< /icon_wrapper >}}
-
-_bruhad at ebi dot ac dot uk_
-
 **Joel Hellewell** is a postdoctoral fellow
 
 {{< figure src="/images/group/joel_hellewell.jpeg" >}}
@@ -102,6 +90,8 @@ _jlees at ebi dot ac dot uk_
 
 **Leonie Lorenz** is a PhD student
 
+{{< figure src="/images/group/leonie_lorenz.jpg" >}}
+
 Leonie will be working on models of transmission and within-host evolution.
 
 _llorenz at ebi dot ac dot uk_
@@ -114,28 +104,13 @@ Jacqueline will be working on bioinformatic tools for genome surviellance data.
 
 _lilyjacqueline at ebi dot ac dot uk_
 
-**Johanna von Wachsmann** is a Master's student
-
-{{< figure src="/images/group/johanna_von_wachsmann_photo.jpeg" >}}
-
-I am currently earning my master’s degree in bioinformatics with a focus on advanced algorithms at the Freie Universität Berlin. I am writing my master’s thesis under the supervision of Dr. John Lees.
-I studied bioinformatics for my master’s and bachelor’s degree. My master’s thesis project involves building an analytical tool [SKA2: split k-mer analysis](https://github.com/bacpop/SKA2), for use in such practical applications as pathogen outbreak analyses. I am developing a Python/C++ package which uses sequence data to produce rapid, multiple-sequence alignments. The storing of k-mers as bit vectors aims to improve run-time and disk usage. I also expanded the genome clustering tool PopPUNK for use in investigation of pathogen outbreaks.
-
-*Languages*: C++, Python, R
-
-_wachsmannj at ebi dot ac dot uk_
-
-{{< icon_wrapper name="Johanna" >}}
-    {{< social_icon github "https://github.com/johannahelene" >}}
-    {{< social_icon twitter "https://twitter.com/vWachsmann" >}}
-    {{< social_icon linkedin "https://www.linkedin.com/in/johanna-helene-von-wachsmann-191b91224/" >}}
-{{< /icon_wrapper >}}
-
-
 ### Alumni
 
 **Gherard Batisti Biffignandi** was a visiting PhD student (based at the University of Pavia).
 
+**Bruhad Dave** was an intern.
+
+**Johanna von Wachsmann** was a Master's student (based at Freie Universität Berlin).
 ## Social and photos
 
 ### 2022
