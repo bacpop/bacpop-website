@@ -100,9 +100,18 @@ _llorenz at ebi dot ac dot uk_
 
 {{< figure src="/images/group/jacqueline_toussaint.jpg" >}}
 
-Jacqueline will be working on bioinformatic tools for genome surviellance data.
+While my PhD projects are still in the early stages, I'm broadly focused on creating bioinformatic tools for performing computational, statistical and biological analysis of bacterial genomic surveillance data. In particular, I'm interested in creating more efficient and accurate methods for performing genome-wide association studies (GWAS) in bacteria, with the possibility of expanding to browser-based real-time analysis.
+
+I've previously studied Biochemistry and Microbiology at Montana State University, with my Bachelor's thesis research focused on generating and analyzing multi-omics datasets. I’m excited to further my education in the lab of Dr. John Lees at EMBL-EBI and the University of Cambridge, UK.
+
+*Languages and tools*: R, python
 
 _lilyjacqueline at ebi dot ac dot uk_
+
+{{< icon_wrapper name="Jacqueline" >}}
+    {{< social_icon github "https://github.com/qtoussaint" >}}
+    {{< social_icon linkedin "https://uk.linkedin.com/in/jackie-toussaint" >}}
+{{< /icon_wrapper >}}
 
 ### Alumni
 
