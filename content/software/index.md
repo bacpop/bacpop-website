@@ -10,8 +10,29 @@ menu:
 
 {{< toc >}}
 
-##  Genomic epidemiology
+##  Genomic epidemiology & bioinformatics
 
+### {{< logo "images/ggcaller_logo.png" 200 120 >}} ggcaller
+
+graph-gene Caller (`ggCaller`), combines gene annotation and pangenome clustering steps within population-wide de Bruijn Graphs. Using population-frequency information, ggCaller improves consistency of gene annotations, leading to more accurate clustering and significantly reduced run-times versus linear-genome based annotation and pangenome analysis.
+*ggcaller is written by [Sam Horsfield]({{< ref "/group" >}}), and in collaboration with [Nicholas Croucher](https://www.imperial.ac.uk/people/n.croucher).*
+
+* Download (conda): https://anaconda.org/bioconda/ggcaller
+* Paper (preprint): https://www.biorxiv.org/content/10.1101/2023.01.24.524926v1
+* Documentation: https://ggcaller.readthedocs.io
+* Code: https://github.com/samhorsfield96/ggCaller
+
+### SKA (version 2)
+
+Split k-mer analysis (`SKA`) can be used to produce alignments from closely related sequence assemblies or
+reads, quickly (because it is alignment-free) and with minimal fuss (due to the interface).
+This enables downstream analysis such as phylogenetics or sequence completeness.
+*In collaboration with [Simon Harris](https://github.com/simonrharris).*
+
+* Download (cargo): https://crates.io/crates/ska
+* Download (conda): https://anaconda.org/bioconda/ska
+* Documentation: https://docs.rs/ska/latest
+* Code: https://github.com/bacpop/ska.rust
 
 ### {{< logo "images/poppunk_logo.png" >}} PopPUNK
 
