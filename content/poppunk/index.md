@@ -92,7 +92,7 @@ We welcome contributions for new species, or expansions of these databases [via 
     <td style="text-align:center">v2</td>
     <td>30138</td>
     <td style="text-align:center"><a href="https://doi.org/10.1099/mgen.0.000499">Paper</a> & <a href="https://www.ncbi.nlm.nih.gov/pathogens/">Portal</a></td>
-    <td style="text-align:center"><a href="https://ftp.ebi.ac.uk/pub/databases/pp_dbs/enterococcus_faecium_v1_refs.tar.bz2">Download</a></td>
+    <td style="text-align:center"><a href="https://ftp.ebi.ac.uk/pub/databases/pp_dbs/escherichia_coli_v2_refs.tar.bz2">Download</a></td>
     <td style="text-align:center"><a href="https://ftp.ebi.ac.uk/pub/databases/pp_dbs/escherichia_coli_v2_full.tar.bz2">Download</a></td>
     <td></td>
   </tr>

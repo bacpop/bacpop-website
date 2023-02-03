@@ -22,7 +22,7 @@ graph-gene Caller (`ggCaller`), combines gene annotation and pangenome clusterin
 * Documentation: https://ggcaller.readthedocs.io
 * Code: https://github.com/samhorsfield96/ggCaller
 
-### {{< logo "images/ska_logo.png" >}} SKA (version 2)
+### SKA (version 2)
 
 Split k-mer analysis (`SKA`) can be used to produce alignments from closely related sequence assemblies or
 reads, quickly (because it is alignment-free) and with minimal fuss (due to the interface).
