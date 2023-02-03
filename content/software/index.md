@@ -12,13 +12,13 @@ menu:
 
 ##  Genomic epidemiology & bioinformatics
 
-### {{< logo "images/ggcaller_logo.png" >}} ggcaller
+### {{< logo "images/ggcaller_logo.png" 200 120 >}} ggcaller
 
 graph-gene Caller (`ggCaller`), combines gene annotation and pangenome clustering steps within population-wide de Bruijn Graphs. Using population-frequency information, ggCaller improves consistency of gene annotations, leading to more accurate clustering and significantly reduced run-times versus linear-genome based annotation and pangenome analysis.
 *ggcaller is written by [Sam Horsfield]({{< ref "/group" >}}), and in collaboration with [Nicholas Croucher](https://www.imperial.ac.uk/people/n.croucher).*
 
 * Download (conda): https://anaconda.org/bioconda/ggcaller
-* Paper: biorxiv
+* Paper (preprint): https://www.biorxiv.org/content/10.1101/2023.01.24.524926v1
 * Documentation: https://ggcaller.readthedocs.io
 * Code: https://github.com/samhorsfield96/ggCaller
 
