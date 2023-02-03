@@ -92,9 +92,20 @@ _jlees at ebi dot ac dot uk_
 
 {{< figure src="/images/group/leonie_lorenz.jpg" >}}
 
-Leonie will be working on models of transmission and within-host evolution.
+In my PhD, I will focus on jointly using epidemiological and genomic data for developing mathematical models of pathogen transmission. While the spreading and evolution of pathogens are 
+often analysed separately, exploiting both data streams together as input for epidemiological models could increase the models' predictive power and result in new insights.
+
+I studied biomathematics at the University of Greifswald, Germany. For my master thesis, I developed a Boolean model for the regulation of apoptosis at the Max Delbrück Center for Molecular Medicine in 
+the Helmholtz Association.
+
+*Languages and tools*: python, R
 
 _llorenz at ebi dot ac dot uk_
+
+{{< icon_wrapper name="Leonie" >}}
+    {{< social_icon github "https://github.com/LeonieLorenz" >}}
+    {{< social_icon linkedin "https://www.linkedin.com/in/leonie-lorenz-8629a2a3/" >}}
+{{< /icon_wrapper >}}
 
 **Jacqueline Toussaint** is a PhD student
 
