@@ -75,7 +75,7 @@ genome evolution of pathogenic bacteria. I have also worked on infectious diseas
 modelling, GPU algorithms, and visualisation. I write methods and software to scale
 these analyses and make them more accessible to others in attempts to democratise bioinformatics.
 
-*Languages and tools*: C++, CUDA, python, R, stan
+*Languages and tools*: C++, CUDA, python, R, rust, stan
 
 *Organisms*: Any microbe, but especially *Streptococcal* bacteria.
 
@@ -92,10 +92,10 @@ _jlees at ebi dot ac dot uk_
 
 {{< figure src="/images/group/leonie_lorenz.jpg" >}}
 
-In my PhD, I will focus on jointly using epidemiological and genomic data for developing mathematical models of pathogen transmission. While the spreading and evolution of pathogens are 
+In my PhD, I will focus on jointly using epidemiological and genomic data for developing mathematical models of pathogen transmission. While the spreading and evolution of pathogens are
 often analysed separately, exploiting both data streams together as input for epidemiological models could increase the models' predictive power and result in new insights.
 
-I studied biomathematics at the University of Greifswald, Germany. For my master thesis, I developed a Boolean model for the regulation of apoptosis at the Max Delbrück Center for Molecular Medicine in 
+I studied biomathematics at the University of Greifswald, Germany. For my master thesis, I developed a Boolean model for the regulation of apoptosis at the Max Delbrück Center for Molecular Medicine in
 the Helmholtz Association.
 
 *Languages and tools*: python, R
@@ -105,6 +105,24 @@ _llorenz at ebi dot ac dot uk_
 {{< icon_wrapper name="Leonie" >}}
     {{< social_icon github "https://github.com/LeonieLorenz" >}}
     {{< social_icon linkedin "https://www.linkedin.com/in/leonie-lorenz-8629a2a3/" >}}
+{{< /icon_wrapper >}}
+
+**Tommi Mäklin** is a visiting postdoc
+
+Tommi is currently visiting from Jukka Corander's group at the University of Helsinki.
+He has previously developed the tools `mSWEEP` and `mGEMS` for strain deconvolution
+and genomic epidemiology from metagenomic plate sweeps. While here, he will be working
+on a [Theory@EMBL](https://www.embl.org/internal-information/embl-programme/transversal-themes/theory-embl/) project
+to combine modelling with metagenomics methods and investigate competition dynamics between
+strains during carriage.
+
+*Languages and tools*: C++
+
+_tommi at ebi dot ac dot uk_
+
+{{< icon_wrapper name="Tommi" >}}
+    {{< social_icon github "https://github.com/tmaklin" >}}
+    {{< social_icon twitter "https://twitter.com/themaklin" >}}
 {{< /icon_wrapper >}}
 
 **Jacqueline Toussaint** is a PhD student
@@ -130,7 +148,7 @@ _lilyjacqueline at ebi dot ac dot uk_
 
 **Bruhad Dave** was an intern.
 
-**Johanna von Wachsmann** was a Master's student (based at Freie Universität Berlin).
+**Johanna von Wachsmann** was a Master's student (based at Freie Universität Berlin), now with [Rob Finn](https://www.ebi.ac.uk/research/finn/).
 ## Social and photos
 
 ### 2022
