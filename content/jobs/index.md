@@ -16,3 +16,5 @@ For **internships**, these may be advertised later in 2023.
 For **PhDs**, application is through the [EMBL programme](https://www.embl.org/about/info/embl-international-phd-programme/overview/). We don't currently expect to have a vacancy in the next round.
 
 For **postdocs** or **fellowships** send John an informal enquiry.
+
+For **visitors** please also email John. Some schemes may be available to help fund visitors. Currently [UNESCO]({{< ref "/blog/unesco" >}}), but others are available too.
