@@ -142,6 +142,26 @@ _lilyjacqueline at ebi dot ac dot uk_
     {{< social_icon linkedin "https://uk.linkedin.com/in/jackie-toussaint" >}}
 {{< /icon_wrapper >}}
 
+**Berk Gonenc** is a Master's student
+
+{{< figure src="/images/group/berk_gonenc.jpg" >}}
+
+
+My background includes wet-lab as well as bioinformatics. I have a BSc in Molecular Biology and Genetics from the respected Bogazici University and worked in a NGS analysis bioinformatics company ([Genomize](https://genomize.com)) for nearly 2 years. I am now doing my MSc in "Biosciences and Bioengineering Innovations for Precision Medicine ([BeInPM](https://www.beinprecisionmedicine.eu))" at the University Grenoble Alpes.
+
+
+My internship will focus on developing a bayesian model of bacterial population. I’m motivated to expand my knowledge on statistics and data analysis under Dr. John Lees supervision at EMBL-EBI.
+
+*Languages and tools*: R, Python, Bash
+
+_berk at ebi dot ac dot uk_
+
+{{< icon_wrapper name="Jacqueline" >}}
+    {{< social_icon github "https://github.com/sbgonenc" >}}
+    {{< social_icon linkedin "https://www.linkedin.com/in/sb-gonenc" >}}
+{{< /icon_wrapper >}}
+
+
 ### Alumni
 
 **Gherard Batisti Biffignandi** was a visiting PhD student (based at the University of Pavia).
