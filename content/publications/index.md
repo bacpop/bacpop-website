@@ -22,7 +22,7 @@ Samuel T. Horsfield, Nicholas J. Croucher and John A. Lees (2023). **Accurate an
 https://www.biorxiv.org/content/10.1101/2023.01.24.524926v1
 
 Annotation of bacterial pangenomes is typically done one at a time. Each input assembly
-is annotated by calling and scoring ORFs, and aligning all of these against databases
+is annotated by calling and scoring open-reading frames (ORFs), and aligning all of these against databases
 to annotate function by homology. However, this is highly redundant. Many of these
 sequences will be shared and therefore the same computational operations used repeatedly.
 Furthermore, if genomes were annotated together population information could be used
@@ -33,7 +33,7 @@ ggCaller (graph-gene-caller) is a new approach which annotates ORFs within a pop
 de Bruijn graph. Building on key tools bifrost and panaroo, ggCaller combines the
 steps of annotation and pangenome clustering, going from a set of input assemblies
 to annotated GFFs and a pangenome matrix. We show this saves time (up to 50x faster),
-and can give more accurate gene and COG calls, particularly in 'difficult' regions. We
+and can give more accurate gene and cluster of orthologous genes (COG) calls, particularly in 'difficult' regions. We
 also show that this is a nice addition to the application and interpretation of bacterial GWAS.
 Good results can be obtained for whole genomes, but also smaller complex regions
 such as the capsule operon.
