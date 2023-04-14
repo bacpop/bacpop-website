@@ -267,6 +267,15 @@ We welcome contributions for new species, or expansions of these databases [via 
     <td style="text-align:center"><a href="https://ftp.ebi.ac.uk/pub/databases/pp_dbs/Streptococcus_pneumoniae_v4_full.tar.bz2">Download</a></td>
     <td></td>
   </tr>
+  <tr>
+    <td><i>Streptococcus suis</i></td>
+    <td style="text-align:center">v1</td>
+    <td>2424</td>
+    <td style="text-align:center"></td>
+    <td style="text-align:center"><a href="https://ftp.ebi.ac.uk/pub/databases/pp_dbs/Streptococcus_suis_v1_refs.tar.bz2">Download</a></td>
+    <td style="text-align:center"><a href="https://ftp.ebi.ac.uk/pub/databases/pp_dbs/Streptococcus_suis_v1_full.tar.bz2">Download</a></td>
+    <td></td>
+  </tr>
 </table>
 </div>
 <script>
