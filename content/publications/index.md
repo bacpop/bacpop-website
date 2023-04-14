@@ -47,7 +47,7 @@ ggCaller packages a lot of the [steps for analysis](https://ggcaller.readthedocs
 - Sequence search.
 - Basic phylogenetics and visualisation.
 
-See the code on the [software]({{< ref "/software#ggcaller" >}}) page.
+See the code on the [software]({{< ref "/software#genomic-epidemiology--bioinformatics" >}}) page.
 
 {{< figure src="/images/publications/ggcaller_fig1.png" >}}
 
