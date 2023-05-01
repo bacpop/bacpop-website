@@ -126,14 +126,18 @@ _llorenz at ebi dot ac dot uk_
 
 **Tommi Mäklin** is a visiting postdoc
 
+{{< figure src="/images/group/tommi_maklin.jpg" >}}
+
 Tommi is currently visiting from Jukka Corander's group at the University of Helsinki.
-He has previously developed the tools `mSWEEP` and `mGEMS` for strain deconvolution
-and genomic epidemiology from metagenomic plate sweeps. While here, he will be working
+He has previously developed the tools [`mSWEEP`](https://github.com/PROBIC/mSWEEP) and [`mGEMS`](https://github.com/PROBIC/mGEMS) for strain deconvolution
+and genomic epidemiology from metagenomic sequencing data. While here, he will be working
 on a [Theory@EMBL](https://www.embl.org/internal-information/embl-programme/transversal-themes/theory-embl/) project
 to combine modelling with metagenomics methods and investigate competition dynamics between
-strains during carriage.
+strains during carriage and infection.
 
-*Languages and tools*: C++
+*Languages and tools*: C++, R, Stan, bash
+
+*Organisms*: Gut microbes, *E. coli*.
 
 _tommi at ebi dot ac dot uk_
 
