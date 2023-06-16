@@ -173,6 +173,19 @@ _lilyjacqueline at ebi dot ac dot uk_
 **Johanna von Wachsmann** was a Master's student (based at Freie Universität Berlin), now with [Rob Finn](https://www.ebi.ac.uk/research/finn/).
 ## Social and photos
 
+### 2023
+
+Pub bike May 2023 -- the hailstorm
+
+{{< figure src="/images/group/pubbike1.jpeg" >}}
+
+{{< figure src="/images/group/pubbike2.jpeg" >}}
+
+{{< figure src="/images/group/pubbike3.jpeg" >}}
+
+{{< figure src="/images/group/pubbike4.jpeg" >}}
+
+
 ### 2022
 
 {{< figure src="/images/group/2022_ib_tt.jpg" caption="Infection Biology Transversal Theme Retreat">}}
