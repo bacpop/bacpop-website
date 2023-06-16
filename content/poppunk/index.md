@@ -54,10 +54,10 @@ We welcome contributions for new species, or expansions of these databases [via 
     <tr>
     <td><i>Campylobacter jejuni</i></td>
     <td style="text-align:center">v1</td>
-    <td>42453</td>
+    <td>40303</td>
     <td style="text-align:center"><a href="https://www.ncbi.nlm.nih.gov/pathogens/">Portal</a></td>
-    <td style="text-align:center">Coming soon</td>
-    <td style="text-align:center"></td>
+    <td style="text-align:center"><a href="https://ftp.ebi.ac.uk/pub/databases/pp_dbs/Campylobacter_jejuni_v1_refs.tar.bz2">Download</a></td>
+    <td style="text-align:center"><a href="https://ftp.ebi.ac.uk/pub/databases/pp_dbs/Campylobacter_jejuni_v1_full.tar.bz2">Download</a></td>
     <td></td>
   </tr>
   <tr>
