@@ -146,6 +146,24 @@ _tommi at ebi dot ac dot uk_
     {{< social_icon twitter "https://twitter.com/themaklin" >}}
 {{< /icon_wrapper >}}
 
+**Timothy Russell** is a visiting postdoc
+
+{{< figure src="/images/group/timothy_russell.jpg" >}}
+
+TODO
+
+*Languages and tools*: R, stan
+
+*Organisms*: SARS-CoV-2
+
+_thimotei at ebi dot ac dot uk_
+
+{{< icon_wrapper name="Tim" >}}
+    {{< social_icon github "hhttps://github.com/thimotei" >}}
+    {{< social_icon twitter "https://twitter.com/timwrussell" >}}
+{{< /icon_wrapper >}}
+
+
 **Jacqueline Toussaint** is a PhD student
 
 {{< figure src="/images/group/jacqueline_toussaint.jpg" >}}
