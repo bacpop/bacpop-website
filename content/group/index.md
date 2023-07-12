@@ -170,10 +170,14 @@ _lilyjacqueline at ebi dot ac dot uk_
 
 **Bruhad Dave** was an intern.
 
-**Johanna von Wachsmann** was a Master's student (based at Freie Universität Berlin), now with [Rob Finn](https://www.ebi.ac.uk/research/finn/).
+[**Johanna von Wachsmann**](https://www.ebi.ac.uk/people/person/johanna-von-wachsmann) was a Master's student (based at Freie Universität Berlin), now with [Rob Finn](https://www.ebi.ac.uk/research/finn/).
 ## Social and photos
 
 ### 2023
+
+Group retreat, Suffolk. July 2023
+
+TODO
 
 Pub bike May 2023 -- the hailstorm
 
