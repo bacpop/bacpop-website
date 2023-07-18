@@ -14,12 +14,13 @@ featured_image: '/images/header4.jpg'
 Dimension reduction methods are a popular way to understand large amounts of genetic data: PCA, t-SNE and UMAP have all been used to analyse and visualise large numbers of samples in two-dimensions (with the latter being particularly
 popular with single cell techniques).
 
-{{< figure src="/images/mandrake/sce_example.png" title="Visualizations of the TOMORADAR data set by different embedding methods" >}}
-
 ## Our Project
 
+*The Guidelines*
 
-{{< rawhtml >}}
-<iframe src="https://widgets.figshare.com/articles/20236727/embed?show_title=1" width="568" height="351" allowfullscreen frameborder="0"></iframe>
-{{< /rawhtml >}}
 
+*Our Solution*
+
+We created a website that 
+
+{{< figure src="/images/ideathon/sentimenthub.png" title="A screenshot of the SentimentHub website" >}}
