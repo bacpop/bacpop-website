@@ -7,6 +7,8 @@ draft: false
 author: "John Lees"
 featured_image: '/images/header1.jpg'
 ---
+## This application is now closed
+
 EMBL and UNESCO have recently announced a visitor programme as part of its infection biology scheme,
 in which we are participating (along with many other EMBL groups, see the link at
 the end for a full list).
