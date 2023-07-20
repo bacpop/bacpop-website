@@ -163,7 +163,7 @@ sensitivity of PCR and LFT tests, within-host viral kinetics, within-host
 antibody dynamics, etc. We have have recently started a long-term project in
 collaboration with The Francis Crick Institute, setting up a data generating
 and analysis pipeline, with a large modelling component, studying how antibody
-levels for COVID-19 vary between different regions and over time. 
+levels for COVID-19 vary between different regions and over time.
 
 I aim to use my time at EBI learning more about genomics. Specifically,
 thinking about whether it is possible to combine models of within-host
@@ -177,11 +177,7 @@ of how hosts and pathogens coevolve.
 _thimotei at ebi dot ac dot uk_
 
 {{< icon_wrapper name="Tim" >}}
-<<<<<<< HEAD
-    {{< social_icon github "hhttps://github.com/thimotei" >}}
-=======
     {{< social_icon github "https://github.com/thimotei" >}}
->>>>>>> main
     {{< social_icon twitter "https://twitter.com/timwrussell" >}}
 {{< /icon_wrapper >}}
 
@@ -215,11 +211,23 @@ _lilyjacqueline at ebi dot ac dot uk_
 
 ### 2023
 
-Group retreat, Suffolk. July 2023
+#### Group retreat, Suffolk. July 2023
 
-TODO
+{{< figure src="/images/group/2023_retreat_3.jpeg" >}}
 
-Pub bike May 2023 -- the hailstorm
+{{< figure src="/images/group/2023_retreat_1.jpeg" >}}
+
+{{< figure src="/images/group/2023_retreat_2.jpeg" >}}
+
+{{< figure src="/images/group/2023_retreat_4.jpeg" >}}
+
+{{< figure src="/images/group/2023_retreat_5.jpeg" caption="The finest minds" >}}
+
+{{< figure src="/images/group/2023_retreat_6.jpeg" caption="The finest minds (part 2)">}}
+
+{{< figure src="/images/group/2023_retreat_7.jpeg" >}}
+
+#### Pub bike May 2023 -- the hailstorm
 
 {{< figure src="/images/group/pubbike1.jpeg" >}}
 
