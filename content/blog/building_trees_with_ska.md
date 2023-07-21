@@ -1,5 +1,5 @@
 ---
-title: "Building phylogenies with SKA"
+title: "Building trees with SKA"
 date: 2023-07-21T16:22:28+01:00
 draft: false
 author: "Tommi M&auml;klin"
@@ -8,7 +8,7 @@ author: "Tommi M&auml;klin"
 
 ![SKA logo](/images/ska-trees/ska_logo.png)
 
-## Why SKA is good for building trees
+## Why SKA is good for building phylogenetic trees
 The basic approach to building a tree with SKA is to generate a SNP alignment using split _k_-mers and then feed that to a tree building algorithm of choice. Since SKA does not require a specifying a reference sequence to determine the SNPs, SKA gets around potential biases introduced by reference choice and is thus particularly well suited to analysing microbial genomes derived from outbreaks or pathogen surveillance.
 
 ## Installing SKA
