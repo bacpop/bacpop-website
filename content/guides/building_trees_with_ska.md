@@ -29,7 +29,10 @@ wget assemblies.tar
 ```
 After downloading the assemblies, run `tar -xvf assemblies.tar` to extract the files.
 
-## Indexing the assemblies
+## Reference-free workflow
+The first example describes using a reference-free workflow to analyse assemblies in a case where we are only interested in the SNPs and do not care about structural rearrangements or other global changes. This is accomplished with the `ska align` command and the result can be used to e. g. build a tree for across-species variation.
+
+### Indexing the assemblies
 To run the split _k_-mer alignment, we first need to build an index of the split _k_-mers from the assemblies. This is accomplished with the `ska build` command which requires a tab-separated list consisting of the sequence name and assembly file path as input:
 ```
 LA002	assemblies/LA002.fa.gz
@@ -53,10 +56,9 @@ which will take a few minutes and use ~8GB of memory. SKA uses a lot of memory f
 
 ![Screenshot of the output written by SKA to terminal](/images/ska-trees/ska_run.png)
 
-
 In the example we chose the value of _k_ as 31 which is a commonly used choice for analysing bacterial genomes. For a more detailed analysis of the different possible values of _k_, have a look at the paper by [Bussi, Kapon, and Reich](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0258693) in PLOS ONE.
 
-## Producing the SNP alignment
+### Producing the SNP alignment
 The SNP alignment can be extracted from the .skf file produced in the previous step by running
 ```
 ska align --min-freq 1 --filter no-filter output/laos_ska_index.skf -o output/laos_ska_alignment.aln --threads 4
@@ -65,7 +67,7 @@ which will again take around a few minutes and use around 1.5GB memory. The resu
 
 In the above command, the `--min-freq` option sets the maximum number of missing sites in the alignment to 1 and the `--filter no-filter` option specifies that no extra filtering should be performed. Other options include filtering all constant sites with `--filter no-const` or all constant and ambiguous sites with `--filter no-ambig-or-const`. Using the last option is equivalent to treating any ambiguous site as an N.
 
-## Build a tree
+### Build a tree
 If no further pruning is needed, we can just use the alignment from the previous step to build a phylogeny. A good tool for doing this quickly is [VeryFastTree](https://github.com/citiususc/veryfasttree) but if you have a lot of time [RAxML](https://github.com/amkozlov/raxml-ng) is also a good choice. Both can be installed from bioconda.
 
 Build the tree with VeryFastTree (v4.0.1) by running
@@ -74,48 +76,68 @@ VeryFastTree -nt -gamma -gtr -threads 4 output/laos_ska_alignment.aln > output/l
 ```
 As the name might suggest, VeryFastTree is fast and manages to build the tree in a few minutes.
 
-## Look at the tree
+### Look at the tree
 We can use the minimalistic [plottree](https://github.com/iBiology/plottree) (install with `pip install plottree`) to quickly look at the tree using
 ```
-plottree plottree output/laos_ska_tree.tree
+plottree output/laos_ska_tree.tree
 ```
-This seems to show some clustering of the samples but the branch lengths within the perceived clusters are fairly long.
+This shows that some of the assemblies are more closely related than the others.
 
 ![Phylogenetic tree from raw SKA output](/images/ska-trees/plottree_ska.png)
 
-## Removing recombination
-Before building the tree as described previously, a typical genomic epidemiology workflow would remove recombination from the alignment. We can do this using [gubbins](https://github.com/nickjcroucher/gubbins). Gubbins, however, accepts only characters in the ACGTN range but SKA reports the alignment using the [IUPAC notation](https://en.wikipedia.org/wiki/Nucleic_acid_notation).
+### Add in some colours
+To build a fancier tree, we can use the R script provided at the end of this post to visualize and [midpoint root](https://www.ebi.ac.uk/training/online/courses/introduction-to-phylogenetics/what-is-a-phylogeny/aspects-of-phylogenies/root/) the tree with the leaves coloured according to PopPUNK clusters provided in `data/laos_poppunk_clusters.tsv`. Adding the cluster colours and labels shows that SKA + VeryFastTree has managed to infer a phylogeny that preserves their locality (defined as two assemblies belonging to the same cluster).
 
-We can convert all non-ACGT characters to ambiguous bases with the symbol N using a simple sed command
-```
-sed 's/[UWSMKRYBDHV-]/N/g' output/laos_ska_alignment.aln > output/laos_clean_alignment.aln
-```
-alternatively, the sites could have been removed when running `ska align` by adding the filter `--filter no-ambig-or-const`.
+![A phylogenetic trees constructed with SKA + VeryFastTree and coloured by PopPUNK cluster. The topography nicely corresponds with the clusters.](/images/ska-trees/SKA_tree_fancy.png)
 
-After replacing the ambiguous sites with N's, run gubbins (v3.2.1 in our example) with
-```
-run_gubbins.py --prefix output/gubbins output/laos_clean_alignment.aln --threads 4
-```
-This will create the recombination-free tree `output/gubbins.final_tree.tre`.
+Next, we'll take a look at using the other mode SKA provides for producing alignments: mapping against a reference sequence.
 
-Gubbins produces an alignment where recombination has been removed and only ~8000 sites remain. While this might seem small, it's a result of running both gubbins and ska on a collection of _E. coli_ genomes from multiple lineages rather than from within a single lineage which is what both tools are designed for.
+## Alignment-based workflow
+In addition to the reference-free alignments, SKA can also be used to produce alignments against a reference genome. This is useful if the order of the output alignment is meaningful, such as when planning to use [gubbins](https://github.com/nickjcroucher/gubbins) to remove recombination.
 
-The 8000 sites are still enough to differentiate the lineages which we can see by visualising the tree with plottree
+Note that gubbins is not suitable for analysing variation across a species (see the note about _"What type of dataset can be analysed with Gubbins?"_ in the [gubbins documentation](https://nickjcroucher.github.io/gubbins/) for more details). To avoid running gubbins on unsuitable data, we'll focus our analysis on variation within the largest PopPUNK cluster in the collection, SC4. This cluster corresponds to the _E. coli_ ST10 clonal complex.
+
+### Reference sequence for SC4
+Fortunately for us, ST10 has a downloadable a reference genome in the ENA that we can download with wget
+```
+wget -q -O - https://www.ebi.ac.uk/ena/browser/api/fasta/U00096.3?download=true | gzip > GCA_000005845.2.fna.gz
+```
+
+Since we now only want to use a subset of the assemblies, we'll need to rebyukd the index for the genomes that belong to SC4. This info is contained in the `data/laos_poppunk_clusters.tsv` file and we use the following commands to both convert it to an input list for SKA and to add the reference sequence to the index
+```
+paste <(grep "SC4$" data/laos_poppunk_clusters.tsv | cut -f1) <(grep "SC4$" data/laos_poppunk_clusters.tsv | cut -f1 | sed 's/^/assemblies\//g' | sed 's/$/.fa.gz/g') > output/laos_SC4_input_list.tsv
+echo -e "GCA_000005845.2\t$(pwd)/GCA_000005845.2.fna.gz" >> output/laos_SC4_input_list.tsv
+```
+
+### Aligning with ska map
+Build the index as previously with `ska build` and then run `ska map` to align the indexed assemblies against the reference genome with
+```
+ska build -f output/laos_SC4_input_list.tsv -k 31 -o output/laos_SC4_index --threads 4
+ska map -o output/laos_SC4_map.aln --ambig-mask --threads 4 GCA_000005845.2.fna.gz output/laos_SC4_index.skf
+```
+This time the alignment has 4 641 653 sites, which is the number of bases in the reference genome. Compared to `ska align`, using `ska map` keeps all bases in the reference sequence and replaces the sites it cannot find in the indexed assemblies with gaps. If you use the command
+```
+sed -n '4p' output/laos_SC4_map.aln | less
+```
+to look at the alignment of the first assembly against the reference you'll see that some sites are marked as missing/gaps.
+
+### Removing recombination
+In a typical genomic epidemiology workflow looking at variants **within a lineage** one typically wants to remove recombination from the alignment. For our SC4 alignment, we will do this using [gubbins](https://github.com/nickjcroucher/gubbins). Since Gubbins only accepts characters in the ACGTN- range, we had to use the `--ambig-mask` option with `ska map` to mask ambiguous bases (SKA uses the [IUPAC notation](https://en.wikipedia.org/wiki/Nucleic_acid_notation) which gubbins does not support) with N's.
+
+Gubbins (v3.2.1 in our example) can be run on the reference mapping with
+```
+run_gubbins.py --prefix output/gubbins output/laos_SC4_map.aln --threads 4 --filter-percentage 27.0
+```
+This will create the recombination-free tree `output/gubbins.final_tree.tre`. We had to increase the `--filter-percentage` parameter from the default 25.0 to 27.0 because one of the input sequences had ~26% missing sites.
+
+Gubbins produces an alignment where recombination has been removed and only ~7 000 sites remain. These sites are enough to differentiate the assemblies belonging to SC4 and we can check this by visualising the tree with plottree
 ```
 plottree output/gubbins.final_tree.tre
 ```
-Compared to the previous tree, the branch lengths within the visible clusters are noticably shorter.
 
-![Phylogenetic tree from Gubbins](/images/ska-trees/plottree_gubbins.png).
+![Phylogenetic tree from Gubbins](/images/ska-trees/plottree_sc4.png)
 
-## Visualizing the tree
-Finally, we can add in some Fancy visualization code with colors and legends using a provided R script (included in the download and at the end of the post):
-```
-Rscript plot_tree.R`
-```
-which looks something like this
-
-![Two phylogenetic trees constructed with SKA. The left panel contains a tree built with SKA and VeryFastTree, which has noticably longer branch lengtsh within the visible clusters. The right panel contains a tree built with SKA and Gubbins, where the branch lengths within each cluster are shorter due to the reombination removal performed in Gubbins.](/images/ska-trees/SKA_trees.png).
+In this tree the assemblies from Laos cluster into several distinct groups within the lineage, and none of them are closely related to the reference genome which is sensible since the reference genome is from the _E. coli_ K-12 strain that was isolated a hundred years ago on the other side of the world in [Palo Alto, California, USA in 1922](https://www.genome.wisc.edu/resources/strains.htm).
 
 And that's it! Happy tree-building.
 
@@ -134,13 +156,13 @@ library("phytools")
 ## Okabe-Ito color palette for the 7 most common clusters
 colors <- c("#e69f00", "#56b4e9", "#009e73", "#f0e442", "#0072b2", "#d55e00", "#cc79a7")
 
-## Read the gubbins tree in and midpoint root it
-tree <- read.tree("output/gubbins.final_tree.tre")
-midpoint_rooted_tree <- midpoint.root(tree)
+## Read the raw SKA alignment + VeryFastTree tree in and midpoint root it
+tree2 <- read.tree("ska.aln.tree")
+midpoint_rooted_tree <- midpoint.root(tree2)
 
 ## Read in the PopPUNK clusters for each assembly
 sts <- read.table("data/laos_poppunk_clusters.tsv", sep='\t', comment.char='@', header=FALSE)
-sts <- sts[match(tree$tip.label, sts$V1), ]
+sts <- sts[match(tree2$tip.label, sts$V1), ]
 
 ## Get the 7 most common clusters
 top_st_names <- names(tail(sort(table(sts$V2)), 7))
@@ -151,27 +173,16 @@ other_st_names <- setdiff(unique(sts$V2), top_st_names)
 st_colors <- rbind(top_st_colors, cbind(other_st_names, rep("black", length(other_st_names))))
 st_colors <- st_colors[match(sts[, 2], st_colors), ]
 
-## Add the PopPUNK clusters to the leaf labels
-tree$tip.label <- paste(tree$tip.label, sts[, 2], sep='_')
-tree.colors <- st_colors[, 2]
-
-## Read the raw SKA alignment + VeryFastTree tree in and midpoint root it
-tree2 <- read.tree("ska.aln.tree")
-midpoint_rooted_tree <- midpoint.root(tree2)
-
 ## Add colors and labels, same as above
-sts <- sts[match(tree2$tip.label, sts$V1), ]
 st_colors <- st_colors[match(sts[, 2], st_colors), ]
 tree2$tip.label <- paste(tree2$tip.label, sts[, 2], sep='_')
 tree2.colors <- st_colors[, 2]
 
 ## Plot both trees side-by-side
-pdf(file="SKA_trees_pretty.pdf", width=10, height=10)
-par(mfrow=c(1, 2), mar=c(1, 1, 3, 1))
+pdf(file="SKA_tree_fancy.pdf", width=9, height=9)
+par(mar=c(1, 1, 3, 1))
 plot.phylo(tree2, tip.color=tree2.colors)
-title(main="Maximum likelihood tree\n(SKA + VeryFastTree)", adj=0, font.main=1)
-legend("bottomright", legend=top_st_colors[order(as.numeric(gsub("SC", "", top_st_colors[, 1]))), 1], fill=top_st_colors[order(as.numeric(gsub("SC", "", top_st_colors[, 1]))), 2], bty='n', title="PopPUNK\ncluster")
-plot.phylo(tree, tip.color=tree.colors)
-title(main="Recombination removed tree\n(SKA + Gubbins)", adj=0, font.main=1)
+title(main="Maximum likelihood tree\n(SKA + VeryFastTree)", adj=0, font.main=1, cex.main=1.5)
+legend("bottomright", legend=top_st_colors[order(as.numeric(gsub("SC", "", top_st_colors[, 1]))), 1], fill=top_st_colors[order(as.numeric(gsub("SC", "", top_st_colors[, 1]))), 2], bty='n', title="PopPUNK\ncluster", cex=1.33)
 dev.off()
 ```
