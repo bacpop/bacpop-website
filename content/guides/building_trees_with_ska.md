@@ -4,7 +4,7 @@ date: 2023-07-21T16:22:28+01:00
 draft: false
 author: "Tommi M&auml;klin"
 ---
-[SKA](https://github.com/bacpop/ska.rust) is a tool for comparing small and highly similar genomes using [split _k_-mers](https://www.biorxiv.org/content/early/2018/10/25/453142). This blogpost will explain how to use SKA to build a phylogenetic tree for different _Escherichia coli_ lineages in a few minutes. Although SKA is tailored more towards analysing variation within a lineage, tree-building ends up working fine for the whole species but requires more memory.
+[SKA](https://github.com/bacpop/ska.rust) is a tool for comparing small and highly similar genomes using [split _k_-mers](https://www.biorxiv.org/content/early/2018/10/25/453142). This guide will explain how to use SKA to build a phylogenetic tree for different _Escherichia coli_ lineages in a few minutes. Although SKA is tailored more towards analysing variation within a lineage, tree-building ends up working fine for the whole species but requires more memory.
 
 ![SKA logo](/images/ska-trees/ska_logo.png)
 
@@ -25,9 +25,9 @@ We will use a collection of 46 _E. coli_ hybrid Nanopore+Illumina assemblies iso
 
 All materials for running the analysis in this post can be downloaded from [zenodo](https://zenodo.org/record/8172518/files/building_trees_with_ska.tar) with wget
 ```
-wget assemblies.tar
+wget https://zenodo.org/record/8172518/files/building_trees_with_ska.tar
 ```
-After downloading the assemblies, run `tar -xvf assemblies.tar` to extract the files.
+After downloading the assemblies, run `tar -xvf building_trees_with_ska.tar` to extract the files.
 
 ## Reference-free workflow
 The first example describes using a reference-free workflow to analyse assemblies in a case where we are only interested in the SNPs and do not care about structural rearrangements or other global changes. This is accomplished with the `ska align` command and the result can be used to e. g. build a tree for across-species variation.
@@ -103,7 +103,7 @@ Fortunately for us, ST10 has a downloadable a reference genome in the ENA that w
 wget -q -O - https://www.ebi.ac.uk/ena/browser/api/fasta/U00096.3?download=true | gzip > GCA_000005845.2.fna.gz
 ```
 
-Since we now only want to use a subset of the assemblies, we'll need to rebyukd the index for the genomes that belong to SC4. This info is contained in the `data/laos_poppunk_clusters.tsv` file and we use the following commands to both convert it to an input list for SKA and to add the reference sequence to the index
+Since we now only want to use a subset of the assemblies, we'll need to rebuild the index for the genomes that belong to SC4. This info is contained in the `data/laos_poppunk_clusters.tsv` file and we use the following commands to both convert it to an input list for SKA and to add the reference sequence to the index
 ```
 paste <(grep "SC4$" data/laos_poppunk_clusters.tsv | cut -f1) <(grep "SC4$" data/laos_poppunk_clusters.tsv | cut -f1 | sed 's/^/assemblies\//g' | sed 's/$/.fa.gz/g') > output/laos_SC4_input_list.tsv
 echo -e "GCA_000005845.2\t$(pwd)/GCA_000005845.2.fna.gz" >> output/laos_SC4_input_list.tsv
@@ -142,7 +142,7 @@ In this tree the assemblies from Laos cluster into several distinct groups withi
 And that's it! Happy tree-building.
 
 ## About the author
-I visited John Lees' lab in Spring 2023 and have been using both SKA v1 and v2 to build lots of trees. This blogpost was a result of wanting to get others to do the same because installing snippy gets increasingly more difficult over time and reference-free approaches should be preferred anyway. If you want to know what I'm doing now, check out my personal website [https://maklin.fi](https://maklin.fi).
+I visited John Lees' lab in Spring 2023 and have been using both SKA v1 and v2 to build lots of trees. This guide was a result of wanting to get others to do the same because installing snippy gets increasingly more difficult over time and reference-free approaches should be preferred anyway. If you want to know what I'm doing now, check out my personal website [https://maklin.fi](https://maklin.fi).
 
 ## R script for plotting trees
 ```
