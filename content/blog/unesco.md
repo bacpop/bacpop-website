@@ -7,6 +7,8 @@ draft: false
 author: "John Lees"
 featured_image: '/images/header1.jpg'
 ---
+## This application is now closed
+
 EMBL and UNESCO have recently announced a visitor programme as part of its infection biology scheme,
 in which we are participating (along with many other EMBL groups, see the link at
 the end for a full list).
@@ -24,7 +26,7 @@ You can also see more details of our [research]({{< ref "/research" >}}) and our
 If this is something that could be useful in your research plans and you'd be interested in either
 a collaboration, or developing new or more skills in these areas please get in touch with John (_jlees at ebi dot ac dot uk_).
 
-**Deadline 15th April**
+**Deadline 15th April 2023**
 
 See full details of the scheme here:
 https://www.embl.org/about/info/scientific-visitor-programme/fellowships/embl-unesco-fellowships/
