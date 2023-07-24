@@ -4,7 +4,7 @@ date: 2023-07-21T16:22:28+01:00
 draft: false
 author: "Tommi M&auml;klin"
 ---
-[SKA](https://github.com/bacpop/ska.rust) is a tool for comparing small and highly similar genomes using [split _k_-mers](https://www.biorxiv.org/content/early/2018/10/25/453142). This blogpost will explain how to use SKA to build a phylogenetic tree for different _Escherichia coli_ lineages in a few minutes. Although SKA is tailored more towards analysing variation within a lineage, tree-building ends up working fine for the whole species but requires more memory.
+[SKA](https://github.com/bacpop/ska.rust) is a tool for comparing small and highly similar genomes using [split _k_-mers](https://www.biorxiv.org/content/early/2018/10/25/453142). This guide will explain how to use SKA to build a phylogenetic tree for different _Escherichia coli_ lineages in a few minutes. Although SKA is tailored more towards analysing variation within a lineage, tree-building ends up working fine for the whole species but requires more memory.
 
 ![SKA logo](/images/ska-trees/ska_logo.png)
 
@@ -142,7 +142,7 @@ In this tree the assemblies from Laos cluster into several distinct groups withi
 And that's it! Happy tree-building.
 
 ## About the author
-I visited John Lees' lab in Spring 2023 and have been using both SKA v1 and v2 to build lots of trees. This blogpost was a result of wanting to get others to do the same because installing snippy gets increasingly more difficult over time and reference-free approaches should be preferred anyway. If you want to know what I'm doing now, check out my personal website [https://maklin.fi](https://maklin.fi).
+I visited John Lees' lab in Spring 2023 and have been using both SKA v1 and v2 to build lots of trees. This guide was a result of wanting to get others to do the same because installing snippy gets increasingly more difficult over time and reference-free approaches should be preferred anyway. If you want to know what I'm doing now, check out my personal website [https://maklin.fi](https://maklin.fi).
 
 ## R script for plotting trees
 ```
