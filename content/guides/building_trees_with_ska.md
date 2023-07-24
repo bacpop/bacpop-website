@@ -25,9 +25,9 @@ We will use a collection of 46 _E. coli_ hybrid Nanopore+Illumina assemblies iso
 
 All materials for running the analysis in this post can be downloaded from [zenodo](https://zenodo.org/record/8172518/files/building_trees_with_ska.tar) with wget
 ```
-wget assemblies.tar
+wget https://zenodo.org/record/8172518/files/building_trees_with_ska.tar
 ```
-After downloading the assemblies, run `tar -xvf assemblies.tar` to extract the files.
+After downloading the assemblies, run `tar -xvf building_trees_with_ska.tar` to extract the files.
 
 ## Reference-free workflow
 The first example describes using a reference-free workflow to analyse assemblies in a case where we are only interested in the SNPs and do not care about structural rearrangements or other global changes. This is accomplished with the `ska align` command and the result can be used to e. g. build a tree for across-species variation.
@@ -103,7 +103,7 @@ Fortunately for us, ST10 has a downloadable a reference genome in the ENA that w
 wget -q -O - https://www.ebi.ac.uk/ena/browser/api/fasta/U00096.3?download=true | gzip > GCA_000005845.2.fna.gz
 ```
 
-Since we now only want to use a subset of the assemblies, we'll need to rebyukd the index for the genomes that belong to SC4. This info is contained in the `data/laos_poppunk_clusters.tsv` file and we use the following commands to both convert it to an input list for SKA and to add the reference sequence to the index
+Since we now only want to use a subset of the assemblies, we'll need to rebuild the index for the genomes that belong to SC4. This info is contained in the `data/laos_poppunk_clusters.tsv` file and we use the following commands to both convert it to an input list for SKA and to add the reference sequence to the index
 ```
 paste <(grep "SC4$" data/laos_poppunk_clusters.tsv | cut -f1) <(grep "SC4$" data/laos_poppunk_clusters.tsv | cut -f1 | sed 's/^/assemblies\//g' | sed 's/$/.fa.gz/g') > output/laos_SC4_input_list.tsv
 echo -e "GCA_000005845.2\t$(pwd)/GCA_000005845.2.fna.gz" >> output/laos_SC4_input_list.tsv
