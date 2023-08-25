@@ -186,7 +186,7 @@ _thimotei at ebi dot ac dot uk_
 
 {{< figure src="/images/group/jacqueline_toussaint.jpg" >}}
 
-At the moment, I'm broadly focused on developing more efficient and accurate methods for performing genome-wide association studies (GWAS) in bacteria, with a particular focus on antibiotic resistance and the possibility of expanding to real-time analysis. I'm also working on developing methods to improve the speed and consistency of bacterial genome annotation.
+I'm broadly focused on developing more efficient and accurate methods for performing genome-wide association studies (GWAS) in bacteria, with a particular focus on antibiotic resistance and the possibility of expanding to real-time analysis. I'm also working on developing methods to improve the speed and consistency of bacterial genome annotation.
 
 I previously studied biochemistry and microbiology at Montana State University, USA, with my Bachelor's thesis research focused on generating and analyzing multi-omics datasets. I’m excited to further my education in the lab of Dr. John Lees at EMBL-EBI and the University of Cambridge, UK.
 
