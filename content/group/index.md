@@ -26,7 +26,7 @@ I am a PhD student at the Wellcome Sanger Institute in [Prof. Stephen Bentley’
 
 _raymond at ebi dot ac dot uk_
 
-**Berk Gonenc** is a Master's student
+**Berk Gonenc** is an intern
 
 {{< figure src="/images/group/berk_gonenc.jpg" >}}
 
@@ -60,11 +60,11 @@ _joel at ebi dot ac dot uk_
     {{< social_icon twitter "https://mobile.twitter.com/HellewellJoel" >}}
 {{< /icon_wrapper >}}
 
-**Samuel Horsfield** is a visiting PhD student (based at Imperial College London)
+**Samuel Horsfield** is a postdoctoral fellow
 
 {{< figure src="/images/group/sam_horsfield_photo.jpg" >}}
 
-My PhD focuses on pangenome evolution in pathogenic bacteria. I have designed and
+My PhD focused on pangenome evolution in pathogenic bacteria. I have designed and
 developed [ggcaller](https://github.com/samhorsfield96/ggCaller), a new annotation tool
 for bacterial pangenomes that works on genome graphs. Other projects include using
 graph methods to improve adaptive sequencing of the accessory genome, and using
@@ -124,27 +124,9 @@ _llorenz at ebi dot ac dot uk_
     {{< social_icon linkedin "https://www.linkedin.com/in/leonie-lorenz-8629a2a3/" >}}
 {{< /icon_wrapper >}}
 
-**Tommi Mäklin** is a visiting postdoc
+**Oladipo Omotosho** is on a research sabbatical from the University of Ibadan
 
-{{< figure src="/images/group/tommi_maklin.jpg" >}}
-
-Tommi is currently visiting from Jukka Corander's group at the University of Helsinki.
-He has previously developed the tools [`mSWEEP`](https://github.com/PROBIC/mSWEEP) and [`mGEMS`](https://github.com/PROBIC/mGEMS) for strain deconvolution
-and genomic epidemiology from metagenomic sequencing data. While here, he will be working
-on a [Theory@EMBL](https://www.embl.org/internal-information/embl-programme/transversal-themes/theory-embl/) project
-to combine modelling with metagenomics methods and investigate competition dynamics between
-strains during carriage and infection.
-
-*Languages and tools*: C++, R, Stan, bash
-
-*Organisms*: Gut microbes, *E. coli*.
-
-_tommi at ebi dot ac dot uk_
-
-{{< icon_wrapper name="Tommi" >}}
-    {{< social_icon github "https://github.com/tmaklin" >}}
-    {{< social_icon twitter "https://twitter.com/themaklin" >}}
-{{< /icon_wrapper >}}
+_oladipo at ebi dot ac dot uk_
 
 **Tim Russell** is a visiting postdoc
 
@@ -181,7 +163,6 @@ _thimotei at ebi dot ac dot uk_
     {{< social_icon twitter "https://twitter.com/timwrussell" >}}
 {{< /icon_wrapper >}}
 
-
 **Jacqueline Toussaint** is a PhD student
 
 {{< figure src="/images/group/jacqueline_toussaint.jpg" >}}
@@ -201,14 +182,23 @@ _lilyjacqueline at ebi dot ac dot uk_
     {{< social_icon linkedin "https://uk.linkedin.com/in/jackie-toussaint" >}}
 {{< /icon_wrapper >}}
 
+**Johanna von Wachsmann** is a PhD student (based in [Rob Finn's](https://www.ebi.ac.uk/research/finn/) lab).
+
+_wachsmannj at ebi dot ac dot uk_
+
+**Tendai Washaya** is a visiting PhD student (based at the University of Zimbabwe)
+
+_tendai at ebi dot ac dot uk_
+
 
 ### Alumni
 
 **Gherard Batisti Biffignandi** was a visiting PhD student (based at the University of Pavia).
 
-**Bruhad Dave** was an intern.
+**Bruhad Dave** was an intern, now at the Wellcome Sanger Institute.
 
-[**Johanna von Wachsmann**](https://www.ebi.ac.uk/people/person/johanna-von-wachsmann) was a Master's student (based at Freie Universität Berlin), now with [Rob Finn](https://www.ebi.ac.uk/research/finn/).
+**Tommi Mäklin** was a visiting postdoc on the Theory@EMBL visitor scheme (based at the University of Helsinki).
+
 ## Social and photos
 
 ### 2023
