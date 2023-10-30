@@ -12,7 +12,7 @@ featured_image: '/images/header3.jpg'
 
 I give a brief overview of bacterial pangenome analysis, and what problems our tool, ggCaller, solves.
 
-## The bacterial pangenome – quantifying within-species diversity?
+## The bacterial pangenome – quantifying within-species diversity
 
 A genome is a set of biological instructions, known as ‘genes’, that describe how to make and maintain a living organism. The biological similarities and differences we observe between organisms, either between those that are closely or distantly related, are in no small part due to the genes they possess. By identifying the genes within an organism’s genome, we can make predictions about how it behaves, such as how it interacts with other organisms, and in which environments it can survive. 
 
@@ -40,7 +40,7 @@ We tested ggCaller on both simulated and real bacterial datasets to see how pred
 
 We also tested ggCaller’s application in pangenome-wide association studies (PGWASs). These analyses look for statistical relationships between variants within a collection of genomes and a given biological characteristic. The problem with the existing methods, however, is that when you find a variant of interest, it is difficult to map back to the original genomes, and therefore get a functional label for the variant. Using ggCaller, we show that using consistent gene prediction and annotation makes functional labelling, and therefore interpreting the biological effects of variants, much easier.
 
-{{< figure src="/images/ggCaller/PGWAS_phylogeny.svg" title="Neighbour-joining tree for PGWAS of antibiotic resistance in pneumococcus" >}}
+{{< figure src="/images/ggCaller/PGWAS_phylogeny.svg" title="Neighbour-joining tree for PGWAS of resistance to tetracycline (A) and erythromycin (B) antibiotics in pneumococcus" >}}
 
 ggCaller is also fast – we show that it can run on several thousand genomes and is still faster that existing workflows. Another benefit is that you get a pangenome from a single command, going directly from your genome sequences to functionally labelled genes, clusters, phylogenetic trees and more! This means you no longer need a pipeline of two or more tools to do pangenome analyses.
 
