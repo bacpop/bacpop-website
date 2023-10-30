@@ -5,12 +5,12 @@ date: 2023-10-30T13:00:00+01:00
 type: "post"
 draft: false
 author: "Sam Horsfield"
-featured_image: '/images/header4.jpg'
+featured_image: '/images/header3.jpg'
 ---
 
 {{< toc >}}
 
-Sam Horsfield, an author on the ggCaller paper, gives a brief overview of bacterial pangenome analysis, and what problems our tool solves.
+I give a brief overview of bacterial pangenome analysis, and what problems our tool, ggCaller, solves.
 
 ## The bacterial pangenome – quantifying within-species diversity?
 
@@ -30,7 +30,7 @@ This prior knowledge might be biased in some way, meaning that the same gene sha
 
 We need a way of ensuring the same genes are predicted in the same way between genomes. To do this, we developed graph-gene-caller, also known as ggCaller. Rather than predicting genes in genomes one at a time, ggCaller predicts genes collectively within a network-like structure called a ‘graph’, which merges similar sequences between different genomes together. By scanning through the graph, ggCaller can identify similar genes shared between genomes, ensuring that related genes are predicted in the same way.
 
-Add graph-gene representation
+{{< figure src="/images/ggCaller/ggCaller_graph_example.jpg" title="Comparison between predicting and comparing genes in linear genomes and a graph" >}}
 
 ggCaller also annotates genes with functional labels. This is useful when you want to see not just how similar or different two members of the same species are based on their genes, but also what biological characteristics they share or differ by. By doing this collectively, we can share labels between the same genes between individuals, avoiding the need to re-label the same gene multiple times, saving time in the process.
 
@@ -40,9 +40,11 @@ We tested ggCaller on both simulated and real bacterial datasets to see how pred
 
 We also tested ggCaller’s application in pangenome-wide association studies (PGWASs). These analyses look for statistical relationships between variants within a collection of genomes and a given biological characteristic. The problem with the existing methods, however, is that when you find a variant of interest, it is difficult to map back to the original genomes, and therefore get a functional label for the variant. Using ggCaller, we show that using consistent gene prediction and annotation makes functional labelling, and therefore interpreting the biological effects of variants, much easier.
 
+{{< figure src="/images/ggCaller/PGWAS_phylogeny.svg" title="Neighbour-joining tree for PGWAS of antibiotic resistance in pneumococcus" >}}
+
 ggCaller is also fast – we show that it can run on several thousand genomes and is still faster that existing workflows. Another benefit is that you get a pangenome from a single command, going directly from your genome sequences to functionally labelled genes, clusters, phylogenetic trees and more! This means you no longer need a pipeline of two or more tools to do pangenome analyses.
 
-Insert speed picture
+{{< figure src="/images/ggCaller/ggc_panaroo_fold_speed_up.svg" title="Fold-speed up of ggCaller over linear-genome based pipeline on three bacterial datasets" >}}
 
 ## Check out the code and the paper
 
