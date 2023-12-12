@@ -222,7 +222,9 @@ _wachsmannj at ebi dot ac dot uk_
 
 ### Xmas dinner 2023
 
+{{< figure src="/images/group/2023_xmas_1.jpg" >}}
 
+{{< figure src="/images/group/2023_xmas_2.jpg" >}}
 
 #### Group retreat, Suffolk. July 2023
 
