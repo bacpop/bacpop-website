@@ -124,10 +124,6 @@ _llorenz at ebi dot ac dot uk_
     {{< social_icon linkedin "https://www.linkedin.com/in/leonie-lorenz-8629a2a3/" >}}
 {{< /icon_wrapper >}}
 
-**Oladipo Omotosho** is on a research sabbatical from the University of Ibadan
-
-_oladipo at ebi dot ac dot uk_
-
 **Tim Russell** is a visiting postdoc
 
 {{< figure src="/images/group/tim_russell.jpg" >}}

@@ -11,17 +11,19 @@ cascade:
 We are the [Pathogen Informatics and Modelling](https://www.ebi.ac.uk/research/lees/) group
 at EMBL-EBI (also known as the Lees Group).
 
-We aim to develop innovative, ethical and sharable approaches which help realise the power of sequencing to control pathogen threats. We are interested in both producing methods, and generating biological insights by applying these methods to data from a range of sources.
+We aim to develop innovative, ethical and sharable approaches which help realise the power of sequencing to control pathogen threats. We are interested in both producing methods, and generating biological insights by applying these methods to data from a range of sources. We currently have two main lines of research: understanding the mechanisms of pathogen evolution, and developing
+methods and resources that lower the barrier to entry for infectious disease genomics and modelling.
 
-Our current main areas of work are:
+We use the following methods to address these questions:
 * Genomic epidemiology
 * Statistical genetics
-* Mathematical models of transmission
-* Within-host diversity
+* Mathematical modelling
+* Sequencing within-host diversity
 * GPU and multicore algorithms
 * Democratising bioinformatics
 
 For more information about these areas, see our [research]({{< ref "/research" >}}).
+
 ## Find out more
 
 To learn who we are and who we work with, see [about us]({{< ref "/group" >}}).

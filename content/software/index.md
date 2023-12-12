@@ -107,16 +107,6 @@ Packages to count and determine presence of non-redundant sequence elements. Use
 * unitig-counter (github): https://github.com/bacpop/unitig-counter
 * unitig-counter (conda): https://anaconda.org/bioconda/unitig-counter
 
-### SEER (*no longer supported*)
-
-First version of software for association studies in bacteria (superseded by pyseer, above). Find k-mers that are linked to a phenotype of interest.
-
-* Download (conda): https://anaconda.org/bioconda/seer
-* Download (github):  https://github.com/johnlees/seer/releases
-* Paper: https://doi.org/10.1038/ncomms12797
-* Documentation: https://github.com/johnlees/seer/wiki
-* Code: https://github.com/johnlees/seer
-
 ## Visualisation
 
 ### {{< logo "images/mandrake_logo.png" >}} mandrake
@@ -140,13 +130,12 @@ Code:
 * API (middle layer): https://github.com/bacpop/BacQuerya-api
 * Sequence processing: https://github.com/bacpop/BacQuerya-processing
 
-### {{< logo "images/amima_logo.png" 200 120 >}} [AMIMA](https://amima.poppunk.net/) (*beta*)
+### {{< logo "images/beebop_logo_transparent" 200 120 >}} [BeeBOP](https://beebop.dide.ic.ac.uk/) (*beta*)
 
-An in-browser AMR prediction tool for *Streptococcus pneumoniae*.
+An in-browser AMR and strain prediction tool for *Streptococcus pneumoniae*.
 
 Code:
-* Front-end: https://github.com/bacpop/AMR_ReactApp
-* WebAssembly: https://github.com/bacpop/AMR_prediction
+* Front-end: https://github.com/bacpop/beebop/
 
 ### [mandrake-web](https://gtonkinhill.github.io/mandrake-web/)
 
