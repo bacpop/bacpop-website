@@ -145,9 +145,9 @@ beauty/interface of fully integrated languages or a single-language implementati
 is often worth it for research software.
 
 I'm [switching to rust](https://www.johnlees.me/posts/rust-two/) for a lot of what I do now (e.g. [ska.rust](https://github.com/bacpop/ska.rust)). No language is perfect, but it's hitting most of what I typically want to do
-with python and C++. I expect in future to use rust and CUDA together.
+with python and C++. I expect in future to use rust and CUDA together. Perhaps more importantly, the build system is great and I think will work well for research software maintainers.
 
-## Final thought
+## Final thoughts
 
 In summary, I still firmly believe that you don't have to be restricted by a single language, but
 I more see interfacing multiple languages as a useful skill to have, rather than
