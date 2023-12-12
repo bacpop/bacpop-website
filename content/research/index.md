@@ -8,7 +8,24 @@ menu:
     weight: 1
 ---
 
-We currently work in the following overlapping areas:
+We want to understand how pathogens (particularly bacteria) evolve, becoming pathogenic
+and more transmissible. Understanding the mechanisms by which bacteria evolve and adapt to their environments is crucial to
+address many practical questions: from designing drugs and vaccines against pathogens, optimising
+commercial processes from wastewater treatment to industrial brewing. The enormous diversity, but
+relatively simple biology of bacteria also offers an ideal system to answer fundamental questions in
+evolutionary biology. *Do evolutionary processes repeat themselves? At what timescales do modes of
+evolution dominate? Can we predict future evolution?*
+
+Secondly, we want to increase the performance and accessibility of evolutionary methods,
+including both bioinformatics and modelling. As well as increasing equity between regions, there are other advantages
+to making these techniques usable locally: global surveillance is more effective than concentrating resource in single
+regions; many regions without this technology have a higher burden of infectious disease due to existing inequities; data
+generators have unique knowledge of biases and important questions in their data, if they are able to analyse the data
+locally and without external support they can answer these questions more quickly, and more easily develop their own
+research and infection control programmes. We develop methods that can be easily run
+in a web-browser, on a typical laptop, and on high-performance GPUs.
+
+We currently work in the following overlapping topic areas:
 
 {{< toc >}}
 
@@ -29,7 +46,7 @@ We're always interested in growing this network, and have short- and medium-term
 visitors to the lab. Please get in touch if you'd like
 to collaborate with us.
 
-# Topics
+# Methods
 
 ## Mathematical modelling
 
@@ -100,5 +117,5 @@ Projects include: searching and indexing genome analysis and metadata; developin
 
 Examples:
 - https://www.bacquerya.com
-- https://amr.poppunk.net
+- https://beebop.dide.ic.ac.uk/
 

@@ -14,12 +14,37 @@ A list of some of the papers directly from our group, with some short explanatio
 
 ## 2023
 
+### Optimising machine learning prediction of minimum inhibitory concentrations in *Klebsiella pneumoniae*
+
+Gherard Batisti Biffignandi, Leonid Chindelevitch, Marta Corbella, Edward Feil, Davide Sassera and John A. Lees (2023).
+**Optimising machine learning prediction of minimum inhibitory concentrations in *Klebsiella pneumoniae***
+*bioRxiv*
+
+https://www.biorxiv.org/content/10.1101/2023.11.20.567835v1
+
+Minimum inhibitory concentrations (MICs) are measured when collecting data
+on resistance to antibiotics. These are a semi-quantitative measurement (ordinal)
+giving the nearest doubling in drug concentration at which resistance appears.
+
+In typical uses, clinical breakpoint guidelines are used to interpret these values
+into a dichotomised resistant or sensitive classificaition. However, these breakpoints
+can change over time and in some cases are propreitary. Furthermore, this classification
+loses information.
+
+In this work, we looked at the performance of three typical methods used in genotype-to-phenotype
+prediction and inference in bacterial genomes: linear mixed models, elastic net regression and
+random forests. We analysed their performance with different binning resolutions and censoring
+of MIC data.
+
+Using simulations and a real dataset of *Klebsiella pneumoniae* we are able to provide
+guidance for fitting these models, and collecting and reporting MIC data.
+
 ### Accurate and fast graph-based pangenome annotation and clustering with ggCaller
 
 Samuel T. Horsfield, Nicholas J. Croucher and John A. Lees (2023). **Accurate and fast graph-based pangenome annotation and clustering with ggCaller**
-*bioRxiv*
+*Genome Research* 33: 1622-1637
 
-https://www.biorxiv.org/content/10.1101/2023.01.24.524926v1
+https://genome.cshlp.org/content/33/9/1622
 
 Annotation of bacterial pangenomes is typically done one at a time. Each input assembly
 is annotated by calling and scoring open-reading frames (ORFs), and aligning all of these against databases
@@ -47,7 +72,8 @@ ggCaller packages a lot of the [steps for analysis](https://ggcaller.readthedocs
 - Sequence search.
 - Basic phylogenetics and visualisation.
 
-See the code on the [software]({{< ref "/software#genomic-epidemiology--bioinformatics" >}}) page.
+See the code on the [software]({{< ref "/software#genomic-epidemiology--bioinformatics" >}}) page,
+and also [Sam's blog post]({{< ref "/ggCaller" >}}).
 
 {{< figure src="/images/publications/ggcaller_fig1.png" >}}
 

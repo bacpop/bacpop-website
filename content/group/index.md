@@ -124,10 +124,6 @@ _llorenz at ebi dot ac dot uk_
     {{< social_icon linkedin "https://www.linkedin.com/in/leonie-lorenz-8629a2a3/" >}}
 {{< /icon_wrapper >}}
 
-**Oladipo Omotosho** is on a research sabbatical from the University of Ibadan
-
-_oladipo at ebi dot ac dot uk_
-
 **Tim Russell** is a visiting postdoc
 
 {{< figure src="/images/group/tim_russell.jpg" >}}
@@ -184,24 +180,47 @@ _lilyjacqueline at ebi dot ac dot uk_
 
 **Johanna von Wachsmann** is a PhD student (based in [Rob Finn's](https://www.ebi.ac.uk/research/finn/) lab).
 
+{{< figure src="/images/group/johanna_von_wachsmann_photo.jpeg" >}}
+
+I did my master’s degree in bioinformatics with a focus on advanced algorithms at the Freie Universität Berlin. I wrote my master’s thesis under the supervision of Dr. John Lees.
+
+I am now working on developing tools and algorithms for the analysis of large metagenomic
+datasets.
+
+*Languages*: C++, Python, R
+
 _wachsmannj at ebi dot ac dot uk_
 
-**Tendai Washaya** is a visiting PhD student (based at the University of Zimbabwe)
-
-_tendai at ebi dot ac dot uk_
+{{< icon_wrapper name="Johanna" >}}
+    {{< social_icon github "https://github.com/johannahelene" >}}
+    {{< social_icon twitter "https://twitter.com/vWachsmann" >}}
+    {{< social_icon linkedin "https://www.linkedin.com/in/johanna-helene-von-wachsmann-191b91224/" >}}
+{{< /icon_wrapper >}}
 
 
 ### Alumni
 
-**Gherard Batisti Biffignandi** was a visiting PhD student (based at the University of Pavia).
+**Gherard Batisti Biffignandi** (2022) was a visiting PhD student (based at the University of Pavia).
 
-**Bruhad Dave** was an intern, now at the Wellcome Sanger Institute.
+**Bruhad Dave** (2022) was an intern, now at the Wellcome Sanger Institute.
 
-**Tommi Mäklin** was a visiting postdoc on the Theory@EMBL visitor scheme (based at the University of Helsinki).
+**Berk Gonenc** (2023) was an intern.
+
+**Tommi Mäklin** (2023) was a visiting postdoc on the Theory@EMBL visitor scheme (based at the University of Helsinki).
+
+**Oladipo Omotosho** (2023) was a visiting scientist on an EMBL training fellowship (based at the University of Ibidan).
+
+**Tendai Washaya** (2023) was a visiting PhD student (based at the University of Zimbabwe)
 
 ## Social and photos
 
 ### 2023
+
+### Xmas dinner 2023
+
+{{< figure src="/images/group/2023_xmas_1.jpg" >}}
+
+{{< figure src="/images/group/2023_xmas_2.jpg" >}}
 
 #### Group retreat, Suffolk. July 2023
 
