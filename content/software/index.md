@@ -130,7 +130,7 @@ Code:
 * API (middle layer): https://github.com/bacpop/BacQuerya-api
 * Sequence processing: https://github.com/bacpop/BacQuerya-processing
 
-### {{< logo "images/beebop_logo_transparent" 200 120 >}} [BeeBOP](https://beebop.dide.ic.ac.uk/) (*beta*)
+### {{< logo "images/beebop_logo_transparent.png" 200 120 >}} [BeeBOP](https://beebop.dide.ic.ac.uk/) (*beta*)
 
 An in-browser AMR and strain prediction tool for *Streptococcus pneumoniae*.
 
