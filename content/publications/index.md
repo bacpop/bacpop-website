@@ -12,11 +12,37 @@ A list of some of the papers directly from our group, with some short explanatio
 
 {{< toc >}}
 
+## 2024
+
+### Graph-based Nanopore Adaptive Sampling with GNASTy enables sensitive pneumococcal serotyping in complex samples
+
+Samuel Horsfield, Basil Fok, Yuhan Fu, Paul Turner, John Lees, Nicholas Croucher (2024).
+**Graph-based Nanopore Adaptive Sampling with GNASTy enables sensitive pneumococcal serotyping in complex samples**
+*bioRxiv*
+
+https://www.biorxiv.org/content/10.1101/2024.02.11.579857v1.abstract
+
+Nanopore adaptive sampling can reject DNA during sequencing by reversing the voltage
+on sequencing pores. By making this decision dynamic and dependent on what has been
+sequenced (in the current pore and the sample as a whole) unwanted sequences can be depleted.
+
+We tested and optimised an application to serotyping _S. pneumoniae_ This is based on
+a fairly long and structurally complex part of the chromosome, so PCR doesn't work,
+but whole genome sequencing is usually overkill (or doesn't pick up minority variants).
+
+We showed that this technique 1) works, 2) has various improvements over alternatives such as microarray
+and physical methods (i.e. quellung or latex agglutination.) 3) can be further improved by
+using graph-based references of the capsule operon. We called our technique
+GNASTy (Graph-based Nanopore Adaptive Sampling Typing, pronounced 'nasty').
+
+We also showed that adaptive sampling is much less effective at enriching for closely
+related samples, which has implications for its rollout in other applications of metagenomic sequencing.
+
 ## 2023
 
 ### Optimising machine learning prediction of minimum inhibitory concentrations in *Klebsiella pneumoniae*
 
-Gherard Batisti Biffignandi, Leonid Chindelevitch, Marta Corbella, Edward Feil, Davide Sassera and John A. Lees (2023).
+Gherard Batisti Biffignandi, Leonid Chindelevitch, Marta Corbella, Edward Feil, Davide Sassera and John Lees (2023).
 **Optimising machine learning prediction of minimum inhibitory concentrations in *Klebsiella pneumoniae***
 *bioRxiv*
 
