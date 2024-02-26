@@ -34,6 +34,8 @@ and you can also see our [code on github](https://github.com/bacpop).
 
 We also have a [youtube channel](https://www.youtube.com/channel/UCmp3iSn08C1wAQqC-S7evLw) where we post some of our talks.
 
+Databases and training course materials can be found under [resources]({{< ref "/resources" >}}).
+
 ## Guides and blog posts
 
 We publish sample workflows and recommendations for common population genomics workflows
