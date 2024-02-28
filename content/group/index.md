@@ -107,41 +107,6 @@ _llorenz at ebi dot ac dot uk_
     {{< social_icon linkedin "https://www.linkedin.com/in/leonie-lorenz-8629a2a3/" >}}
 {{< /icon_wrapper >}}
 
-**Tim Russell** is a visiting postdoc
-
-{{< figure src="/images/group/tim_russell.jpg" >}}
-
-My background is primarily in mathematical biology. I did my PhD at Royal
-Holloway University, supervised by [Vincent
-Jansen](https://scholar.google.com/citations?user=SrGI1oMAAAAJ&hl=en&oi=ao),
-studying mathematical aspects of models from theoretical population genetics. I
-then started a postdoc at London School of Hygiene and Tropical Medicine in
-Adam Kucharski's group, originally to work on modelling antibody dynamics for
-influenza. The COVID-19 pandemic began shortly after I started (!), so I ended
-up working intensely on several aspects of the pandemic. These included:
-transmission dynamics, severity estimates, global estimates of infections, the
-sensitivity of PCR and LFT tests, within-host viral kinetics, within-host
-antibody dynamics, etc. We have have recently started a long-term project in
-collaboration with The Francis Crick Institute, setting up a data generating
-and analysis pipeline, with a large modelling component, studying how antibody
-levels for COVID-19 vary between different regions and over time.
-
-I aim to use my time at EBI learning more about genomics. Specifically,
-thinking about whether it is possible to combine models of within-host
-responses to infection with genomic data data to arrive at detailed estimates
-of how hosts and pathogens coevolve.
-
-*Languages and tools*: C++, R, Stan, bash
-
-*Organisms*: SARS-CoV-2, Influenza, MPX
-
-_thimotei at ebi dot ac dot uk_
-
-{{< icon_wrapper name="Tim" >}}
-    {{< social_icon github "https://github.com/thimotei" >}}
-    {{< social_icon twitter "https://twitter.com/timwrussell" >}}
-{{< /icon_wrapper >}}
-
 **Jacqueline Toussaint** is a PhD student
 
 {{< figure src="/images/group/jacqueline_toussaint.jpg" >}}
@@ -192,6 +157,8 @@ _wachsmannj at ebi dot ac dot uk_
 **Tommi Mäklin** (2023) was a visiting postdoc on the Theory@EMBL visitor scheme (based at the University of Helsinki).
 
 **Oladipo Omotosho** (2023) was a visiting scientist on an EMBL training fellowship (based at the University of Ibidan).
+
+**Timothy Russell** (2023) was a visiting scientist (based at London School of Hygiene and Tropical Medicine).
 
 **Tendai Washaya** (2023) was a visiting PhD student (based at the University of Zimbabwe)
 

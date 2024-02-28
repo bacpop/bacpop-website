@@ -187,6 +187,15 @@ We welcome contributions for new species, or expansions of these databases [via 
     <td></td>
   </tr>
   <tr>
+    <td><i>Neisseria meningitidis</i></td>
+    <td style="text-align:center">vCCDC</td>
+    <td>26801</td>
+    <td style="text-align:center"><a href="https://github.com/bacpop/PopPUNK/issues/267">Discussion</a></td>
+    <td style="text-align:center"></td>
+    <td style="text-align:center"><a href="https://ftp.ebi.ac.uk/pub/databases/pp_dbs/Neisseria_meningitidis_vCCDC.tar.bz2">Download</a></td>
+    <td></td>
+  </tr>
+  <tr>
     <td><i>Pseudomonas aeruginosa</i></td>
     <td style="text-align:center">v1</td>
     <td>6082</td>
@@ -273,8 +282,8 @@ We welcome contributions for new species, or expansions of these databases [via 
     <td style="text-align:center">v1</td>
     <td>2084</td>
     <td style="text-align:center"><a href="https://doi.org/10.1038/s41588-019-0417-8">Paper</a></td>
-    <td style="text-align:center"><a href="https://ftp.ebi.ac.uk/pub/databases/pp_dbs/Streptococcus_pneumoniae_v4_refs.tar.bz2">Download</a></td>
-    <td style="text-align:center"><a href="https://ftp.ebi.ac.uk/pub/databases/pp_dbs/Streptococcus_pneumoniae_v4_full.tar.bz2">Download</a></td>
+    <td style="text-align:center"><a href="https://ftp.ebi.ac.uk/pub/databases/pp_dbs/Streptococcus_pyogenes_v1_refs.tar.bz2">Download</a></td>
+    <td style="text-align:center"><a href="https://ftp.ebi.ac.uk/pub/databases/pp_dbs/Streptococcus_pyogenes_v1_full.tar.bz2">Download</a></td>
     <td></td>
   </tr>
   <tr>
