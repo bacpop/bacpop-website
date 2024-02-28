@@ -26,12 +26,12 @@ Nanopore adaptive sampling can reject DNA during sequencing by reversing the vol
 on sequencing pores. By making this decision dynamic and dependent on what has been
 sequenced (in the current pore and the sample as a whole) unwanted sequences can be depleted.
 
-We tested and optimised an application to serotyping _S. pneumoniae_ This is based on
+We tested and optimised an application to serotyping _S. pneumoniae_. This is based on
 a fairly long and structurally complex part of the chromosome, so PCR doesn't work,
 but whole genome sequencing is usually overkill (or doesn't pick up minority variants).
 
 We showed that this technique 1) works, 2) has various improvements over alternatives such as microarray
-and physical methods (i.e. quellung or latex agglutination.) 3) can be further improved by
+and physical methods (i.e. quellung or latex agglutination), 3) can be further improved by
 using graph-based references of the capsule operon. We called our technique
 GNASTy (Graph-based Nanopore Adaptive Sampling Typing, pronounced 'nasty').
 
