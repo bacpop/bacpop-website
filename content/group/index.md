@@ -147,7 +147,7 @@ _wachsmannj at ebi dot ac dot uk_
 
 **Lale Maouloud** is an Erasmus student from the University of Rouen Normandy.
 
-{{< figure src="/images/group/lale_maouloud.png" >}}
+{{< figure src="/images/group/lale_maouloud.jpg" >}}
 
 Fueled by my curiosity for the invisible. With a bachelor's degree in Life Sciences and Plant Biology from the University of Angers, France, and currently pursuing a three-year Master's program in Bioinformatics Modelling and Statistics at the University of Rouen Normandie, my academic journey is a fusion of curiosity and dedication.
 
