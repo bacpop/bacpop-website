@@ -147,6 +147,8 @@ _wachsmannj at ebi dot ac dot uk_
 
 **Lale Maouloud** is an Erasmus student from the University of Rouen Normandy.
 
+{{< figure src="/images/group/lale_maouloud.png" >}}
+
 Fueled by my curiosity for the invisible. With a bachelor's degree in Life Sciences and Plant Biology from the University of Angers, France, and currently pursuing a three-year Master's program in Bioinformatics Modelling and Statistics at the University of Rouen Normandie, my academic journey is a fusion of curiosity and dedication.
 
 Embarking on my internship, I am focused on elevating the field of metagenome annotation through the refinement and application of the graph-based annotation tool, ggCaller. My aim is to immerse myself fully in this ambitious project, shaping ggCaller into a pioneering tool in metagenomic annotation methodologies.
