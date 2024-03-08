@@ -47,13 +47,13 @@ _joel at ebi dot ac dot uk_
 
 {{< figure src="/images/group/sam_horsfield_photo.jpg" >}}
 
-My PhD focused on pangenome evolution in pathogenic bacteria. I have designed and
+My PhD focused on pangenome evolution in pathogenic bacteria. I designed and
 developed [ggcaller](https://github.com/samhorsfield96/ggCaller), a new annotation tool
-for bacterial pangenomes that works on genome graphs. Other projects include using
-graph methods to improve adaptive sequencing of the accessory genome, and using
-large population datasets to compare rates of core and accessory genome evolution.
+for bacterial pangenomes that works on pangenome graphs. In my Postdoc, I'm working on
+graph methods to improve Nanopore sequencing for enrichment of the accessory genome, using
+large population datasets to understand pangenome evolution, and developing large language models to simulate bacterial populations.
 
-*Languages and tools*: C++, python
+*Languages and tools*: C++, Rython, R
 
 *Organisms*: Bacteria (*S. pneumoniae*, *E. coli* and many more) and viruses (polio).
 
