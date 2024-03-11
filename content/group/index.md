@@ -107,6 +107,23 @@ _llorenz at ebi dot ac dot uk_
     {{< social_icon linkedin "https://www.linkedin.com/in/leonie-lorenz-8629a2a3/" >}}
 {{< /icon_wrapper >}}
 
+**Lale Maouloud** is an Erasmus student from the University of Rouen Normandy.
+
+{{< figure src="/images/group/lale_maouloud.jpg" >}}
+
+Fueled by my curiosity for the invisible. With a bachelor's degree in Life Sciences and Plant Biology from the University of Angers, France, and currently pursuing a three-year Master's program in Bioinformatics Modelling and Statistics at the University of Rouen Normandie, my academic journey is a fusion of curiosity and dedication.
+
+Embarking on my internship, I am focused on elevating the field of metagenome annotation through the refinement and application of the graph-based annotation tool, ggCaller. My aim is to immerse myself fully in this ambitious project, shaping ggCaller into a pioneering tool in metagenomic annotation methodologies.
+
+*Languages*: C++, Python, R
+
+_lale at ebi dot ac dot uk_
+
+{{< icon_wrapper name="Lale" >}}
+    {{< social_icon github "https://github.com/Lalemaouloud" >}}
+    {{< social_icon linkedin "https://www.linkedin.com/in/lale-maouloud-248ba5225/" >}}
+{{< /icon_wrapper >}}
+
 **Jacqueline Toussaint** is a PhD student
 
 {{< figure src="/images/group/jacqueline_toussaint.jpg" >}}
@@ -143,23 +160,6 @@ _wachsmannj at ebi dot ac dot uk_
     {{< social_icon github "https://github.com/johannahelene" >}}
     {{< social_icon twitter "https://twitter.com/vWachsmann" >}}
     {{< social_icon linkedin "https://www.linkedin.com/in/johanna-helene-von-wachsmann-191b91224/" >}}
-{{< /icon_wrapper >}}
-
-**Lale Maouloud** is an Erasmus student from the University of Rouen Normandy.
-
-{{< figure src="/images/group/lale_maouloud.jpg" >}}
-
-Fueled by my curiosity for the invisible. With a bachelor's degree in Life Sciences and Plant Biology from the University of Angers, France, and currently pursuing a three-year Master's program in Bioinformatics Modelling and Statistics at the University of Rouen Normandie, my academic journey is a fusion of curiosity and dedication.
-
-Embarking on my internship, I am focused on elevating the field of metagenome annotation through the refinement and application of the graph-based annotation tool, ggCaller. My aim is to immerse myself fully in this ambitious project, shaping ggCaller into a pioneering tool in metagenomic annotation methodologies.
-
-*Languages*: C++, Python, R
-
-_lale at ebi dot ac dot uk_
-
-{{< icon_wrapper name="Lale" >}}
-    {{< social_icon github "https://github.com/Lalemaouloud" >}}
-    {{< social_icon linkedin "https://www.linkedin.com/in/lale-maouloud-248ba5225/" >}}
 {{< /icon_wrapper >}}
 
 ### Alumni
