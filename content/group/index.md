@@ -16,6 +16,20 @@ current and past group members, who we work with, and some nice pictures.
 
 ## Lab members
 
+**Antoine Andréoletti** is an intern from the Ecole Polytechnique in Paris.
+
+{{< figure src="/images/group/antoine_andreoletti.jpeg" >}}
+
+Starting in biology, I turned towards bioinformatics 3 years ago to be able to use the amount of data made in this field. I now finished my masters in bioinformatics at Ecole Polytechnique in France and will go to Denmark next year to finish my studies.
+
+Before my internship, I worked on several projects in genetics and neuroscience. In those projects, I analyzed large amounts of data to answer biological questions such as: How do bacteria respond to stressful environments? How does the human brain reinforce memory?
+
+In my time here, I want to help tackle the issue of human health and to fill my curisoty for genetics, epidemiology, etc. 
+
+*Languages*: Python, R, C++
+
+_antoine at ebi dot ac dot uk_
+
 **Hsueh-Chien (Raymond) Cheng** is a visiting PhD student (based at the Wellcome Sanger Institute)
 
 {{< figure src="/images/group/raymond_cheng.jpg" >}}
