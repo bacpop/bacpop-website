@@ -176,6 +176,26 @@ _wachsmannj at ebi dot ac dot uk_
     {{< social_icon linkedin "https://www.linkedin.com/in/johanna-helene-von-wachsmann-191b91224/" >}}
 {{< /icon_wrapper >}}
 
+**Víctor Rodríguez Bouza** is a Postdoctoral Fellow.
+
+{{< figure src="/images/group/victor_rodriguezbouza.jpeg" >}}
+
+After high school, I started a BSc in Bioinformatics, but I decided to change after a year to Mathematics and Physics, both in the Universidad de Oviedo (Asturias, Spain). After a MSc in High Energy Physics (in the UAB in Barcelona, Spain), I did my PhD thesis in the same field in the Universidad de Oviedo, as a member of the CMS Collaboration at CERN. Now I have returned to the bio-sciences and started as a postdoctoral fellow in the Lees Group.
+
+
+*Languages, tools*: Python, C++, R, ROOT.
+
+~~Organisms~~ *Quarks*: I have worked mainly in top quark physics.
+
+_vrbouza at ebi dot ac dot uk_
+
+{{< icon_wrapper name="Víctor" >}}
+    {{< social_icon github "https://github.com/vrbouza" >}}
+    {{< social_icon linkedin "https://www.linkedin.com/in/vrbouza" >}}
+{{< /icon_wrapper >}}
+
+
+
 ### Alumni
 
 **Gherard Batisti Biffignandi** (2022) was a visiting PhD student (based at the University of Pavia). Now at the University of Cambridge (Bakery lab).
