@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bacterial population genomics on Pathogen Informatics and Modelling Group</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Bacterial population genomics on Pathogen Informatics and Modelling Group</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Mon, 08 Apr 2024 15:20:11 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ggCaller installation</title>
+      <link>http://localhost:1313/blog/ggcaller_installation/</link>
+      <pubDate>Mon, 08 Apr 2024 15:20:11 +0100</pubDate>
+      <guid>http://localhost:1313/blog/ggcaller_installation/</guid>
+      <description>Installing ggCaller from Source Installing ggCaller with Docker More information about ggCaller Prerequisites&#xA;Before you begin, make sure your system meets the following requirements:&#xA;Operating System: Linux (recommended) or macOS. Compiler: GCC (GNU Compiler Collection) version 4.8 or higher. CMake: Version 3.1.0 or later. Git: Version 2.0 or later. Python: Version 3.6 or later. Pip: Python package installer. Basic familiarity with the command line interface. Please download the example fasta files from this link.</description>
+    </item>
+    <item>
+      <title>Multiple horses for multiple courses</title>
+      <link>http://localhost:1313/blog/horses/</link>
+      <pubDate>Tue, 12 Dec 2023 09:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/blog/horses/</guid>
+      <description>This post is about a talk I gave in February 2020 at RSLondonSouthEast, a local conference for research software engineers. First an overview of the talk, then an update after following my own advice for the past few years.&#xA;Multiple horses for multiple courses Choosing a language When deciding which programming language to use for a project, a useful principle is &amp;lsquo;horses for courses&amp;rsquo; i.e. pick the one that is best suited for the task.</description>
+    </item>
+    <item>
+      <title>Graph-based gene prediction with ggCaller</title>
+      <link>http://localhost:1313/blog/ggcaller/</link>
+      <pubDate>Mon, 30 Oct 2023 13:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/blog/ggcaller/</guid>
+      <description>The bacterial pangenome – quantifying within-species diversity How do you represent a pangenome? Our work – ggCaller How does ggCaller compare to existing tools? Check out the code and the paper In this blog, I give a brief overview of bacterial pangenome analysis, and what problems our tool, ggCaller, solves.&#xA;The bacterial pangenome – quantifying within-species diversity A genome is a set of biological instructions, known as ‘genes’, which describe how to make and maintain a living organism.</description>
+    </item>
+    <item>
+      <title>Building trees with SKA</title>
+      <link>http://localhost:1313/guides/building_trees_with_ska/</link>
+      <pubDate>Fri, 21 Jul 2023 16:22:28 +0100</pubDate>
+      <guid>http://localhost:1313/guides/building_trees_with_ska/</guid>
+      <description>SKA is a tool for comparing small and highly similar genomes using split k-mers. This guide will explain how to use SKA to build a phylogenetic tree for different Escherichia coli lineages in a few minutes. Although SKA is tailored more towards analysing variation within a lineage, tree-building ends up working fine for the whole species but requires more memory.&#xA;Why SKA is good for building phylogenetic trees The basic approach to building a tree with SKA is to generate a SNP alignment using split k-mers and then feed that to a tree building algorithm of choice.</description>
+    </item>
+    <item>
+      <title>Review: Wellcome Ideathon 2023</title>
+      <link>http://localhost:1313/blog/ideathon/</link>
+      <pubDate>Tue, 18 Jul 2023 13:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/blog/ideathon/</guid>
+      <description>The format Our Project (Student Team) Our Experience We attended the Wellcome Data Science Ideathon as semi-finalists in July 2023, which saw the Wellcome Trust invite around 100 researchers across 25 teams to compete to answer some of the biggest public health challenges we face today.&#xA;The format The Ideathon was similar to a Hackathon; groups were tasked with answering specific questions in one of three themes - Infectious Disease, Climate &amp;amp; Health, and Mental Health.</description>
+    </item>
+    <item>
+      <title>EMBL-UNESCO Residency in Infection Biology Research</title>
+      <link>http://localhost:1313/blog/unesco/</link>
+      <pubDate>Mon, 27 Feb 2023 17:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/blog/unesco/</guid>
+      <description>This application is now closed EMBL and UNESCO have recently announced a visitor programme as part of its infection biology scheme, in which we are participating (along with many other EMBL groups, see the link at the end for a full list).&#xA;Our group is participating in the scheme, and we&amp;rsquo;d be love to hear from interested candidates who would like to work with us. We have particular expertise in analysing genomic data from bacterial pathogens, developing and using new bioinformatic tools to do so, as well as developing mathematical models for pathogen transmission and evolution.</description>
+    </item>
+    <item>
+      <title>Mutation Spectra in Streptococcus pneumoniae</title>
+      <link>http://localhost:1313/blog/mutspect/</link>
+      <pubDate>Tue, 13 Dec 2022 17:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/blog/mutspect/</guid>
+      <description>An Introduction to Mutation Spectra Mutational Spectra in Pneumococcal Epidemiology Conclusion An Introduction to Mutation Spectra It is intutitive that an organism&amp;rsquo;s ecological, phenotypic, or epidemiological context exposes it to distinct mutagens, and might thus produce specific signatures and patterns of mutation &amp;ndash; that organism&amp;rsquo;s mutational spectrum.&#xA;This idea is well-established in oncology. Cancer epidemiolgy studies have shown that a handful of genes, most prominently the human p53 gene, show patterns of mutation specific to the corresponding cancer types.</description>
+    </item>
+    <item>
+      <title>Peer Review of the pre-print &#39;Endonuclease fingerprint indicates a synthetic origin of SARS-CoV-2&#39;</title>
+      <link>http://localhost:1313/blog/synthetic/</link>
+      <pubDate>Tue, 01 Nov 2022 13:22:12 +0000</pubDate>
+      <guid>http://localhost:1313/blog/synthetic/</guid>
+      <description>Introduction Constructing the null distribution Comparing observations to the null distributions How do new restriction site locations emerge naturally? Mutation analysis Conclusion This is a peer review of the pre-print “Endonuclease fingerprint indicates a synthetic origin of SARS-CoV2”, it is highly recommended that you go and read the pre-print in order to understand this review.&#xA;Introduction The broad thread of the argument in the pre-print is that a synthetically engineered COVID-19 virus would be created using a process where ‘restriction’ enzymes cut the vaccine genome into roughly equal fragments so that they can be cloned in a bacterial system before being reassembled.</description>
+    </item>
+    <item>
+      <title>A beginner&#39;s guide to fitting PopPUNK models</title>
+      <link>http://localhost:1313/guides/poppunk_models/</link>
+      <pubDate>Tue, 18 Oct 2022 12:12:42 +0100</pubDate>
+      <guid>http://localhost:1313/guides/poppunk_models/</guid>
+      <description>PopPUNK now has a lot of different models available, which can make it hard to know where to start, or to tell if you&amp;rsquo;ve done the right thing when fitting one to your data.&#xA;Some questions I&amp;rsquo;ll address:&#xA;Do you need to fit a new model? Should I subsample my data? Which model should I use? Are my clusters correct? My clusters don&amp;rsquo;t match MLST/CC tl;dr&#xA;Don&amp;rsquo;t fit a model if you don&amp;rsquo;t have to.</description>
+    </item>
+    <item>
+      <title>Visualising microbial population structure with mandrake</title>
+      <link>http://localhost:1313/blog/mandrake/</link>
+      <pubDate>Fri, 07 Oct 2022 17:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/blog/mandrake/</guid>
+      <description>Paper: https://doi.org/10.1098/rstb.2021.0237&#xA;(Joint work with Gerry Tonkin-Hill)&#xA;Dimensional reduction and embeddings Our work &amp;ndash; mandrake Running on genome datasets –- clusters at multiple resolutions Give it a go! Links What’s the bacronym? Dimensional reduction and embeddings Dimension reduction methods are a popular way to understand large amounts of genetic data: PCA, t-SNE and UMAP have all been used to analyse and visualise large numbers of samples in two-dimensions (with the latter being particularly popular with single cell techniques).</description>
+    </item>
+    <item>
+      <title>About us</title>
+      <link>http://localhost:1313/group/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/group/</guid>
+      <description>We are the Pathogen Informatics and Modelling group at EMBL-EBI (also known as the Lees Group). On this page you can find information about current and past group members, who we work with, and some nice pictures.&#xA;Lab members Social and photos Lab members Antoine Andréoletti is an intern from the Ecole Polytechnique in Paris.&#xA;Starting in biology, I turned towards bioinformatics 3 years ago to be able to use the amount of data made in this field.</description>
+    </item>
+    <item>
+      <title>Jobs</title>
+      <link>http://localhost:1313/jobs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/jobs/</guid>
+      <description>We do not currently have vacancies for masters projects or interns.&#xA;For PhDs, application is through the EMBL programme. We don&amp;rsquo;t currently expect to have a vacancy in the next round.&#xA;For postdocs or fellowships send John an informal enquiry &amp;ndash; we&amp;rsquo;d love to talk to you and discuss your interests. There are rolling fellowship opportunities that may be available depending on your career stage.&#xA;For visitors please also email John.</description>
+    </item>
+    <item>
+      <title>PopPUNK databases</title>
+      <link>http://localhost:1313/poppunk/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/poppunk/</guid>
+      <description>Databases come in two flavours: reference only, or all genomes. Some also come with external clusters (noted below) which give compatibility with existing schemes. For larger databases you may wish to download using ftp for enhanced reliability/restarts &amp;ndash; replace http:// with ftp:// in the links below and use your favourite client.&#xA;Typically, the reference only database will be sufficient for the main use case of assigning new samples to PopPUNK clusters, and updating the database with new clusters which have been found.</description>
+    </item>
+    <item>
+      <title>Publications</title>
+      <link>http://localhost:1313/publications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/</guid>
+      <description>A list of some of the papers directly from our group, with some short explanations.&#xA;2024 2023 2022 2024 Graph-based Nanopore Adaptive Sampling with GNASTy enables sensitive pneumococcal serotyping in complex samples Samuel Horsfield, Basil Fok, Yuhan Fu, Paul Turner, John Lees, Nicholas Croucher (2024). Graph-based Nanopore Adaptive Sampling with GNASTy enables sensitive pneumococcal serotyping in complex samples bioRxiv&#xA;https://www.biorxiv.org/content/10.1101/2024.02.11.579857v1.abstract&#xA;Nanopore adaptive sampling can reject DNA during sequencing by reversing the voltage on sequencing pores.</description>
+    </item>
+    <item>
+      <title>Research</title>
+      <link>http://localhost:1313/research/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/</guid>
+      <description>We want to understand how pathogens (particularly bacteria) evolve, becoming pathogenic and more transmissible. Understanding the mechanisms by which bacteria evolve and adapt to their environments is crucial to address many practical questions: from designing drugs and vaccines against pathogens, optimising commercial processes from wastewater treatment to industrial brewing. The enormous diversity, but relatively simple biology of bacteria also offers an ideal system to answer fundamental questions in evolutionary biology. Do evolutionary processes repeat themselves?</description>
+    </item>
+    <item>
+      <title>Resources</title>
+      <link>http://localhost:1313/resources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/</guid>
+      <description>We are committed to sharing the resources we generate freely. Most of these are publications and software, but other types are listed here.&#xA;Databases PopPUNK databases A list of pre-built databases for PopPUNK can be found at https://www.bacpop.org/poppunk/.&#xA;Training and teaching Intermediate programming course This course which is aimed at helping improve programming skills of bioinformatics/computational biology graduate students and postdocs. The notes are self-contained and are freely available: https://iprogramming.bacpop.org</description>
+    </item>
+    <item>
+      <title>Software</title>
+      <link>http://localhost:1313/software/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/software/</guid>
+      <description>Genomic epidemiology &amp;amp; bioinformatics Modelling Statistical genetics Visualisation Web tools Genomic epidemiology &amp;amp; bioinformatics ggcaller graph-gene Caller (ggCaller), combines gene annotation and pangenome clustering steps within population-wide de Bruijn Graphs. Using population-frequency information, ggCaller improves consistency of gene annotations, leading to more accurate clustering and significantly reduced run-times versus linear-genome based annotation and pangenome analysis. ggcaller is written by Sam Horsfield, and in collaboration with Nicholas Croucher.&#xA;Download (conda): https://anaconda.</description>
+    </item>
+  </channel>
+</rss>

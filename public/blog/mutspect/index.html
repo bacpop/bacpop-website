@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Mutation Spectra in Streptococcus pneumoniae | Pathogen Informatics and Modelling Group</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Patterns of mutation in biological systems ranging from cancer cells to disease-associated bacteria to SARS-CoV2 have been shown to reflect features of those systems, such as their ecological niches and in the case of cancers, their etiology. We set out trying to investigate if mutational spectra from pneumococci could similalrly be linked to the microbes&#39; epidemiological features.">
+    <meta name="generator" content="Hugo 0.124.1">
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+    
+    
+    
+      
+<link rel="shortcut icon" href="/images/favicon.svg" type="image/x-icon" />
+
+
+    
+
+    
+    
+    <meta property="og:title" content="Mutation Spectra in Streptococcus pneumoniae" />
+<meta property="og:description" content="Patterns of mutation in biological systems ranging from cancer cells to disease-associated bacteria to SARS-CoV2 have been shown to reflect features of those systems, such as their ecological niches and in the case of cancers, their etiology. We set out trying to investigate if mutational spectra from pneumococci could similalrly be linked to the microbes&#39; epidemiological features." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/blog/mutspect/" /><meta property="article:section" content="blog" />
+<meta property="article:published_time" content="2022-12-13T17:00:00+01:00" />
+<meta property="article:modified_time" content="2022-12-13T17:00:00+01:00" />
+<meta itemprop="name" content="Mutation Spectra in Streptococcus pneumoniae">
+<meta itemprop="description" content="Patterns of mutation in biological systems ranging from cancer cells to disease-associated bacteria to SARS-CoV2 have been shown to reflect features of those systems, such as their ecological niches and in the case of cancers, their etiology. We set out trying to investigate if mutational spectra from pneumococci could similalrly be linked to the microbes&#39; epidemiological features."><meta itemprop="datePublished" content="2022-12-13T17:00:00+01:00" />
+<meta itemprop="dateModified" content="2022-12-13T17:00:00+01:00" />
+<meta itemprop="wordCount" content="2015">
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Mutation Spectra in Streptococcus pneumoniae"/>
+<meta name="twitter:description" content="Patterns of mutation in biological systems ranging from cancer cells to disease-associated bacteria to SARS-CoV2 have been shown to reflect features of those systems, such as their ecological niches and in the case of cancers, their etiology. We set out trying to investigate if mutational spectra from pneumococci could similalrly be linked to the microbes&#39; epidemiological features."/>
+
+	
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.3/dist/katex.min.css" integrity="sha384-Juol1FqnotbkyZUT5Z7gUPjQ9gzlwCENvUZTpQBAPxtusdwFLRy382PSDx5UUJ4/" crossorigin="anonymous">
+
+    
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.3/dist/katex.min.js" integrity="sha384-97gW6UIJxnlKemYavrqDHSX3SiygeOwIZhwyOKRfSaf0JWKRVj9hLASHgFTzT+0O" crossorigin="anonymous"></script>
+
+    
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.3/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"
+        onload="renderMathInElement(document.body);"></script>
+
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                renderMathInElement(document.body, {
+                  
+                  
+                  delimiters: [
+                      {left: '$$', right: '$$', display: true},
+                      {left: '$', right: '$', display: false},
+                      {left: '\\(', right: '\\)', display: false},
+                      {left: '\\[', right: '\\]', display: true}
+                  ],
+                  
+                  throwOnError : false
+                });
+            });
+        </script>
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  
+  
+  <header class="cover bg-top" style="background-image: url('http://localhost:1313/images/header11.jpg');">
+    <div class="bg-black-60">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        <img src="/images/bacpop_logo_3.svg" class="w100 mw5-ns" alt="Pathogen Informatics and Modelling Group" />
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/group/" title="About us page">
+              About us
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/blog/" title="Blogs page">
+              Blogs
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/guides/" title="Guides page">
+              Guides
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/jobs/" title="Jobs page">
+              Jobs
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/poppunk/" title="PopPUNK databases page">
+              PopPUNK databases
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/publications/" title="Publications page">
+              Publications
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/research/" title="Research page">
+              Research
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/resources/" title="Resources page">
+              Resources
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/software/" title="Software page">
+              Software
+            </a>
+          </li>
+          
+        </ul>
+      
+      
+<div class="ananke-socials">
+  
+    <a href="https://github.com/bacpop" target="_blank" class="github ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="bacpop github link" rel="noopener" aria-label="follow on bacpop github——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+    <a href="https://youtube.com/@bacpop" target="_blank" class="youtube ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="Bacpop/ScientificProgramming YouTube channel link" rel="noopener" aria-label="follow on Bacpop/ScientificProgramming YouTube channel——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M42.527,41.34c-0.278,0-0.478,0.078-0.6,0.244  c-0.121,0.156-0.18,0.424-0.18,0.796v0.896h1.543V42.38c0-0.372-0.062-0.64-0.185-0.796C42.989,41.418,42.792,41.34,42.527,41.34z   M36.509,41.309c0.234,0,0.417,0.076,0.544,0.23c0.123,0.155,0.185,0.383,0.185,0.682v4.584c0,0.286-0.053,0.487-0.153,0.611  c-0.1,0.127-0.256,0.189-0.47,0.189c-0.148,0-0.287-0.033-0.421-0.096c-0.135-0.062-0.274-0.171-0.415-0.313v-5.531  c0.119-0.122,0.239-0.213,0.36-0.271C36.26,41.335,36.383,41.309,36.509,41.309z M41.748,44.658v1.672  c0,0.468,0.057,0.792,0.17,0.974c0.118,0.181,0.313,0.269,0.592,0.269c0.289,0,0.491-0.076,0.606-0.229  c0.114-0.153,0.175-0.489,0.175-1.013v-0.405h1.795v0.456c0,0.911-0.217,1.596-0.657,2.059c-0.435,0.459-1.089,0.687-1.958,0.687  c-0.781,0-1.398-0.242-1.847-0.731c-0.448-0.486-0.676-1.157-0.676-2.014v-3.986c0-0.768,0.249-1.398,0.742-1.882  c0.493-0.484,1.128-0.727,1.911-0.727c0.799,0,1.413,0.225,1.843,0.674c0.429,0.448,0.642,1.093,0.642,1.935v2.264H41.748z   M38.623,48.495c-0.271,0.336-0.669,0.501-1.187,0.501c-0.343,0-0.646-0.062-0.912-0.192c-0.267-0.129-0.519-0.327-0.746-0.601  v0.681h-1.764V36.852h1.764v3.875c0.237-0.27,0.485-0.478,0.748-0.616c0.267-0.143,0.534-0.212,0.805-0.212  c0.554,0,0.975,0.189,1.265,0.565c0.294,0.379,0.438,0.933,0.438,1.66v4.926C39.034,47.678,38.897,48.159,38.623,48.495z   M30.958,48.884v-0.976c-0.325,0.361-0.658,0.636-1.009,0.822c-0.349,0.191-0.686,0.282-1.014,0.282  c-0.405,0-0.705-0.129-0.913-0.396c-0.201-0.266-0.305-0.658-0.305-1.189v-7.422h1.744v6.809c0,0.211,0.037,0.362,0.107,0.457  c0.077,0.095,0.196,0.141,0.358,0.141c0.128,0,0.292-0.062,0.488-0.188c0.197-0.125,0.375-0.283,0.542-0.475v-6.744h1.744v8.878  H30.958z M24.916,38.6v10.284h-1.968V38.6h-2.034v-1.748h6.036V38.6H24.916z M32.994,32.978c0-0.001,12.08,0.018,13.514,1.45  c1.439,1.435,1.455,8.514,1.455,8.555c0,0-0.012,7.117-1.455,8.556C45.074,52.969,32.994,53,32.994,53s-12.079-0.031-13.516-1.462  c-1.438-1.435-1.441-8.502-1.441-8.556c0-0.041,0.004-7.12,1.441-8.555C20.916,32.996,32.994,32.977,32.994,32.978z M42.52,29.255  h-1.966v-1.08c-0.358,0.397-0.736,0.703-1.13,0.909c-0.392,0.208-0.771,0.312-1.14,0.312c-0.458,0-0.797-0.146-1.027-0.437  c-0.229-0.291-0.345-0.727-0.345-1.311v-8.172h1.962v7.497c0,0.231,0.045,0.399,0.127,0.502c0.08,0.104,0.216,0.156,0.399,0.156  c0.143,0,0.327-0.069,0.548-0.206c0.22-0.137,0.423-0.312,0.605-0.527v-7.422h1.966V29.255z M31.847,27.588  c0.139,0.147,0.339,0.219,0.6,0.219c0.266,0,0.476-0.075,0.634-0.223c0.157-0.152,0.235-0.358,0.235-0.618v-5.327  c0-0.214-0.08-0.387-0.241-0.519c-0.16-0.131-0.37-0.196-0.628-0.196c-0.241,0-0.435,0.065-0.586,0.196  c-0.148,0.132-0.225,0.305-0.225,0.519v5.327C31.636,27.233,31.708,27.439,31.847,27.588z M30.408,19.903  c0.528-0.449,1.241-0.674,2.132-0.674c0.812,0,1.48,0.237,2.001,0.711c0.517,0.473,0.777,1.083,0.777,1.828v5.051  c0,0.836-0.255,1.491-0.762,1.968c-0.513,0.476-1.212,0.714-2.106,0.714c-0.858,0-1.547-0.246-2.064-0.736  c-0.513-0.492-0.772-1.152-0.772-1.983v-5.068C29.613,20.954,29.877,20.351,30.408,19.903z M24.262,16h-2.229l2.634,8.003v5.252  h2.213v-5.5L29.454,16h-2.25l-1.366,5.298h-0.139L24.262,16z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4s30,13.431,30,30  S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;"/></svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+          <h1 class="f2 f1-l fw2 white-90 mb0 lh-title">Mutation Spectra in Streptococcus pneumoniae</h1>
+          
+            <h2 class="fw1 f5 f3-l white-80 measure-wide-l center lh-copy mt3 mb4">
+              Patterns of mutation in biological systems ranging from cancer cells to disease-associated bacteria to SARS-CoV2 have been shown to reflect features of those systems, such as their ecological niches and in the case of cancers, their etiology. We set out trying to investigate if mutational spectra from pneumococci could similalrly be linked to the microbes&#39; epidemiological features.
+            </h2>
+          
+        
+      </div>
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked">
+          
+        BLOGS
+      </aside>
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1">Mutation Spectra in Streptococcus pneumoniae</h1>
+      
+      <p class="tracked">
+        By <strong>Bruhad Dave</strong>
+      </p>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2022-12-13T17:00:00+01:00">December 13, 2022</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><div>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#an-introduction-to-mutation-spectra">An Introduction to Mutation Spectra</a></li>
+    <li><a href="#mutational-spectra-in-pneumococcal-epidemiology">Mutational Spectra in Pneumococcal Epidemiology</a></li>
+    <li><a href="#conclusion">Conclusion</a></li>
+  </ul>
+</nav>
+</div>
+
+<h2 id="an-introduction-to-mutation-spectra">An Introduction to Mutation Spectra</h2>
+<p>It is intutitive that an organism&rsquo;s ecological, phenotypic, or epidemiological context exposes it to distinct mutagens, and might thus produce specific signatures and patterns of mutation &ndash; that organism&rsquo;s mutational spectrum.</p>
+<p>This idea is well-established in oncology. Cancer epidemiolgy studies have shown that a handful of genes, most prominently the human p53 gene, show patterns of mutation specific to the corresponding cancer types. Further, certain mutagens are associated with certain mutation types or patterns. For example, in Pfeifer &amp; Besaratinia&rsquo;s 2009 review<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> on the subject, they summarised findings from various studies on mouse models containing human p53 genes (<em>Hupki</em> mouse models).</p>
+<figure><img src="/images/mutspect/fig1.png"
+    alt="Figure 1: Mutation spectra for the p53 in Hupki mouse embryonic fibroblasts when exposed to benzo(a)pyrene (A), aristolochic acid (B), 3-nitrobenzanthrone (C), and control conditions (D). Figure adapted from Pfeifer &amp;amp; Besaratinia, Human Genetics (2009)"><figcaption>
+      <p>Figure 1: Mutation spectra for the p53 in Hupki mouse embryonic fibroblasts when exposed to benzo(a)pyrene (A), aristolochic acid (B), 3-nitrobenzanthrone (C), and control conditions (D). Figure adapted from Pfeifer &amp; Besaratinia, Human Genetics (2009)</p>
+    </figcaption>
+</figure>
+
+<p>Mutational spectra in the (human) p53 gene in <em>Hupki</em> mouse embryonic fibroblasts were enriched in G&gt;T mutations when exposed to a tobacco-derived carcinogen (panel A above) and the overall pattern of mutation resembled that from lung-cancer patients who smoked. Similarly, exposure to a plant extract implicated in the etiology of urothelial cancers produced a elevated A&gt;T mutations (panel B above), a hallmark for those cancers (panel B above), and exposure to a particulate air pollutant produced a mutational pattern identical to that seen in other systems exposed to that pollutant (panel C above).</p>
+<h3 id="mutational-spectra-in-microbes">Mutational Spectra in Microbes</h3>
+<p>In a 2021 paper<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>, Christopher Ruis and colleagues observed that <em>Mycobacterium abscessus</em> isolated from the lungs of cystic fibrosis sufferers showed spectra of mutations that were distinct from environmental isolates (Fig 2 below). In a subsequent work<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>, Ruis et al., calculated mutational spectra for data from a range of microbial samples, and attempted to associate them with specific mutagenic contexts. They found that distinct patterns of variation were associated with specific DNA-repair defects and ecological niches. To resonctruct these mutational spectra, Ruis and colleagues wrote a tool called <a href="https://chrisruis.github.io/MutTui/#/">MutTui</a>, which they later used to show that mutation patterns in SARS-CoV2 were different between virus lineages that replicated in the upper and lower respiratory tracts<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup>.</p>
+<figure><img src="/images/mutspect/fig2.png"
+    alt="Figure 2: Mutational spectra for environmental M. abscessus samples (above) and patient-isolate samples (below, shown as difference from environmental spectrum)"><figcaption>
+      <p>Figure 2: Mutational spectra for environmental M. abscessus samples (above) and patient-isolate samples (below, shown as difference from environmental spectrum)</p>
+    </figcaption>
+</figure>
+
+<h2 id="mutational-spectra-in-pneumococcal-epidemiology">Mutational Spectra in Pneumococcal Epidemiology</h2>
+<p>Given the evidence for associations between the ecological niche a microbe occupies and the patterns of mutation it accumulates, we reasoned that mutational spectra might be likewise correlated to epidemiological factors in <em>Streptocuccus pneumoniae</em>. <em>S. pneumoniae</em> is a genetically diverse, pathogenic bacterium that can cause pneumonia and meningitis in individuals with weaker or weakened immune systems, such as children or the elderly, and immunodeficient or immunosuppressed individuals. One epidemiological feature of interest was carriage duration, the length of time that the bacterium resides in a given individual before it is transmitted to another. A 2017 study led by Lees et al.<sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup> estimated carriage duration for samples from the Maela dataset<sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup>, a densely sampled, longitudinal dataset derived from a camp for displaced persons in Thailand. That work showed that carriage duration is heritable, and its variability is attributable to the pathogen&rsquo;s genotype.</p>
+<p>We used carriage duration data estimated from this study, and combined it with information about sample lineage derived from the <a href="https://www.pneumogen.net/gps/">Global Pneumococcal Sequencing (GPS)</a> project. The GPS project uses <a href="https://github.com/bacpop/PopPUNK">PopPUNK</a>, which applies a kmer-based approach to calculate similarity between the input samples and assigns them to lineages, or clusters, which, in the GPS database, are referred to as GPS clusters (henceforth referred to as GPSCs).</p>
+<figure><img src="/images/mutspect/fig3.png"
+    alt="Figure 3: Our MutTui workflow"><figcaption>
+      <p>Figure 3: Our MutTui workflow</p>
+    </figcaption>
+</figure>
+
+<p>In our workflow, we first obtained precalculated GPSC assignments for each Maela sample, and then aggregated the Maela dataset by GPSC. We then used MutTui to reconstruct mutational spectra for all the GPSCs represented in the data, that contained more than 20 samples. As the 33 clusters we retained, represented an intersection of the Maela data and the larger GPS dataset, each of the clusters is represented as maela_gpsc (e.g. maela_1 = Maela samples assigned to GPSC-1).</p>
+<h3 id="muttui-an-overview">MutTui: An Overview</h3>
+<p>As noted above MutTui reconstructs mutational spectra for microbial samples. The tool does so using a phylogenetic tree of each subset of the data (in our case, a tree for each GPSC), a variant alignment of all the samples in that subset (we used <a href="https://github.com/nickjcroucher/gubbins">Gubbins</a> to produce both the phylogenetic tree and the variant alignment), a reference genome (we used <em>Streptococcus pneumoniae</em> ATCC 700669<sup id="fnref:7"><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup>), and a conversion file (this maps variants in the Gubbins VCF file back to their genomic position; this is achieved using a call to <code>MutTui convert-vcf</code>).</p>
+<p>The tool performs ancestral reconstruction on the phylogenetic tree using TreeTime, and then calculates a Single Base-Substitution (SBS) spectrum, and also a Double Base-Substitution (DBS) spectrum. Note that here, we only worked with SBS spectra. MutTui outputs include plots showing proportions of SBS and DBS, as well as csv files containing frequencies for each type of mutation. MutTui takes into account the context of each mutation, i.e. the nucleotides flanking each mutation site, in its outputs.</p>
+<figure><img src="/images/mutspect/fig4.png"
+    alt="Figure 4: MutTui plot showing skewed spectra (at left), and corrected spectra obtained after branch-rescaling (at right)"><figcaption>
+      <p>Figure 4: MutTui plot showing skewed spectra (at left), and corrected spectra obtained after branch-rescaling (at right)</p>
+    </figcaption>
+</figure>
+
+<p>Our initial trials with MutTui produced skewed SBS spectrum plots, but we discovered that rescaling the branches of the Gubbins phylogenetic tree (wherein branch lengths are in the units of substitutions <em>per genome</em>) by the length of the reference genome, so that the branches were represented in substitutions <em>per site</em>, fixed this issue. Chris confirmed that this step was necessary when working with Gubbins phylogenetic trees.</p>
+<h3 id="an-initial-trial">An Initial Trial</h3>
+<figure><img src="/images/mutspect/fig5.png"
+    alt="Figure 5: PCA plot produced by MutTui cluster"><figcaption>
+      <p>Figure 5: PCA plot produced by <code>MutTui cluster</code></p>
+    </figcaption>
+</figure>
+
+<p>While we were setting up our workflow, Chris was kind enough to send us mutational spectra that he had reconstructed for a subset of GPSCs. We used <code>MutTui cluster</code> to see how these GPSCs clustered. One thing we looked at was whether GPSC2, which contains a majority of the Sertotype 1 (which is implicated as the most pathogenic) samples in GPS, stood out from the rest, but this was not the case. The outlier GPSCs did contain samples from other pathogenic serotypes (namely 14 and 19A), but these serotypes are represented in multiple GPSCs, so this observation does not point to a strong correlation between mutation spectra and serotypes (as a proxy for pathogenicity).</p>
+<h3 id="mutational-spectra-and-carriage-duration">Mutational Spectra and Carriage Duration</h3>
+<figure><img src="/images/mutspect/fig6A.png"
+    alt="Figure 6A: UMAP projection of mutational spectra, points are coloured and sized by mean carriage duration"><figcaption>
+      <p>Figure 6A: UMAP projection of mutational spectra, points are coloured and sized by mean carriage duration</p>
+    </figcaption>
+</figure>
+
+<p>Having reconstructed spectra for the 33 Maela_GPSCs, we used UMAP (an algorithm for dimensionality reduction based on building neighbourhood graphs in the data) to create clustering visualizations of these spectra and found that the scatterplot showed 2 distinct groupings. Colouring each point on this plot by the average duration of carriage of the corresponding Maela_GPSC showed that the two groups were not separated based on carriage duration, nor did it appear to be a driver for this clustering, indicating that mutation spectra might not be correlated with duration of carriage.</p>
+<figure><img src="/images/mutspect/fig6B.png"
+    alt="Figure 6B: UMAP projections of mutational spectra of the 33 Maela_GPSC clusters, coloured by various metadata"><figcaption>
+      <p>Figure 6B: UMAP projections of mutational spectra of the 33 Maela_GPSC clusters, coloured by various metadata</p>
+    </figcaption>
+</figure>
+
+<p>We also coloured this UMAP projection with a range of metadata: we converted categorical and binary data into 1s and 0s, and plotted averages for a quick, overall view. For examples, for drug susceptibility, we assigned 1 to susceptible samples and 0 to both resistant ones and ones that had intermediate phenotypes; averaging over such data would yeild the fraction of susceptible samples in each cluster. However no clear patterns emerged for any of the metadata we tested. As noted earlier, MutTui produces mutation spectra that account for mutation context, i.e. the nucleotides on either side of the variant site. We removed this context, summing all mutations of the same type, and ran UMAP on this simpler dataset, obtaining similar results.</p>
+<p>Next, we performed a risk calculation for each substitution type, calculating a True/False value for:</p>
+<p>$\frac{\mathrm{Proportion \ of \ a \ substitution \ in \ mutations \ in \ each \ cluster}}{\mathrm{Proportion \ of \ that \ substitution \ in \ all \ mutations \ in \ the \ data}} &gt; 1$</p>
+<p>for each substitution type. Here again, we found that the 33 Maela_GPSC clusters separated into two groups. However, we note that the two groups obtained in the UMAP projection of mutation spectra are not the same as the two obtained using this risk analysis. The grouping we observed with the risk analysis also did not seem to be correlated to mean carriage duration.</p>
+<figure><img src="/images/mutspect/fig7.png"
+    alt="Figure 7: Risk analysis for substitutions with (above) and without (below) context (Purple=True, Yellow=False)"><figcaption>
+      <p>Figure 7: Risk analysis for substitutions with (above) and without (below) context (Purple=True, Yellow=False)</p>
+    </figcaption>
+</figure>
+
+<p>We then calculated the mean spectrum for the two groups we observed in the UMAP, and compared them by subtracting the mean spectrum of group 2 (on the right of the plot, n=10) from group 1 (on the left, n=23). We observed that group2 had a higher proportion of T&gt;C mutations across all contexts.</p>
+<figure><img src="/images/mutspect/fig8.png"
+    alt="Figure 8: The difference between mean mutational spectra for groups 1 and 2 in the UMAP projection of mutational spectra (see Fig. 6A)"><figcaption>
+      <p>Figure 8: The difference between mean mutational spectra for groups 1 and 2 in the UMAP projection of mutational spectra (see Fig. 6A)</p>
+    </figcaption>
+</figure>
+
+<h2 id="conclusion">Conclusion</h2>
+<p>In the brief, exploratory analysis we performed, we did not uncover any particularly striking correlations between the pattern of mutations for a group of related samples, and epidemiological information such as antimicrobial susceptibility or whether, for example, the samples in that group were collected mostly from infants.</p>
+<p>However, more fine-grained investigation into associations between pneumococcal mutational spectra and phenotypes or ecology is certainly merited. One obvious extension would be to incorporate more types of metadata where it is available. As is often the case with open-ended analyses, there is a fair chance that potential associations turn up. The clear obstacle to this is that many interesting types of metadata might not be available for some or most of the input data, or indeed, not available at all.</p>
+<p>Another potential way forward might be to decompose clusterwise mutation spectra into per-sample mutation spectra. This would be a useful way to increase the resolution of the analysis, and it could prove a good way to handle the fact that metadata is often collected on a per-sample basis, and can be binary or categorical rather than continuous. One part of this approach might be to start from raw sequencing reads (or better yet, variants called from reads) instead of assemblies, as this is likely to help create more complete sample-wise mutation spectra. In a similar vein, applying this sort of analysis on a larger dataset might also create robust spectra. We restricted our analysis to Maela data such that it contained only GPSC clusters represented by &gt;20 Maela samples: it might be useful to increase the cutoff to 50, for example.</p>
+<p>Finally, while UMAP and other clustering algorithms are extremely useful to quickly get an idea about data like mutational spectra, it might be useful to apply other statistical approaches, including perhaps those from machine-learning, to deconvolute relationships between a sample&rsquo;s (or cluster&rsquo;s) mutational spectrum and associated biological or ecological information. This might ultimately lead to potential predictive models whereby one might be able to estimate phenotypes, ecological niches, or active mutagenic forces more broadly, using patterns of mutation, something that would be quite useful in outbreak surveillance and the genomic epidemiology of emerging or nosocomial pathogens.</p>
+<hr>
+<blockquote>
+<p>Thanks to Sophie Belman (<a href="https://bentleygroup.sanger.ac.uk/">Bentley Lab</a> at the Sanger Institute) for initiating this project, Chris Ruis for his help and discussions regarding MutTui, and John Lees for guiding the project!</p>
+</blockquote>
+<hr>
+<h3 id="references-and-links">References and Links</h3>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p><a href="https://doi.org/10.1007%2Fs00439-009-0657-2">Pfeifer, G. P. &amp; Besaratinia, A. Mutational spectra of human cancer. Hum Genet 125, 493–506 (2009).</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p><a href="https://doi.org/10.1038/s41564-021-00963-3">Ruis, C. et al. Dissemination of Mycobacterium abscessus via global transmission networks. Nature Microbiology 6, 1279–1288 (2021).</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p><a href="https://doi.org/10.1101/2022.07.13.499881">Ruis, C. et al. Mutational spectra analysis reveals bacterial niche and transmission routes. bioRxiv 2022.07.13.499881 (2022) doi:10.1101/2022.07.13.499881.</a>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p><a href="https://doi.org/10.1101/2022.09.27.509649">Ruis, C. et al. Mutational spectra distinguish SARS-CoV-2 replication niches. bioRxiv 2022.09.27.509649 (2022) doi:10.1101/2022.09.27.509649.</a>&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:5">
+<p><a href="https://doi.org/10.7554/elife.26255">Lees, J. A. et al. Genome-wide identification of lineage and locus specific variation associated with pneumococcal carriage duration. eLife 6, e26255 (2017).</a>&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:6">
+<p><a href="https://doi.org/10.1038%2Fng.2895">Chewapreecha, C. et al. Dense genomic sampling identifies highways of pneumococcal recombination. Nat Genet 46, 305–309 (2014).</a> .&#160;<a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:7">
+<p><em>Streptococcus pneumoniae</em> ATCC700669 EMBL Accession: <a href="https://www.ncbi.nlm.nih.gov/nuccore/FM211187">FM211187</a>&#160;<a href="#fnref:7" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:1313/" >
+    &copy;  Pathogen Informatics and Modelling Group 2024 
+  </a>
+    <div>
+<div class="ananke-socials">
+  
+    <a href="https://github.com/bacpop" target="_blank" class="github ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="bacpop github link" rel="noopener" aria-label="follow on bacpop github——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+    <a href="https://youtube.com/@bacpop" target="_blank" class="youtube ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="Bacpop/ScientificProgramming YouTube channel link" rel="noopener" aria-label="follow on Bacpop/ScientificProgramming YouTube channel——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M42.527,41.34c-0.278,0-0.478,0.078-0.6,0.244  c-0.121,0.156-0.18,0.424-0.18,0.796v0.896h1.543V42.38c0-0.372-0.062-0.64-0.185-0.796C42.989,41.418,42.792,41.34,42.527,41.34z   M36.509,41.309c0.234,0,0.417,0.076,0.544,0.23c0.123,0.155,0.185,0.383,0.185,0.682v4.584c0,0.286-0.053,0.487-0.153,0.611  c-0.1,0.127-0.256,0.189-0.47,0.189c-0.148,0-0.287-0.033-0.421-0.096c-0.135-0.062-0.274-0.171-0.415-0.313v-5.531  c0.119-0.122,0.239-0.213,0.36-0.271C36.26,41.335,36.383,41.309,36.509,41.309z M41.748,44.658v1.672  c0,0.468,0.057,0.792,0.17,0.974c0.118,0.181,0.313,0.269,0.592,0.269c0.289,0,0.491-0.076,0.606-0.229  c0.114-0.153,0.175-0.489,0.175-1.013v-0.405h1.795v0.456c0,0.911-0.217,1.596-0.657,2.059c-0.435,0.459-1.089,0.687-1.958,0.687  c-0.781,0-1.398-0.242-1.847-0.731c-0.448-0.486-0.676-1.157-0.676-2.014v-3.986c0-0.768,0.249-1.398,0.742-1.882  c0.493-0.484,1.128-0.727,1.911-0.727c0.799,0,1.413,0.225,1.843,0.674c0.429,0.448,0.642,1.093,0.642,1.935v2.264H41.748z   M38.623,48.495c-0.271,0.336-0.669,0.501-1.187,0.501c-0.343,0-0.646-0.062-0.912-0.192c-0.267-0.129-0.519-0.327-0.746-0.601  v0.681h-1.764V36.852h1.764v3.875c0.237-0.27,0.485-0.478,0.748-0.616c0.267-0.143,0.534-0.212,0.805-0.212  c0.554,0,0.975,0.189,1.265,0.565c0.294,0.379,0.438,0.933,0.438,1.66v4.926C39.034,47.678,38.897,48.159,38.623,48.495z   M30.958,48.884v-0.976c-0.325,0.361-0.658,0.636-1.009,0.822c-0.349,0.191-0.686,0.282-1.014,0.282  c-0.405,0-0.705-0.129-0.913-0.396c-0.201-0.266-0.305-0.658-0.305-1.189v-7.422h1.744v6.809c0,0.211,0.037,0.362,0.107,0.457  c0.077,0.095,0.196,0.141,0.358,0.141c0.128,0,0.292-0.062,0.488-0.188c0.197-0.125,0.375-0.283,0.542-0.475v-6.744h1.744v8.878  H30.958z M24.916,38.6v10.284h-1.968V38.6h-2.034v-1.748h6.036V38.6H24.916z M32.994,32.978c0-0.001,12.08,0.018,13.514,1.45  c1.439,1.435,1.455,8.514,1.455,8.555c0,0-0.012,7.117-1.455,8.556C45.074,52.969,32.994,53,32.994,53s-12.079-0.031-13.516-1.462  c-1.438-1.435-1.441-8.502-1.441-8.556c0-0.041,0.004-7.12,1.441-8.555C20.916,32.996,32.994,32.977,32.994,32.978z M42.52,29.255  h-1.966v-1.08c-0.358,0.397-0.736,0.703-1.13,0.909c-0.392,0.208-0.771,0.312-1.14,0.312c-0.458,0-0.797-0.146-1.027-0.437  c-0.229-0.291-0.345-0.727-0.345-1.311v-8.172h1.962v7.497c0,0.231,0.045,0.399,0.127,0.502c0.08,0.104,0.216,0.156,0.399,0.156  c0.143,0,0.327-0.069,0.548-0.206c0.22-0.137,0.423-0.312,0.605-0.527v-7.422h1.966V29.255z M31.847,27.588  c0.139,0.147,0.339,0.219,0.6,0.219c0.266,0,0.476-0.075,0.634-0.223c0.157-0.152,0.235-0.358,0.235-0.618v-5.327  c0-0.214-0.08-0.387-0.241-0.519c-0.16-0.131-0.37-0.196-0.628-0.196c-0.241,0-0.435,0.065-0.586,0.196  c-0.148,0.132-0.225,0.305-0.225,0.519v5.327C31.636,27.233,31.708,27.439,31.847,27.588z M30.408,19.903  c0.528-0.449,1.241-0.674,2.132-0.674c0.812,0,1.48,0.237,2.001,0.711c0.517,0.473,0.777,1.083,0.777,1.828v5.051  c0,0.836-0.255,1.491-0.762,1.968c-0.513,0.476-1.212,0.714-2.106,0.714c-0.858,0-1.547-0.246-2.064-0.736  c-0.513-0.492-0.772-1.152-0.772-1.983v-5.068C29.613,20.954,29.877,20.351,30.408,19.903z M24.262,16h-2.229l2.634,8.003v5.252  h2.213v-5.5L29.454,16h-2.25l-1.366,5.298h-0.139L24.262,16z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4s30,13.431,30,30  S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;"/></svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+</div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>
