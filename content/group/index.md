@@ -214,9 +214,25 @@ _vrbouza at ebi dot ac dot uk_
 
 ## Social and photos
 
+### 2024
+
+#### Microbiology society conference
+
+{{< figure src="/images/group/2024_microsoc_gnasty.JPG" caption="Sam presenting his work on GNASTy" >}}
+
+{{< figure src="/images/group/2024_microsoc_dance.jpg" caption="Sam after presenting his work on GNASTy">}}
+
+#### Group away day, Cambridge. April 2024
+
+{{< figure src="/images/group/2024_retreat_1.jpeg" >}}
+
+{{< figure src="/images/group/2024_retreat_2.jpeg" caption="Lane 1 (high achievers)" >}}
+
+{{< figure src="/images/group/2024_retreat_3.jpeg" caption="Lane 2 (remedial bowling class)">}}
+
 ### 2023
 
-### Xmas dinner 2023
+#### Xmas dinner 2023
 
 {{< figure src="/images/group/2023_xmas_1.jpg" >}}
 

@@ -10,7 +10,7 @@ menu:
 
 {{< toc >}}
 
-##  Genomic epidemiology & bioinformatics
+##  Bioinformatics
 
 ### {{< logo "images/ggcaller_logo.png" 200 120 >}} ggcaller
 
@@ -34,6 +34,25 @@ This enables downstream analysis such as phylogenetics or sequence completeness.
 * Documentation: https://docs.rs/ska/latest
 * Code: https://github.com/bacpop/ska.rust
 
+### {{< logo "images/sketchlib_logo.png" >}} pp-sketchlib
+
+Library of sketching functions used to rapidly calculate core and accessory distances between bacterial genomes. Designed as a faster drop-in back-end for PopPUNK, you can also use to replace mash (100x speedup, further 50x with GPUs).
+
+* Download (conda): https://anaconda.org/bioconda/pp-sketchlib
+* Code: https://github.com/bacpop/pp-sketchlib
+
+### {{< logo "images/celebrimbor_logo.png" >}} CELEBRIMBOR
+
+Create pangenomes from metagenome assembled genomes (MAGs), using completeness information
+to adjust observed frequencies.
+
+* Download (pipeline): https://hub.docker.com/r/samhorsfield96/celebrimbor
+* Download (model): https://crates.io/crates/cgt_bacpop
+* Code (pipeline): https://github.com/bacpop/CELEBRIMBOR
+* Code (model): https://github.com/bacpop/cgt
+
+## Genomic epidemiology
+
 ### {{< logo "images/poppunk_logo.png" >}} PopPUNK
 
 List of databases is on the [PopPUNK page]({{< ref "/poppunk" >}}).
@@ -46,13 +65,6 @@ Tools for bacterial genomic epidemiology. Quickly find core and accessory distan
 * Paper: https://doi.org/10.1101/gr.241455.118
 * Documentation: https://poppunk.readthedocs.io
 * Code: https://github.com/bacpop/poppunk
-
-### {{< logo "images/sketchlib_logo.png" >}} pp-sketchlib
-
-Library of sketching functions used to rapidly calculate core and accessory distances between bacterial genomes. Designed as a faster drop-in back-end for PopPUNK, you can also use to replace mash (100x speedup, further 50x with GPUs).
-
-* Download (conda): https://anaconda.org/bioconda/pp-sketchlib
-* Code: https://github.com/bacpop/pp-sketchlib
 
 ### PopPIPE
 
@@ -103,7 +115,7 @@ Packages to count and determine presence of non-redundant sequence elements. Use
 * unitig-caller (github): https://github.com/bacpop/unitig-caller
 * unitig-caller (conda): https://anaconda.org/bioconda/unitig-caller
 
-(*no longer supported*)
+(*older unitig-counter is still available but no longer supported*):
 * unitig-counter (github): https://github.com/bacpop/unitig-counter
 * unitig-counter (conda): https://anaconda.org/bioconda/unitig-counter
 
