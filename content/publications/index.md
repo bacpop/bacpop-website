@@ -14,9 +14,44 @@ A list of some of the papers directly from our group, with some short explanatio
 
 ## 2024
 
+### CELEBRIMBOR: Pangenomes from metagenomes
+
+Joel Hellewell, Samuel T Horsfield, Johanna von Wachsmann, Tatiana Gurbich, Robert D Finn, Zamin Iqbal, Leah W Roberts, John A Lees (2024).
+**CELEBRIMBOR: Pangenomes from metagenomes**
+*bioRxiv*
+
+https://www.biorxiv.org/content/10.1101/2024.04.05.588231.abstract
+
+CELEBRIMBOR makes pangenome (specifically frequency estimates) from metagenome data.
+
+MAGs (metagenome assembled genomes) have missing fragments, which can be quantified using single copy marker genes e.g. checkM. This systematically underestimates gene frequency. [Previous papers](https://academic.oup.com/bib/article/23/6/bbac413/6702672) had suggested using a lower core threshold to fix this.
+
+Here, we instead made a probabilistic model to use these to readjust gene frequencies to make them more accurate, allowing parameterised choices of how to do so, in the package [core gene threshold](https://github.com/bacpop/cgt). We then wrapped it all up in a nice snakemake pipeline [CELEBRIMBOR](https://github.com/bacpop/CELEBRIMBOR) (Core ELEment Bias Removal In Metagenome Binned ORthologs) which lets you go from MAGs to pangenome.
+
+{{< figure src="/images/publications/celebrimbor_fig1.png" >}}
+
+### Seamless, rapid and accurate analyses of outbreak genomic data using Split K-mer Analysis (SKA)
+
+Romain Derelle, Johanna von Wachsmann, Tommi M&auml;klin, Joel Hellewell, Timothy Russell, Ajit Lalvani, Leonid Chindelevitch, Nicholas J. Croucher, Simon R. Harris, John A. Lees (2024).
+**Seamless, rapid and accurate analyses of outbreak genomic data using Split K-mer Analysis (SKA)**
+*bioRxiv*
+
+https://www.biorxiv.org/content/10.1101/2024.03.25.586631.abstract
+
+This is the successor to SKA1, which uses split k-mers XXXX[-]XXXX to rapidly variant call microbial genomes, either reference-free or reference-based. [SKA2 can be downloaded here](https://github.com/bacpop/ska.rust).
+
+We think that SKA is:
+- The fastest, most accurate variant caller for microbial genomes.
+- Has new ideas for nucleotide analysis in pangenomes, while avoiding reference bias.
+- Accompanied by high quality software, will be useful for researchers from many different backgrounds.
+
+If you've already been using it have a look at the figures to see benchmarking for when it is useful compared to other tools -- very useful in outbreaks, still useful within strains (poppunk clusters, STs, CCs etc), drops off at the whole species level for most things. The code's been available for a year already which has been a good opportunity for us to fix user reported bugs and add missing features!
+
+{{< figure src="/images/publications/ska_overview_figure.png" >}}
+
 ### Graph-based Nanopore Adaptive Sampling with GNASTy enables sensitive pneumococcal serotyping in complex samples
 
-Samuel Horsfield, Basil Fok, Yuhan Fu, Paul Turner, John Lees, Nicholas Croucher (2024).
+Samuel T. Horsfield, Basil Fok, Yuhan Fu, Paul Turner, John A. Lees, Nicholas J. Croucher (2024).
 **Graph-based Nanopore Adaptive Sampling with GNASTy enables sensitive pneumococcal serotyping in complex samples**
 *bioRxiv*
 
@@ -38,15 +73,13 @@ GNASTy (Graph-based Nanopore Adaptive Sampling Typing, pronounced 'nasty').
 We also showed that adaptive sampling is much less effective at enriching for closely
 related samples, which has implications for its rollout in other applications of metagenomic sequencing.
 
-## 2023
-
 ### Optimising machine learning prediction of minimum inhibitory concentrations in *Klebsiella pneumoniae*
 
-Gherard Batisti Biffignandi, Leonid Chindelevitch, Marta Corbella, Edward Feil, Davide Sassera and John Lees (2023).
+Gherard Batisti Biffignandi, Leonid Chindelevitch, Marta Corbella, Edward J. Feil, Davide Sassera and John A. Lees (2023).
 **Optimising machine learning prediction of minimum inhibitory concentrations in *Klebsiella pneumoniae***
-*bioRxiv*
+*Microbial Genomics* 10(3): 001222
 
-https://www.biorxiv.org/content/10.1101/2023.11.20.567835v1
+https://www.microbiologyresearch.org/content/journal/mgen/10.1099/mgen.0.001222
 
 Minimum inhibitory concentrations (MICs) are measured when collecting data
 on resistance to antibiotics. These are a semi-quantitative measurement (ordinal)
@@ -64,6 +97,8 @@ of MIC data.
 
 Using simulations and a real dataset of *Klebsiella pneumoniae* we are able to provide
 guidance for fitting these models, and collecting and reporting MIC data.
+
+## 2023
 
 ### Accurate and fast graph-based pangenome annotation and clustering with ggCaller
 

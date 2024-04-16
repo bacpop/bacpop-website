@@ -198,7 +198,7 @@ _vrbouza at ebi dot ac dot uk_
 
 ### Alumni
 
-**Gherard Batisti Biffignandi** (2022) was a visiting PhD student (based at the University of Pavia). Now at the University of Cambridge (Bakery lab).
+**Gherard Batisti Biffignandi** (2022) was a visiting PhD student (based at the University of Pavia). Now at the University of Cambridge ([Kate Baker's lab](https://baker-lab.github.io/)).
 
 **Bruhad Dave** (2022) was an intern, now at the Wellcome Sanger Institute.
 
@@ -214,9 +214,25 @@ _vrbouza at ebi dot ac dot uk_
 
 ## Social and photos
 
+### 2024
+
+#### Microbiology society conference
+
+{{< figure src="/images/group/2024_microsoc_gnasty.JPG" caption="Sam presenting his work on GNASTy" >}}
+
+{{< figure src="/images/group/2024_microsoc_dance.jpg" caption="Sam after presenting his work on GNASTy">}}
+
+#### Group away day, Cambridge. April 2024
+
+{{< figure src="/images/group/2024_retreat_1.jpeg" >}}
+
+{{< figure src="/images/group/2024_retreat_2.jpeg" caption="Lane 1 (high achievers)" >}}
+
+{{< figure src="/images/group/2024_retreat_3.jpeg" caption="Lane 2 (remedial bowling class)">}}
+
 ### 2023
 
-### Xmas dinner 2023
+#### Xmas dinner 2023
 
 {{< figure src="/images/group/2023_xmas_1.jpg" >}}
 
