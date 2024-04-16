@@ -16,7 +16,7 @@ A list of some of the papers directly from our group, with some short explanatio
 
 ### CELEBRIMBOR: Pangenomes from metagenomes
 
-Joel Hellewell, Samuel T Horsfield, Johanna von Wachsmann, Tatiana Gurbich, Robert D Finn, Zamin Iqbal, Leah W Roberts, John Lees (2024).
+Joel Hellewell, Samuel T Horsfield, Johanna von Wachsmann, Tatiana Gurbich, Robert D Finn, Zamin Iqbal, Leah W Roberts, John A Lees (2024).
 **CELEBRIMBOR: Pangenomes from metagenomes**
 *bioRxiv*
 
@@ -32,7 +32,7 @@ Here, we instead made a probabilistic model to use these to readjust gene freque
 
 ### Seamless, rapid and accurate analyses of outbreak genomic data using Split K-mer Analysis (SKA)
 
-Romain Derelle, Johanna von Wachsmann, Tommi Maeklin, Joel Hellewell, Timothy Russell, Ajit Lalvani, Leonid Chindelevitch, Nicholas J Croucher, Simon R Harris, John A Lees (2024).
+Romain Derelle, Johanna von Wachsmann, Tommi M&auml;klin, Joel Hellewell, Timothy Russell, Ajit Lalvani, Leonid Chindelevitch, Nicholas J. Croucher, Simon R. Harris, John A. Lees (2024).
 **Seamless, rapid and accurate analyses of outbreak genomic data using Split K-mer Analysis (SKA)**
 *bioRxiv*
 
@@ -51,7 +51,7 @@ If you've already been using it have a look at the figures to see benchmarking f
 
 ### Graph-based Nanopore Adaptive Sampling with GNASTy enables sensitive pneumococcal serotyping in complex samples
 
-Samuel Horsfield, Basil Fok, Yuhan Fu, Paul Turner, John Lees, Nicholas Croucher (2024).
+Samuel T. Horsfield, Basil Fok, Yuhan Fu, Paul Turner, John A. Lees, Nicholas J. Croucher (2024).
 **Graph-based Nanopore Adaptive Sampling with GNASTy enables sensitive pneumococcal serotyping in complex samples**
 *bioRxiv*
 
@@ -75,7 +75,7 @@ related samples, which has implications for its rollout in other applications of
 
 ### Optimising machine learning prediction of minimum inhibitory concentrations in *Klebsiella pneumoniae*
 
-Gherard Batisti Biffignandi, Leonid Chindelevitch, Marta Corbella, Edward Feil, Davide Sassera and John Lees (2023).
+Gherard Batisti Biffignandi, Leonid Chindelevitch, Marta Corbella, Edward J. Feil, Davide Sassera and John A. Lees (2023).
 **Optimising machine learning prediction of minimum inhibitory concentrations in *Klebsiella pneumoniae***
 *Microbial Genomics* 10(3): 001222
 

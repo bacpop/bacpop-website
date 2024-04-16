@@ -198,7 +198,7 @@ _vrbouza at ebi dot ac dot uk_
 
 ### Alumni
 
-**Gherard Batisti Biffignandi** (2022) was a visiting PhD student (based at the University of Pavia). Now at the University of Cambridge (Bakery lab).
+**Gherard Batisti Biffignandi** (2022) was a visiting PhD student (based at the University of Pavia). Now at the University of Cambridge ([Kate Baker's lab](https://baker-lab.github.io/)).
 
 **Bruhad Dave** (2022) was an intern, now at the Wellcome Sanger Institute.
 
