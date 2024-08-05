@@ -10,7 +10,7 @@ menu:
 
 We do not currently have vacancies for **masters projects** or **interns**.
 
-For **PhDs**, application is through the [EMBL programme](https://www.embl.org/about/info/embl-international-phd-programme/overview/). We don't currently expect to have a vacancy in the next round.
+For **PhDs**, application is through the [EMBL programme](https://www.embl.org/about/info/embl-international-phd-programme/overview/). We are likely to have a vacancy in the 2025 round.
 
 For **postdocs** or **fellowships** send John an informal enquiry -- we'd love to talk to you and discuss your interests. There
 are rolling fellowship opportunities that may be available depending on your career stage.
