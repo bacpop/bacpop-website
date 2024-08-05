@@ -2,7 +2,7 @@
 title: "Internship in the PIM group"
 description: "Summary of the internship of two french students in Lee's group"
 date: 2024-08-01
-featured_image: ''
+featured_image: '/images/internship_french_students/30th_anniversary.jpg'
 draft: false
 type: "post"
 author: "Antoine Andréoletti & Lale Maouloud"
@@ -15,8 +15,6 @@ author: "Antoine Andréoletti & Lale Maouloud"
 The intersection of biology and computer science has given rise to the rapidly evolving field of bioinformatics. For aspiring scientists in this field, the opportunity to work alongside leading experts at a research institute is a unique experience.  Each year, the French Embassy Internship Program makes this dream a reality for a small group of French students, opening the doors to EMBL-EBI.
 
 In 2024, we, Antoine and Lale, were among eight French students fortunate enough to be chosen for this prestigious internship program. Coming from diverse academic backgrounds and regions of France, we found ourselves embarking on a four-month journey to gain more experience in professional bioinformatics. Spread across both research and service teams at EBI, we had the unique opportunity to tailor our internship experiences to our individual interests. While each of us had a distinct path, we were united by a shared curiosity and a thirst for knowledge.
-
-![](/images/internship_french_students/30th_anniversary.jpg)
 
 Both of us decided to work under the mentorship of John Lees in the Pathogen Informatics and Microbiome (PIM) group. The PIM group's focus on understanding the complex world of pathogens resonated with our own interests. We were drawn to the group's innovative approach, which combines cutting-edge computational methods with a deep understanding of biological processes. This unique environment fostered collaboration and encouraged us to think critically and creatively about the challenges facing modern bioinformatics.
 
