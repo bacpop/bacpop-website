@@ -16,7 +16,7 @@ The intersection of biology and computer science has given rise to the rapidly e
 
 In 2024, we, Antoine and Lale, were among eight French students fortunate enough to be chosen for this prestigious internship program. Coming from diverse academic backgrounds and regions of France, we found ourselves embarking on a four-month journey to gain more experience in professional bioinformatics. Spread across both research and service teams at EBI, we had the unique opportunity to tailor our internship experiences to our individual interests. While each of us had a distinct path, we were united by a shared curiosity and a thirst for knowledge.
 
-![](images/internship_french_students/30th_anniversary.jpg)
+![](/images/internship_french_students/30th_anniversary.jpg)
 
 Both of us decided to work under the mentorship of John Lees in the Pathogen Informatics and Microbiome (PIM) group. The PIM group's focus on understanding the complex world of pathogens resonated with our own interests. We were drawn to the group's innovative approach, which combines cutting-edge computational methods with a deep understanding of biological processes. This unique environment fostered collaboration and encouraged us to think critically and creatively about the challenges facing modern bioinformatics.
 
@@ -26,7 +26,7 @@ In the following sections, we will share our personal journeys through the Frenc
 
 ## Antoine's experience at EBI
 
-![](images/internship_french_students/Antoine.jpg)
+![](/images/internship_french_students/Antoine.jpg)
 
 My internship began with a group bonding activity where I had the opportunity to hear about everyone's projects, enjoy traditional English food, play bowling, and get to know my colleagues for the next four months. While starting an internship with a social event might seem unusual, it proved to be an excellent way to connect with the team and understand their work.
 
@@ -39,7 +39,7 @@ My experience at EBI provided valuable insights into my interests and career pat
 
 ## Lale's experience at EBI
 
-![](images/internship_french_students/Lale.jpg)
+![](/images/internship_french_students/Lale.jpg)
 
 My name is Lale (Layla), and I'm a 21-year-old Bioinformatics master's student at the University of Rouen Normandy. I have a deep curiosity for the unseen world of biology, and I've been developing my expertise in the dynamic field of computational biology. When I first heard about the opportunity to intern with the BacPop group at EMBL-EBI, I knew it was the perfect chance to apply everything I had learned in a real-world setting, working alongside some of the brightest minds in the field. What I didn’t realise at the time was just how transformative this experience would be. 
 
