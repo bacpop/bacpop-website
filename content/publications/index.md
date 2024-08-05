@@ -14,6 +14,23 @@ A list of some of the papers directly from our group, with some short explanatio
 
 ## 2024
 
+### Recent approaches in computational modelling for controlling pathogen threats
+
+John A Lees, Timothy W Russell, Liam P Shaw, Joel Hellewell (2024).
+**Recent approaches in computational modelling for controlling pathogen threats**
+*Life Science Alliance* 7(9) e202402666
+
+https://doi.org/10.26508/lsa.202402666
+
+In this review paper we consider three topics in infectious disease where mathematical modelling
+is being used to understand biology and make predictions:
+- Antimicrobial resistance incidence and prescribing strategies.
+- Design of multi-valent vaccines responding to changes in population dynamics.
+- Antibody dynamic time-series in multi-valent pathogens.
+
+We also reflect on our experiences modelling during the COVID-19 pandemic, and
+how these fields may benefit or learn from this challenging time.
+
 ### CELEBRIMBOR: Pangenomes from metagenomes
 
 Joel Hellewell, Samuel T Horsfield, Johanna von Wachsmann, Tatiana Gurbich, Robert D Finn, Zamin Iqbal, Leah W Roberts, John A Lees (2024).

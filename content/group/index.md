@@ -16,20 +16,6 @@ current and past group members, who we work with, and some nice pictures.
 
 ## Lab members
 
-**Antoine Andréoletti** is an intern from the Ecole Polytechnique in Paris.
-
-{{< figure src="/images/group/antoine_andreoletti.jpeg" >}}
-
-Starting in biology, I turned towards bioinformatics 3 years ago to be able to use the amount of data made in this field. I now finished my masters in bioinformatics at Ecole Polytechnique in France and will go to Denmark next year to finish my studies.
-
-Before my internship, I worked on several projects in genetics and neuroscience. In those projects, I analyzed large amounts of data to answer biological questions such as: How do bacteria respond to stressful environments? How does the human brain reinforce memory?
-
-In my time here, I want to help tackle the issue of human health and to fill my curisoty for genetics, epidemiology, etc. 
-
-*Languages*: Python, R, C++
-
-_antoine at ebi dot ac dot uk_
-
 **Hsueh-Chien (Raymond) Cheng** is a visiting PhD student (based at the Wellcome Sanger Institute)
 
 {{< figure src="/images/group/raymond_cheng.jpg" >}}
@@ -133,6 +119,24 @@ Embarking on my internship, I am focused on elevating the field of metagenome an
 
 _lale at ebi dot ac dot uk_
 
+**Víctor Rodríguez Bouza** is a Postdoctoral Fellow.
+
+{{< figure src="/images/group/victor_rodriguezbouza.jpeg" >}}
+
+After high school, I started a BSc in Bioinformatics, but I decided to change after a year to Mathematics and Physics, both in the Universidad de Oviedo (Asturias, Spain). After a MSc in High Energy Physics (in the UAB in Barcelona, Spain), I did my PhD thesis in the same field in the Universidad de Oviedo, as a member of the CMS Collaboration at CERN. Now I have returned to the bio-sciences and started as a postdoctoral fellow in the Lees Group.
+
+
+*Languages, tools*: Python, C++, R, ROOT.
+
+~~Organisms~~ *Quarks*: I have worked mainly in top quark physics.
+
+_vrbouza at ebi dot ac dot uk_
+
+{{< icon_wrapper name="Víctor" >}}
+    {{< social_icon github "https://github.com/vrbouza" >}}
+    {{< social_icon linkedin "https://www.linkedin.com/in/vrbouza" >}}
+{{< /icon_wrapper >}}
+
 {{< icon_wrapper name="Lale" >}}
     {{< social_icon github "https://github.com/Lalemaouloud" >}}
     {{< social_icon linkedin "https://www.linkedin.com/in/lale-maouloud-248ba5225/" >}}
@@ -176,27 +180,9 @@ _wachsmannj at ebi dot ac dot uk_
     {{< social_icon linkedin "https://www.linkedin.com/in/johanna-helene-von-wachsmann-191b91224/" >}}
 {{< /icon_wrapper >}}
 
-**Víctor Rodríguez Bouza** is a Postdoctoral Fellow.
-
-{{< figure src="/images/group/victor_rodriguezbouza.jpeg" >}}
-
-After high school, I started a BSc in Bioinformatics, but I decided to change after a year to Mathematics and Physics, both in the Universidad de Oviedo (Asturias, Spain). After a MSc in High Energy Physics (in the UAB in Barcelona, Spain), I did my PhD thesis in the same field in the Universidad de Oviedo, as a member of the CMS Collaboration at CERN. Now I have returned to the bio-sciences and started as a postdoctoral fellow in the Lees Group.
-
-
-*Languages, tools*: Python, C++, R, ROOT.
-
-~~Organisms~~ *Quarks*: I have worked mainly in top quark physics.
-
-_vrbouza at ebi dot ac dot uk_
-
-{{< icon_wrapper name="Víctor" >}}
-    {{< social_icon github "https://github.com/vrbouza" >}}
-    {{< social_icon linkedin "https://www.linkedin.com/in/vrbouza" >}}
-{{< /icon_wrapper >}}
-
-
-
 ### Alumni
+
+**Antoine Andréoletti** (2024) was an intern from the Ecole Polytechnique in Paris.
 
 **Gherard Batisti Biffignandi** (2022) was a visiting PhD student (based at the University of Pavia). Now at the University of Cambridge ([Kate Baker's lab](https://baker-lab.github.io/)) and still a visitor at PIM.
 
@@ -215,6 +201,23 @@ _vrbouza at ebi dot ac dot uk_
 ## Social and photos
 
 ### 2024
+
+#### Group retreat, Colchester. August 2024
+
+{{< figure src="/images/group/2024_retreat2_1.jpg" >}}
+
+{{< figure src="/images/group/2024_retreat2_2.jpg" >}}
+
+{{< figure src="/images/group/2024_retreat2_3.jpg" caption="Cultural exchange dinner (jackets)">}}
+
+{{< figure src="/images/group/2024_retreat2_4.jpg" caption="Minigolf with Augustus I">}}
+
+{{< figure src="/images/group/2024_retreat2_5.jpg" caption="pints ~ years as postdoc">}}
+
+{{< figure src="/images/group/2024_retreat2_6.jpg" >}}
+
+{{< figure src="/images/group/2024_retreat2_7.jpg" caption="Temporary group member Hargreaves the cat">}}
+
 
 #### Microbiology society conference
 
