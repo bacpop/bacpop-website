@@ -98,7 +98,7 @@ We welcome contributions for new species, or expansions of these databases [via 
   </tr>
   <tr>
     <td><i>Haemophilus influenzae</i></td>
-    <td style="text-align:center">v1</td>
+    <td style="text-align:center">v2</td>
     <td>2289</td>
     <td style="text-align:center"><a href="https://www.microbiologyresearch.org/content/journal/mgen/10.1099/mgen.0.001281">Paper</a></td>
     <td style="text-align:center"><a href="https://ftp.ebi.ac.uk/pub/databases/pp_dbs/Haemophilus_influenzae_v2_refs.tar.bz2">Download</a></td>
