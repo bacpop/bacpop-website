@@ -99,10 +99,10 @@ We welcome contributions for new species, or expansions of these databases [via 
   <tr>
     <td><i>Haemophilus influenzae</i></td>
     <td style="text-align:center">v1</td>
-    <td>89</td>
-    <td style="text-align:center"><a href="https://doi.org/10.1073/pnas.1403353111">Paper</a></td>
-    <td style="text-align:center"><a href="https://ftp.ebi.ac.uk/pub/databases/pp_dbs/Haemophilus_influenzae_v1_refs.tar.bz2">Download</a></td>
-    <td style="text-align:center"><a href="https://ftp.ebi.ac.uk/pub/databases/pp_dbs/Haemophilus_influenzae_v1_full.tar.bz2">Download</a></td>
+    <td>2289</td>
+    <td style="text-align:center"><a href="https://www.microbiologyresearch.org/content/journal/mgen/10.1099/mgen.0.001281">Paper</a></td>
+    <td style="text-align:center"><a href="https://ftp.ebi.ac.uk/pub/databases/pp_dbs/Haemophilus_influenzae_v2_refs.tar.bz2">Download</a></td>
+    <td style="text-align:center"><a href="https://ftp.ebi.ac.uk/pub/databases/pp_dbs/Haemophilus_influenzae_v2_full.tar.bz2">Download</a></td>
     <td></td>
   </tr>
     <tr>
