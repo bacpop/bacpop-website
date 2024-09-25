@@ -16,6 +16,23 @@ current and past group members, who we work with, and some nice pictures.
 
 ## Lab members
 
+**Oluwaremilekun Grace Ajakaye** is a visiting researcher based at the Adekunle Ajasin University, Nigeria.
+
+{{< figure src="/images/group/ajakaye.jpg" >}}
+
+I am a molecular parasitologist with a focus on neglected tropical diseases. I am currently exploring genomic variations in parasites especially *Cryptosporidium* and *Schistosoma* species.
+
+*Languages*: Python, R
+
+_ajakaye at ebi dot ac dot uk_
+_oluwaremilekun dot ajakaye at aaua dot edu dot ng_
+
+{{< icon_wrapper name="Grace" >}}
+    {{< social_icon github "https://github.com/remilekunf" >}}
+    {{< social_icon twitter "https://twitter.com/@AjakayeOluware1" >}}
+    {{< social_icon linkedin "https://www.linkedin.com/in/dr-mrs-oluwaremilekun-grace-ajakaye-73814438/" >}}
+{{< /icon_wrapper >}}
+
 **Hsueh-Chien (Raymond) Cheng** is a visiting PhD student (based at the Wellcome Sanger Institute)
 
 {{< figure src="/images/group/raymond_cheng.jpg" >}}
@@ -107,18 +124,6 @@ _llorenz at ebi dot ac dot uk_
     {{< social_icon linkedin "https://www.linkedin.com/in/leonie-lorenz-8629a2a3/" >}}
 {{< /icon_wrapper >}}
 
-**Lale Maouloud** is an Erasmus student from the University of Rouen Normandy.
-
-{{< figure src="/images/group/lale_maouloud.jpg" >}}
-
-Fueled by my curiosity for the invisible. With a bachelor's degree in Life Sciences and Plant Biology from the University of Angers, France, and currently pursuing a three-year Master's program in Bioinformatics Modelling and Statistics at the University of Rouen Normandie, my academic journey is a fusion of curiosity and dedication.
-
-Embarking on my internship, I am focused on elevating the field of metagenome annotation through the refinement and application of the graph-based annotation tool, ggCaller. My aim is to immerse myself fully in this ambitious project, shaping ggCaller into a pioneering tool in metagenomic annotation methodologies.
-
-*Languages*: C++, Python, R
-
-_lale at ebi dot ac dot uk_
-
 **Víctor Rodríguez Bouza** is a Postdoctoral Fellow.
 
 {{< figure src="/images/group/victor_rodriguezbouza.jpeg" >}}
@@ -135,11 +140,6 @@ _vrbouza at ebi dot ac dot uk_
 {{< icon_wrapper name="Víctor" >}}
     {{< social_icon github "https://github.com/vrbouza" >}}
     {{< social_icon linkedin "https://www.linkedin.com/in/vrbouza" >}}
-{{< /icon_wrapper >}}
-
-{{< icon_wrapper name="Lale" >}}
-    {{< social_icon github "https://github.com/Lalemaouloud" >}}
-    {{< social_icon linkedin "https://www.linkedin.com/in/lale-maouloud-248ba5225/" >}}
 {{< /icon_wrapper >}}
 
 **Jacqueline Toussaint** is a PhD student
@@ -180,38 +180,25 @@ _wachsmannj at ebi dot ac dot uk_
     {{< social_icon linkedin "https://www.linkedin.com/in/johanna-helene-von-wachsmann-191b91224/" >}}
 {{< /icon_wrapper >}}
 
-**Oluwaremilekun Grace Ajakaye** is a visiting researcher based at the Adekunle Ajasin University, Nigeria.
-
-I am a molecular parasitologist with a focus on neglected tropical diseases. I am currently exploring genomic variations in parasites especially *Cryptosporidium* and *Schistosoma* species. 
-
-*Languages*: Python, R
-
-_ajakaye at ebi dot ac dot uk_
-_oluwaremilekun dot ajakaye at aaua dot edu dot ng_
-
-{{< icon_wrapper name="Grace" >}}
-    {{< social_icon github "https://github.com/remilekunf" >}}
-    {{< social_icon twitter "https://twitter.com/@AjakayeOluware1" >}}
-    {{< social_icon linkedin "https://www.linkedin.com/in/dr-mrs-oluwaremilekun-grace-ajakaye-73814438/" >}}
-{{< /icon_wrapper >}}
-
 ### Alumni
 
-**Antoine Andréoletti** (2024) was an intern from the Ecole Polytechnique in Paris.
+**Lale Maouloud** (2024) was a master's student from the University of Rouen Normandy.
+
+**Antoine Andréoletti** (2024) was a  master's student from the Ecole Polytechnique in Paris.
+
+**Berk Gonenc** (2023) was an intern.
+
+**Oladipo Omotosho** (2023) was a visiting scientist on an EMBL training fellowship (based at the University of Ibidan).
+
+**Tendai Washaya** (2023) was a visiting PhD student (based at the University of Zimbabwe)
+
+**Tommi Mäklin** (2023) was a visiting postdoc on the Theory@EMBL visitor scheme (based at the University of Helsinki).
+
+**Timothy Russell** (2023) was a visiting scientist (based at London School of Hygiene and Tropical Medicine).
 
 **Gherard Batisti Biffignandi** (2022) was a visiting PhD student (based at the University of Pavia). Now at the University of Cambridge ([Kate Baker's lab](https://baker-lab.github.io/)) and still a visitor at PIM.
 
 **Bruhad Dave** (2022) was an intern, now at the Wellcome Sanger Institute.
-
-**Berk Gonenc** (2023) was an intern.
-
-**Tommi Mäklin** (2023) was a visiting postdoc on the Theory@EMBL visitor scheme (based at the University of Helsinki).
-
-**Oladipo Omotosho** (2023) was a visiting scientist on an EMBL training fellowship (based at the University of Ibidan).
-
-**Timothy Russell** (2023) was a visiting scientist (based at London School of Hygiene and Tropical Medicine).
-
-**Tendai Washaya** (2023) was a visiting PhD student (based at the University of Zimbabwe)
 
 ## Social and photos
 

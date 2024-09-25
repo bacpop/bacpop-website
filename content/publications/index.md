@@ -35,9 +35,9 @@ how these fields may benefit or learn from this challenging time.
 
 Joel Hellewell, Samuel T Horsfield, Johanna von Wachsmann, Tatiana Gurbich, Robert D Finn, Zamin Iqbal, Leah W Roberts, John A Lees (2024).
 **CELEBRIMBOR: Pangenomes from metagenomes**
-*bioRxiv*
+*Bioinformatics* 40(9) btae542
 
-https://www.biorxiv.org/content/10.1101/2024.04.05.588231.abstract
+https://doi.org/10.1093/bioinformatics/btae542
 
 CELEBRIMBOR makes pangenome (specifically frequency estimates) from metagenome data.
 
