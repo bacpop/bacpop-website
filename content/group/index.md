@@ -180,6 +180,21 @@ _wachsmannj at ebi dot ac dot uk_
     {{< social_icon linkedin "https://www.linkedin.com/in/johanna-helene-von-wachsmann-191b91224/" >}}
 {{< /icon_wrapper >}}
 
+**Oluwaremilekun Grace Ajakaye** is a visiting researcher based at the Adekunle Ajasin University, Nigeria.
+
+I am a molecular parasitologist with a focus on neglected tropical diseases. I am currently exploring genomic variations in parasites especially *Cryptosporidium* and *Schistosoma* species. 
+
+*Languages*: Python, R
+
+_ajakaye at ebi dot ac dot uk_
+_oluwaremilekun dot ajakaye at aaua dot edu dot ng_
+
+{{< icon_wrapper name="Grace" >}}
+    {{< social_icon github "https://github.com/remilekunf" >}}
+    {{< social_icon twitter "https://twitter.com/@AjakayeOluware1" >}}
+    {{< social_icon linkedin "https://www.linkedin.com/in/dr-mrs-oluwaremilekun-grace-ajakaye-73814438/" >}}
+{{< /icon_wrapper >}}
+
 ### Alumni
 
 **Antoine Andréoletti** (2024) was an intern from the Ecole Polytechnique in Paris.
