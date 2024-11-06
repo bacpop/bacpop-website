@@ -252,11 +252,11 @@ We welcome contributions for new species, or expansions of these databases [via 
     </tr>
     <tr>
     <td><i>Streptococcus dysgalactiae</i> subspecies <i>equisimilis</i></td>
-    <td style="text-align:center">v1</td>
-    <td>501</td>
+    <td style="text-align:center">v2</td>
+    <td>1602</td>
     <td style="text-align:center"></td>
-    <td style="text-align:center"></td>
-    <td style="text-align:center"><a href="https://ftp.ebi.ac.uk/pub/databases/pp_dbs/Streptococcus_dysgalactiae_subspecies_equisimilis_v1_full.tar.bz2">Download</a></td>
+    <td style="text-align:center"><a href="https://ftp.ebi.ac.uk/pub/databases/pp_dbs/Streptococcus_dysgalactiae_subspecies_equisimilis_v2_refs.tar.bz2">Download</a></td>
+    <td style="text-align:center"><a href="https://ftp.ebi.ac.uk/pub/databases/pp_dbs/Streptococcus_dysgalactiae_subspecies_equisimilis_v2_full.tar.bz2">Download</a></td>
     <td></td>
   </tr>
     <tr>
