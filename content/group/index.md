@@ -204,6 +204,14 @@ _wachsmannj at ebi dot ac dot uk_
 
 ### 2024
 
+#### PUBlic engagement. Oct 2024
+
+{{< figure src="/images/group/pub_engage_1.jpg" caption="Brought to you by Chouffre">}}
+
+{{< figure src="/images/group/pub_engage_2.jpg" >}}
+
+{{< figure src="/images/group/pub_engage_3.jpg" >}}
+
 #### Group retreat, Colchester. August 2024
 
 {{< figure src="/images/group/2024_retreat2_1.jpg" >}}
