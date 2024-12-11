@@ -16,23 +16,6 @@ current and past group members, who we work with, and some nice pictures.
 
 ## Lab members
 
-**Oluwaremilekun Grace Ajakaye** is a visiting researcher based at the Adekunle Ajasin University, Nigeria.
-
-{{< figure src="/images/group/ajakaye.jpg" >}}
-
-I am a molecular parasitologist with a focus on neglected tropical diseases. I am currently exploring genomic variations in parasites especially *Cryptosporidium* and *Schistosoma* species.
-
-*Languages*: Python, R
-
-_ajakaye at ebi dot ac dot uk_
-_oluwaremilekun dot ajakaye at aaua dot edu dot ng_
-
-{{< icon_wrapper name="Grace" >}}
-    {{< social_icon github "https://github.com/remilekunf" >}}
-    {{< social_icon twitter "https://twitter.com/@AjakayeOluware1" >}}
-    {{< social_icon linkedin "https://www.linkedin.com/in/dr-mrs-oluwaremilekun-grace-ajakaye-73814438/" >}}
-{{< /icon_wrapper >}}
-
 **Hsueh-Chien (Raymond) Cheng** is a visiting PhD student (based at the Wellcome Sanger Institute)
 
 {{< figure src="/images/group/raymond_cheng.jpg" >}}
@@ -182,6 +165,8 @@ _wachsmannj at ebi dot ac dot uk_
 
 ### Alumni
 
+**Oluwaremilekun Grace Ajakaye** (2024) was a visiting scientist (based at Adekunle Ajasin University).
+
 **Lale Maouloud** (2024) was a master's student from the University of Rouen Normandy.
 
 **Antoine Andréoletti** (2024) was a  master's student from the Ecole Polytechnique in Paris.
@@ -190,7 +175,7 @@ _wachsmannj at ebi dot ac dot uk_
 
 **Oladipo Omotosho** (2023) was a visiting scientist on an EMBL training fellowship (based at the University of Ibidan).
 
-**Tendai Washaya** (2023) was a visiting PhD student (based at the University of Zimbabwe)
+**Tendai Washaya** (2023) was a visiting PhD student (based at the University of Zimbabwe).
 
 **Tommi Mäklin** (2023) was a visiting postdoc on the Theory@EMBL visitor scheme (based at the University of Helsinki).
 
@@ -204,9 +189,13 @@ _wachsmannj at ebi dot ac dot uk_
 
 ### 2024
 
-#### PUBlic engagement. Oct 2024
+#### Winter 2024
+
+{{< figure src="/images/group/2024_xmas.jpg">}}
 
 {{< figure src="/images/group/pub_engage_1.jpg" caption="Brought to you by Chouffre">}}
+
+#### Public engagement. Oct 2024
 
 {{< figure src="/images/group/pub_engage_2.jpg" >}}
 

@@ -10,6 +10,10 @@ menu:
 
 ## Master's and Internships
 
+We do not currently have any internships available.
+
+Each year, the [French Embassy in London](https://www.ebi.ac.uk/about/jobs/internships/embl-ebi-french-embassy-london-internships) is able to fund some internships, with a usual closing application date at the beginning of December.
+
 ### Developing a comprehensive database and AI tool for accurate pneumoccocal serotyping from genomic data - now closed.
 
 - **What**: In this paid internship, you will develop a database and AI tool for analysis of pneumoccal capsular biosynthetic loci, the target for Pneumoccocal Conjugate Vaccines (PCVs). You will also have the opportunity to deploy both of these on a web-based platform.
@@ -25,7 +29,10 @@ For **PhDs**, application is through the [EMBL programme](https://www.embl.org/a
 ## Postdocs and Fellowships
 
 For **postdocs** or **fellowships** send John an informal enquiry -- we'd love to talk to you and discuss your interests. There
-are rolling fellowship opportunities that may be available depending on your career stage.
+are rolling fellowship opportunities that may be available depending on your career stage, for example:
+
+- [EIPOD-LinC](https://www.embl.org/about/info/postdoctoral-programme/eipod-linc-exploring-life-in-context/)
+- [ESPOD](https://www.ebi.ac.uk/research/postdocs/espods)
 
 ## Visiting Researchers
 
