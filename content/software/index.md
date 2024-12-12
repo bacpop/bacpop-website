@@ -41,6 +41,13 @@ Library of sketching functions used to rapidly calculate core and accessory dist
 * Download (conda): https://anaconda.org/bioconda/pp-sketchlib
 * Code: https://github.com/bacpop/pp-sketchlib
 
+### sketchlib.rust (beta)
+
+A rust rewrite of pp-sketchlib particularly targeted at very large datasets by using a new file format. To find nearest neighbours or
+perform subset queries, this code is an improvement over pp-sketchlib.
+
+* Code: https://github.com/bacpop/sketchlib.rust
+
 ### {{< logo "images/celebrimbor_logo.png" >}} CELEBRIMBOR
 
 Create pangenomes from metagenome assembled genomes (MAGs), using completeness information

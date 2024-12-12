@@ -14,6 +14,18 @@ A list of some of the papers directly from our group, with some short explanatio
 
 ## 2024
 
+Martin P McHugh, Samuel T Horsfield, Johanna von Wachsmann, Jacqueline Toussaint, Kerry A Pettigrew, Elzbieta Czarniak, Thomas J Evans, Alistair Leanord, Luke Tysall, Stephen H Gillespie, Kate E Templeton, Matthew T. G. Holden, Nicholas J Croucher, John A Lees (2024).
+**Integrated population clustering and genomic epidemiology with PopPIPE**
+*bioRxiv*
+
+https://doi.org/10.1101/2024.12.05.626978
+
+Our **Pop**ulation analysis **PIPE**line is a Snakemake pipeline designed to be run following a PopPUNK analysis, using split k-mer analysis (SKA) as a central component. PopPUNK will split a collection of genomes into strains, PopPIPE will further split the population into lineages. We tried to design it to be easy to use and fast, configurable and reproducible.
+
+The pipeline has three modes, illustrated by the following graph:
+
+{{< figure src="/images/publications/pipeline_dag.png" >}}
+
 ### Recent approaches in computational modelling for controlling pathogen threats
 
 John A Lees, Timothy W Russell, Liam P Shaw, Joel Hellewell (2024).
