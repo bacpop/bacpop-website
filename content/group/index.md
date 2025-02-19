@@ -70,7 +70,7 @@ _shorsfield at ebi dot ac dot uk_
 {{< figure src="/images/group/john_lees_photo.jpg" >}}
 
 My previous work has attempted to understand the pathogenesis and transmission
-of infectious diseases. I primarily works on statistical genetics, genomic epidemiology and
+of infectious diseases. I primarily work on statistical genetics, genomic epidemiology and
 genome evolution of pathogenic bacteria. I have also worked on infectious disease
 modelling, GPU algorithms, and visualisation. I write methods and software to scale
 these analyses and make them more accessible to others in attempts to democratise bioinformatics.
