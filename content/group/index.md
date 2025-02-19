@@ -70,7 +70,7 @@ _shorsfield at ebi dot ac dot uk_
 {{< figure src="/images/group/john_lees_photo.jpg" >}}
 
 My previous work has attempted to understand the pathogenesis and transmission
-of infectious diseases. I primarily works on statistical genetics, genomic epidemiology and
+of infectious diseases. I primarily work on statistical genetics, genomic epidemiology and
 genome evolution of pathogenic bacteria. I have also worked on infectious disease
 modelling, GPU algorithms, and visualisation. I write methods and software to scale
 these analyses and make them more accessible to others in attempts to democratise bioinformatics.
@@ -123,6 +123,22 @@ _vrbouza at ebi dot ac dot uk_
 {{< icon_wrapper name="Víctor" >}}
     {{< social_icon github "https://github.com/vrbouza" >}}
     {{< social_icon linkedin "https://www.linkedin.com/in/vrbouza" >}}
+{{< /icon_wrapper >}}
+
+**Matt Russell** is a postdoctoral fellow.
+
+{{< figure src="/images/group/matt_russell.jpg" >}}
+
+Currently, I'm working on a project to catalogue and characterise bacterial capsules, which are important for both infection and as vaccination targets, across all sequenced bacteria. In addition to this, I am improving the GPU backend of the `dust` stochastic simulation package. The idea is that we can exploit the dependency structure of the underlying model to automatically produce a more efficient set of GPU kernels.
+
+My background is in applied mathematics, mathematical biology, and computer science. My PhD was supervised by Oliver Jensen and Tobias Galla at the University of Manchester and focussed on mathematical models of transport processes in spatially disordered media. After that, I was a postdoc at the University of Nottingham working with Bindi Brook on models of chemokine gradient formation and immune cell migration.
+
+*Languages and tools*: C++, CUDA, Mathematica, R, Rust, Stan
+
+_mjrussell at ebi dot ac dot uk_
+
+{{< icon_wrapper name="Matt" >}}
+    {{< social_icon github "https://github.com/mtrsl" >}}
 {{< /icon_wrapper >}}
 
 **Jacqueline Toussaint** is a PhD student
