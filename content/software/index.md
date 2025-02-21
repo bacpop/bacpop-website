@@ -140,15 +140,6 @@ In collaboration with [Gerry Tonkin-Hill](https://gtonkinhill.github.io/).
 
 ## Web tools
 
-### {{< logo "images/bacquerya_logo.png" 200 120 >}} [BacQuerya](wwww.bacquerya.com) (*beta*)
-
-A search engine for bacterial genomes and metadata.
-
-Code:
-* Front-end: https://github.com/bacpop/BacQuerya
-* API (middle layer): https://github.com/bacpop/BacQuerya-api
-* Sequence processing: https://github.com/bacpop/BacQuerya-processing
-
 ### {{< logo "images/beebop_logo_transparent.png" 200 120 >}} [BeeBOP](https://beebop.dide.ic.ac.uk/) (*beta*)
 
 An in-browser AMR and strain prediction tool for *Streptococcus pneumoniae*.

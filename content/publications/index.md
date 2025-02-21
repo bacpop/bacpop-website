@@ -12,6 +12,32 @@ A list of some of the papers directly from our group, with some short explanatio
 
 {{< toc >}}
 
+## 2025
+
+### Graph-based Nanopore Adaptive Sampling with GNASTy enables sensitive pneumococcal serotyping in complex samples
+
+Samuel T. Horsfield, Basil Fok, Yuhan Fu, Paul Turner, John A. Lees, Nicholas J. Croucher (2024).
+**Graph-based Nanopore Adaptive Sampling with GNASTy enables sensitive pneumococcal serotyping in complex samples**
+*Genome Research*
+
+https://www.biorxiv.org/content/10.1101/2024.02.11.579857v1.abstract
+
+Nanopore adaptive sampling can reject DNA during sequencing by reversing the voltage
+on sequencing pores. By making this decision dynamic and dependent on what has been
+sequenced (in the current pore and the sample as a whole) unwanted sequences can be depleted.
+
+We tested and optimised an application to serotyping _S. pneumoniae_. This is based on
+a fairly long and structurally complex part of the chromosome, so PCR doesn't work,
+but whole genome sequencing is usually overkill (or doesn't pick up minority variants).
+
+We showed that this technique 1) works, 2) has various improvements over alternatives such as microarray
+and physical methods (i.e. quellung or latex agglutination), 3) can be further improved by
+using graph-based references of the capsule operon. We called our technique
+GNASTy (Graph-based Nanopore Adaptive Sampling Typing, pronounced 'nasty').
+
+We also showed that adaptive sampling is much less effective at enriching for closely
+related samples, which has implications for its rollout in other applications of metagenomic sequencing.
+
 ## 2024
 
 Martin P McHugh, Samuel T Horsfield, Johanna von Wachsmann, Jacqueline Toussaint, Kerry A Pettigrew, Elzbieta Czarniak, Thomas J Evans, Alistair Leanord, Luke Tysall, Stephen H Gillespie, Kate E Templeton, Matthew T. G. Holden, Nicholas J Croucher, John A Lees (2024).
@@ -24,7 +50,7 @@ Our **Pop**ulation analysis **PIPE**line is a Snakemake pipeline designed to be 
 
 The pipeline has three modes, illustrated by the following graph:
 
-{{< figure src="/images/publications/pipeline_dag.png" >}}
+{{< figure src="/images/publications/poppipe_dag.png" >}}
 
 ### Recent approaches in computational modelling for controlling pathogen threats
 
@@ -77,30 +103,6 @@ We think that SKA is:
 If you've already been using it have a look at the figures to see benchmarking for when it is useful compared to other tools -- very useful in outbreaks, still useful within strains (poppunk clusters, STs, CCs etc), drops off at the whole species level for most things. The code's been available for a year already which has been a good opportunity for us to fix user reported bugs and add missing features!
 
 {{< figure src="/images/publications/ska_overview_figure.png" >}}
-
-### Graph-based Nanopore Adaptive Sampling with GNASTy enables sensitive pneumococcal serotyping in complex samples
-
-Samuel T. Horsfield, Basil Fok, Yuhan Fu, Paul Turner, John A. Lees, Nicholas J. Croucher (2024).
-**Graph-based Nanopore Adaptive Sampling with GNASTy enables sensitive pneumococcal serotyping in complex samples**
-*bioRxiv*
-
-https://www.biorxiv.org/content/10.1101/2024.02.11.579857v1.abstract
-
-Nanopore adaptive sampling can reject DNA during sequencing by reversing the voltage
-on sequencing pores. By making this decision dynamic and dependent on what has been
-sequenced (in the current pore and the sample as a whole) unwanted sequences can be depleted.
-
-We tested and optimised an application to serotyping _S. pneumoniae_. This is based on
-a fairly long and structurally complex part of the chromosome, so PCR doesn't work,
-but whole genome sequencing is usually overkill (or doesn't pick up minority variants).
-
-We showed that this technique 1) works, 2) has various improvements over alternatives such as microarray
-and physical methods (i.e. quellung or latex agglutination), 3) can be further improved by
-using graph-based references of the capsule operon. We called our technique
-GNASTy (Graph-based Nanopore Adaptive Sampling Typing, pronounced 'nasty').
-
-We also showed that adaptive sampling is much less effective at enriching for closely
-related samples, which has implications for its rollout in other applications of metagenomic sequencing.
 
 ### Optimising machine learning prediction of minimum inhibitory concentrations in *Klebsiella pneumoniae*
 

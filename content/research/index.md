@@ -31,21 +31,6 @@ We currently work in the following overlapping topic areas:
 
 See the [software]({{< ref "/software" >}}) page if you prefer a more code/project centric view!
 
-# Collaborators
-
-We work with a range of other groups inside EMBL.
-Outside of EMBL, we currently work with following people and groups on some of our projects,
-many of which are listed above:
-
-* Nick Croucher and the [Bacterial Evolutionary Epidemiology Group](https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/hosted-initiatives-and-groups/bacterial-evolutionary-epidemiology-group/) (Imperial College London).
-* Rich Fitzjohn and the [RESIDE Group](https://reside-ic.github.io/) (Imperial College London).
-* Stephen Bentley, [his team](https://bentleygroup.sanger.ac.uk/), and the [GPS](https://www.pneumogen.net/gps/) and [Juno](https://www.gbsgen.net/) projects (Wellcome Sanger Institute).
-* Jukka Corander and the [Probabilistic Inference Lab](https://www.med.uio.no/imb/english/research/groups/probabilistic-inference-lab/index.html) (University of Oslo).
-
-We're always interested in growing this network, and have short- and medium-term
-visitors to the lab. Please get in touch if you'd like
-to collaborate with us.
-
 # Methods
 
 ## Mathematical modelling
