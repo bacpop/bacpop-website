@@ -213,7 +213,17 @@ _wachsmannj at ebi dot ac dot uk_
 
 ## Social and photos
 
-### 2024
+### 2025
+
+#### Away day
+
+### Group away day, Cambridge/Bury St Edmunds. February 2025
+
+{{< figure src="/images/group/gokarting_1.jpg">}}
+
+{{< figure src="/images/group/gokarting_2.jpg">}}
+
+{{< figure src="/images/group/gokarting_3.jpg" caption="Gracious winners">}}
 
 #### Winter 2024
 
