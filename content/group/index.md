@@ -141,6 +141,16 @@ _mjrussell at ebi dot ac dot uk_
     {{< social_icon github "https://github.com/mtrsl" >}}
 {{< /icon_wrapper >}}
 
+**Ines Sanchez-Hombria** is a research intern.
+
+During my internship, I will work on a tool called TOMBOMBADIL, which is based on the GenomegaMap model designed to track adaptive mutations in bacteria. My work will involve applying TOMBOMBADIL to detect selection signals in two common gut commensals, P. vulgatus and B. uniformis. Additionally, I will reimplement the tool in Python and convert it into JAX code, a machine learning framework. This model has the potential to predict bacterial mutations and evolutionary patterns.
+
+Prior to this internship, I studied BSc Biomedical Science at Anglia Ruskin University and MRes Neurotechnology at Imperial College London. My master’s thesis explored the interpretability of neural networks, often perceived as “black boxes” in machine learning. Employing response-weighted averaging, a technique inspired by neuroscience, the research examined the mechanisms underpinning neural networks, focusing on a robotic arm’s control in goal-oriented tasks. A key aim was to investigate how proprioception—the body’s sense of spatial position—could emerge solely from visual inputs.
+
+*Languages and tools*: Python
+
+_sanchezh at ebi dot ac dot uk_
+
 **Jacqueline Toussaint** is a PhD student
 
 {{< figure src="/images/group/jacqueline_toussaint.jpg" >}}
@@ -203,7 +213,17 @@ _wachsmannj at ebi dot ac dot uk_
 
 ## Social and photos
 
-### 2024
+### 2025
+
+#### Away day
+
+### Group away day, Cambridge/Bury St Edmunds. February 2025
+
+{{< figure src="/images/group/gokarting_1.jpg">}}
+
+{{< figure src="/images/group/gokarting_2.jpg">}}
+
+{{< figure src="/images/group/gokarting_3.jpg" caption="Gracious winners">}}
 
 #### Winter 2024
 
