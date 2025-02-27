@@ -151,6 +151,22 @@ Prior to this internship, I studied BSc Biomedical Science at Anglia Ruskin Univ
 
 _sanchezh at ebi dot ac dot uk_
 
+**Alireza Tajmirriahi** is a research intern.
+
+{{< figure src="/images/group/alireza_tajmirriahi.jpg" >}}
+
+During my internship, I will develop a database and an AI-driven tool for analyzing pneumococcal capsular biosynthetic loci, the primary target of Pneumococcal Conjugate Vaccines (PCVs). Additionally, I will have the opportunity to deploy both tools on a web-based platform utilizing WebAssembly.
+
+I am currently pursuing my MSc in Bioinformatics at Aalto University in Finland. Previously, I earned my Bachelor's degree in Computer Engineering, during which my thesis focused on multi-omics integration for discovering novel cancer biomarkers.
+
+_tajmirri at ebi dot ac dot uk_
+
+{{< icon_wrapper name="Alireza" >}}
+    {{< social_icon github "https://github.com/AlirezaT99" >}}
+    {{< social_icon linkedin "https://www.linkedin.com/in/alireza-tajmirriahi" >}}
+{{< /icon_wrapper >}}
+
+
 **Jacqueline Toussaint** is a PhD student
 
 {{< figure src="/images/group/jacqueline_toussaint.jpg" >}}
