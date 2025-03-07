@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bacterial population genomics on Pathogen Informatics and Modelling Group</title>
+    <link>https://www.bacpop.org/</link>
+    <description>Recent content in Bacterial population genomics on Pathogen Informatics and Modelling Group</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Tue, 13 Dec 2022 17:00:00 +0100</lastBuildDate><atom:link href="https://www.bacpop.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mutation Spectra in Streptococcus pneumoniae</title>
+      <link>https://www.bacpop.org/blog/mutspect/</link>
+      <pubDate>Tue, 13 Dec 2022 17:00:00 +0100</pubDate>
+      
+      <guid>https://www.bacpop.org/blog/mutspect/</guid>
+      <description>An Introduction to Mutation Spectra Mutational Spectra in Pneumococcal Epidemiology Conclusion An Introduction to Mutation Spectra It is intutitive that an organism&amp;rsquo;s ecological, phenotypic, or epidemiological context exposes it to distinct mutagens, and might thus produce specific signatures and patterns of mutation &amp;ndash; that organism&amp;rsquo;s mutational spectrum.
+This idea is well-established in oncology. Cancer epidemiolgy studies have shown that a handful of genes, most prominently the human p53 gene, show patterns of mutation specific to the corresponding cancer types.</description>
+    </item>
+    
+    <item>
+      <title>Peer Review of the pre-print &#39;Endonuclease fingerprint indicates a synthetic origin of SARS-CoV-2&#39;</title>
+      <link>https://www.bacpop.org/blog/synthetic/</link>
+      <pubDate>Tue, 01 Nov 2022 13:22:12 +0000</pubDate>
+      
+      <guid>https://www.bacpop.org/blog/synthetic/</guid>
+      <description>Introduction Constructing the null distribution Comparing observations to the null distributions How do new restriction site locations emerge naturally? Mutation analysis Conclusion This is a peer review of the pre-print “Endonuclease fingerprint indicates a synthetic origin of SARS-CoV2”, it is highly recommended that you go and read the pre-print in order to understand this review.
+Introduction The broad thread of the argument in the pre-print is that a synthetically engineered COVID-19 virus would be created using a process where ‘restriction’ enzymes cut the vaccine genome into roughly equal fragments so that they can be cloned in a bacterial system before being reassembled.</description>
+    </item>
+    
+    <item>
+      <title>A beginner&#39;s guide to fitting PopPUNK models</title>
+      <link>https://www.bacpop.org/guides/poppunk_models/</link>
+      <pubDate>Tue, 18 Oct 2022 12:12:42 +0100</pubDate>
+      
+      <guid>https://www.bacpop.org/guides/poppunk_models/</guid>
+      <description>PopPUNK now has a lot of different models available, which can make it hard to know where to start, or to tell if you&amp;rsquo;ve done the right thing when fitting one to your data.
+Some questions I&amp;rsquo;ll address:
+Do you need to fit a new model? Should I subsample my data? Which model should I use? Are my clusters correct? My clusters don&amp;rsquo;t match MLST/CC tl;dr
+Don&amp;rsquo;t fit a model if you don&amp;rsquo;t have to.</description>
+    </item>
+    
+    <item>
+      <title>Visualising microbial population structure with mandrake</title>
+      <link>https://www.bacpop.org/blog/mandrake/</link>
+      <pubDate>Fri, 07 Oct 2022 17:00:00 +0100</pubDate>
+      
+      <guid>https://www.bacpop.org/blog/mandrake/</guid>
+      <description>Paper: https://doi.org/10.1098/rstb.2021.0237
+(Joint work with Gerry Tonkin-Hill)
+Dimensional reduction and embeddings Our work &amp;ndash; mandrake Running on genome datasets –- clusters at multiple resolutions Give it a go! Links What’s the bacronym? Dimensional reduction and embeddings Dimension reduction methods are a popular way to understand large amounts of genetic data: PCA, t-SNE and UMAP have all been used to analyse and visualise large numbers of samples in two-dimensions (with the latter being particularly popular with single cell techniques).</description>
+    </item>
+    
+    <item>
+      <title>About us</title>
+      <link>https://www.bacpop.org/group/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.bacpop.org/group/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jobs</title>
+      <link>https://www.bacpop.org/jobs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.bacpop.org/jobs/</guid>
+      <description>For masters projects, please send us an email with your CV including any existing research, software and programming experience, and your scientific interests.
+For internships, these may be advertised later in 2023.
+For PhDs, application is through the EMBL programme. We don&amp;rsquo;t currently expect to have a vacancy in the next round.
+For postdocs or fellowships send John an informal enquiry.</description>
+    </item>
+    
+    <item>
+      <title>PopPUNK databases</title>
+      <link>https://www.bacpop.org/poppunk/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.bacpop.org/poppunk/</guid>
+      <description>Databases come in two flavours: reference only, or all genomes. Some also come with external clusters (noted below) which give compatibility with existing schemes.
+Typically, the reference only database will be sufficient for the main use case of assigning new samples to PopPUNK clusters, and updating the database with new clusters which have been found. The reference databases are usually significantly smaller.
+For more detailed analyses, you may wish to download the all genomes database.</description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>https://www.bacpop.org/publications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.bacpop.org/publications/</guid>
+      <description>A list of some of the papers directly from our group, with some short explanations.
+2022 2022 Mandrake: visualizing microbial population structure by embedding millions of genomes into a low-dimensional representation John A Lees, Gerry Tonkin-Hill, Zhirong Yang and Jukka Corander (2022). Mandrake: visualizing microbial population structure by embedding millions of genomes into a low-dimensional representation. Philosophical Transactions of the Royal Society B 377:20210237
+https://doi.org/10.1098/rstb.2021.0237
+Dimension reduction methods are a popular way to work with large amounts of genetic data: PCA, t-SNE and UMAP have all been used to analyse and visualise lots of samples in two-dimensions.</description>
+    </item>
+    
+    <item>
+      <title>Research</title>
+      <link>https://www.bacpop.org/research/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.bacpop.org/research/</guid>
+      <description>We currently work in the following overlapping areas:
+Mathematical modelling Real-time genomic epidemiology Pathogen evolution and statistical genetics Sequencing within-host diversity GPU algorithms Democratising bioinformatics See the software page if you prefer a more code/project centric view!
+Collaborators We work with a range of other groups inside EMBL. Outside of EMBL, we currently work with following people and groups on some of our projects, many of which are listed above:</description>
+    </item>
+    
+    <item>
+      <title>Software</title>
+      <link>https://www.bacpop.org/software/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.bacpop.org/software/</guid>
+      <description>Genomic epidemiology Modelling Statistical genetics Visualisation Web tools Genomic epidemiology PopPUNK List of databases is on the PopPUNK page.
+Tools for bacterial genomic epidemiology. Quickly find core and accessory distances between whole-genome sequences, and use these to find genetically clusters. New data can be rapidly ‘queried’ against existing clusters, giving consistent nomenclature. In collaboration with Nicholas Croucher.
+Download (conda): https://anaconda.org/bioconda/poppunk Download (pip): https://pypi.org/project/poppunk/ Paper: https://doi.org/10.1101/gr.241455.118 Documentation: https://poppunk.readthedocs.io Code: https://github.com/bacpop/poppunk pp-sketchlib Library of sketching functions used to rapidly calculate core and accessory distances between bacterial genomes.</description>
+    </item>
+    
+  </channel>
+</rss>
