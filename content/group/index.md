@@ -151,6 +151,24 @@ Prior to this internship, I studied BSc Biomedical Science at Anglia Ruskin Univ
 
 _sanchezh at ebi dot ac dot uk_
 
+**Andrea Sanchez Serrano** is a is a visiting PhD student.
+
+{{< figure src="/images/group/AndreaSanchezSerrano.JPG" >}}
+
+In my thesis project, I am studying the molecular epidemiology of *Neisseria gonorrhoeae* in a region of eastern Spain with a particularly high prevalence, in collaboration with local hospit
+als. During my visit, I will continue analyzing the pathogen's genomes to identify potential unknown mechanisms of antimicrobial resistance using GWAS.
+
+I previously completed a Biology degree and a Master's in Bioinformatics in Valencia, Spain. In my Master's thesis, I began working on molecular epidemiology with complete bacterial genomes,
+ and I am eager to continue advancing in this field.
+
+*Languages*: R, Python
+
+_aserrano at ebi dot ac dot uk_
+
+{{< icon_wrapper name="Andrea" >}}
+    {{< social_icon github "https://github.com/Andrea-SS" >}}
+{{< /icon_wrapper >}}
+
 **Alireza Tajmirriahi** is a research intern.
 
 {{< figure src="/images/group/alireza_tajmirriahi.jpg" >}}
@@ -165,7 +183,6 @@ _tajmirri at ebi dot ac dot uk_
     {{< social_icon github "https://github.com/AlirezaT99" >}}
     {{< social_icon linkedin "https://www.linkedin.com/in/alireza-tajmirriahi" >}}
 {{< /icon_wrapper >}}
-
 
 **Jacqueline Toussaint** is a PhD student
 
