@@ -27,6 +27,9 @@ Making changes
 6. Ask someone else in the group to review your changes.
 7. If they're happy *they* can merge the branch into `main`. This will update www.bacpop.org
 
+**Please note** don't upload large images, keep below 500kb, but lower is better. Images
+may need to be cropped and reduced in size and quality.
+
 New posts
 ------------
 1. Create a new post with a command such as `hugo new blog/phylogenetics.md`.

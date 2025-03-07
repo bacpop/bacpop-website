@@ -153,10 +153,9 @@ _sanchezh at ebi dot ac dot uk_
 
 **Andrea Sanchez Serrano** is a is a visiting PhD student.
 
-{{< figure src="/images/group/AndreaSanchezSerrano.JPG" >}}
+{{< figure src="/images/group/AndreaSanchezSerrano_crop.Jjpg" >}}
 
-In my thesis project, I am studying the molecular epidemiology of *Neisseria gonorrhoeae* in a region of eastern Spain with a particularly high prevalence, in collaboration with local hospit
-als. During my visit, I will continue analyzing the pathogen's genomes to identify potential unknown mechanisms of antimicrobial resistance using GWAS.
+In my thesis project, I am studying the molecular epidemiology of *Neisseria gonorrhoeae* in a region of eastern Spain with a particularly high prevalence, in collaboration with local hospitals. During my visit, I will continue analyzing the pathogen's genomes to identify potential unknown mechanisms of antimicrobial resistance using GWAS.
 
 I previously completed a Biology degree and a Master's in Bioinformatics in Valencia, Spain. In my Master's thesis, I began working on molecular epidemiology with complete bacterial genomes,
  and I am eager to continue advancing in this field.
