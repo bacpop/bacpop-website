@@ -14,6 +14,22 @@ A list of some of the papers directly from our group, with some short explanatio
 
 ## 2025
 
+
+### SBMLtoOdin and Menelmacar: Interactive visualisation of systems biology models for expert and non-expert audiences
+
+Leonie J. Lorenz, Antoine Andréoletti, Tung V. N. Nguyen, Henning Hermjakob, Richard G. FitzJohn, Rahuman S. Malik Sheriff, John A. Lees (2025).
+**SBMLtoOdin and Menelmacar: Interactive visualisation of systems biology models for expert and non-expert audiences**
+*arxiv*
+
+https://arxiv.org/abs/2504.20710
+
+Mathematical modelling is a powerful approach to describe, investigate, and predict the behaviour of biological systems. EMBL-EBI's database BioModels contains thousands of published models for systems biology.  But even re-using existing mathematical models usually requires expertise in coding and mathematics.
+
+We developed the R package SBMLtoOdin, which can automatically download  mathematical models from BioModels and translate them into executable odin code. This allows reseachers with basic R programming skills to easily re-use, investigate, and adapt these models to their needs.
+
+We also created the website Menelmacar (Making Execution of (Nearly) Every Life-science Model ACcessible to All Researchers, https://biomodels.bacpop.org/) that visualises many of the models from BioModels interactively in the browser. This makes it easy for experts and non-experts alike to investigate the behaviour of models over time and explore what parameter changes do to the model.
+
+
 ### Graph-based Nanopore Adaptive Sampling with GNASTy enables sensitive pneumococcal serotyping in complex samples
 
 Samuel T. Horsfield, Basil Fok, Yuhan Fu, Paul Turner, John A. Lees, Nicholas J. Croucher (2024).
