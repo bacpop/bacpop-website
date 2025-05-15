@@ -102,6 +102,13 @@ A suite of R packages to assist in fast, reproducible state-space models, partic
     * https://github.com/mrc-ide/dust
     * https://mrc-ide.github.io/mcstate
 
+### SBMLtoOdin
+
+An R package to download and translate models in SBML format (e.g. from BioModels) automatically to odin code.
+
+https://github.com/bacpop/SBMLtoOdin
+
+
 ## Statistical genetics
 
 ### {{< logo "images/pyseer_logo.png" >}} pyseer
@@ -139,6 +146,12 @@ In collaboration with [Gerry Tonkin-Hill](https://gtonkinhill.github.io/).
 * Code: https://github.com/bacpop/mandrake
 
 ## Web tools
+
+### [Menelmacar](https://biomodels.bacpop.org/) (Making Execution of (Nearly) Every Life-science Model ACcessible to All Researchers)
+
+Interactive visualisations of mathematical models from BioModels.
+
+Code: https://github.com/bacpop/Menelmacar
 
 ### {{< logo "images/beebop_logo_transparent.png" 200 120 >}} [BeeBOP](https://beebop.dide.ic.ac.uk/) (*beta*)
 

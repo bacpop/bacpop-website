@@ -25,18 +25,18 @@ https://arxiv.org/abs/2504.20710
 
 Mathematical modelling is a powerful approach to describe, investigate, and predict the behaviour of biological systems. EMBL-EBI's database BioModels contains thousands of published models for systems biology.  But even re-using existing mathematical models usually requires expertise in coding and mathematics.
 
-We developed the R package SBMLtoOdin, which can automatically download  mathematical models from BioModels and translate them into executable odin code. This allows reseachers with basic R programming skills to easily re-use, investigate, and adapt these models to their needs.
+We developed the R package SBMLtoOdin (https://github.com/bacpop/SBMLtoOdin), which can automatically download  mathematical models from BioModels and translate them into executable odin code. This allows reseachers with basic R programming skills to easily re-use, investigate, and adapt these models to their needs.
 
-We also created the website Menelmacar (Making Execution of (Nearly) Every Life-science Model ACcessible to All Researchers, https://biomodels.bacpop.org/) that visualises many of the models from BioModels interactively in the browser. This makes it easy for experts and non-experts alike to investigate the behaviour of models over time and explore what parameter changes do to the model.
+We also created the website Menelmacar (Making Execution of (Nearly) Every Life-science Model ACcessible to All Researchers, https://biomodels.bacpop.org/, https://github.com/bacpop/Menelmacar) that visualises many of the models from BioModels interactively in the browser. This makes it easy for experts and non-experts alike to investigate the behaviour of models over time and explore what parameter changes do to the model.
 
 
 ### Graph-based Nanopore Adaptive Sampling with GNASTy enables sensitive pneumococcal serotyping in complex samples
 
-Samuel T. Horsfield, Basil Fok, Yuhan Fu, Paul Turner, John A. Lees, Nicholas J. Croucher (2024).
-**Graph-based Nanopore Adaptive Sampling with GNASTy enables sensitive pneumococcal serotyping in complex samples**
-*Genome Research*
+Horsfield, S. T., Fok, B. C. T., Fu, Y., Turner, P., Lees, J. A., & Croucher, N. J. (2025). 
+**Optimizing nanopore adaptive sampling for pneumococcal serotype surveillance in complex samples using the graph-based GNASTy algorithm.** 
+*Genome Research, gr.279435.124.*
 
-https://www.biorxiv.org/content/10.1101/2024.02.11.579857v1.abstract
+http://dx.doi.org/10.1101/gr.279435.124
 
 Nanopore adaptive sampling can reject DNA during sequencing by reversing the voltage
 on sequencing pores. By making this decision dynamic and dependent on what has been
@@ -56,11 +56,11 @@ related samples, which has implications for its rollout in other applications of
 
 ## 2024
 
-Martin P McHugh, Samuel T Horsfield, Johanna von Wachsmann, Jacqueline Toussaint, Kerry A Pettigrew, Elzbieta Czarniak, Thomas J Evans, Alistair Leanord, Luke Tysall, Stephen H Gillespie, Kate E Templeton, Matthew T. G. Holden, Nicholas J Croucher, John A Lees (2024).
-**Integrated population clustering and genomic epidemiology with PopPIPE**
-*bioRxiv*
+McHugh, M. P., Horsfield, S. T., von Wachsmann, J., Toussaint, J., Pettigrew, K. A., Czarniak, E., Evans, T. J., Leanord, A., Tysall, L., Gillespie, S. H., Templeton, K. E., Holden, M. T. G., Croucher, N. J., & Lees, J. A. (2025).
+**Integrated population clustering and genomic epidemiology with PopPIPE.** 
+*Microbial Genomics, 11(4), 001404.*
 
-https://doi.org/10.1101/2024.12.05.626978
+https://doi.org/10.1099/mgen.0.001404
 
 Our **Pop**ulation analysis **PIPE**line is a Snakemake pipeline designed to be run following a PopPUNK analysis, using split k-mer analysis (SKA) as a central component. PopPUNK will split a collection of genomes into strains, PopPIPE will further split the population into lineages. We tried to design it to be easy to use and fast, configurable and reproducible.
 
