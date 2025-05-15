@@ -147,7 +147,7 @@ In collaboration with [Gerry Tonkin-Hill](https://gtonkinhill.github.io/).
 
 ## Web tools
 
-### [Menelmacar](https://biomodels.bacpop.org/) (Making Execution of (Nearly) Every Life-science Model ACcessible to All Researchers)
+### {{< logo "images/Menelmacar_logo.png" 200 120>}} [Menelmacar](https://biomodels.bacpop.org/) (Making Execution of (Nearly) Every Life-science Model ACcessible to All Researchers)
 
 Interactive visualisations of mathematical models from BioModels.
 
