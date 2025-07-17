@@ -107,6 +107,20 @@ _llorenz at ebi dot ac dot uk_
     {{< social_icon linkedin "https://www.linkedin.com/in/leonie-lorenz-8629a2a3/" >}}
 {{< /icon_wrapper >}}
 
+**Neil MacAlasdair** is an [EIPOD](https://www.embl.org/about/info/postdoctoral-programme/eipod-linc-exploring-life-in-context/) fellow
+
+{{< figure src="/images/group/neil_macalasdair.jpg" >}}
+
+My fellowship project studies speciation in microbes -- particularly in two genera of upper respiratory tract bacteria, _Neisseria_ and _Haemophilus_ -- using large collections of whole-genome sequence data. These are opportune genera for this research because each contains well-sampled disease causing species, they inhabit the same niche (the human nasopharynx) and have similar life histories, but are distantly related. To advance this work, I use and develop pangenomic methods to cope with the scale and diversity of genus-wide data. 
+
+Previously, I was a [Scientia Fellow](https://www.med.uio.no/english/research/scientia-fellows/our-fellows/population-genomics-gene-regulation/) with [Jukka Corander](https://www.med.uio.no/imb/english/research/groups/probabilistic-inference-lab/index.html) at the University of Oslo, where I primarily studied the global population structure of _Haemophilus influenzae_ and developed methods to infer recombination-free phylogenies from core genome alignments derived from pangenome methods such as panaroo. Prior to that I was a [PhD student](https://www.sanger.ac.uk/person/macalasdair-neil/) at the Wellcome Sanger Institute with [Stephen Bentley](https://www.sanger.ac.uk/group/genomics-of-pneumonia-meningitis-and-neonatal-sepsis/), during which I studied the global population strucure and pangenome of _Neisseria meningitidis_.
+
+_macalasdair at ebi dot ac dot uk_
+
+{{< icon_wrapper name="Neil" >}}
+    {{< social_icon github "https://github.com/nzmacalasdair" >}}
+{{< /icon_wrapper >}}
+
 **Víctor Rodríguez Bouza** is a Postdoctoral Fellow.
 
 {{< figure src="/images/group/victor_rodriguezbouza.jpeg" >}}
