@@ -155,33 +155,6 @@ _mjrussell at ebi dot ac dot uk_
     {{< social_icon github "https://github.com/mtrsl" >}}
 {{< /icon_wrapper >}}
 
-**Ines Sanchez-Hombria** is a research intern.
-
-During my internship, I will work on a tool called TOMBOMBADIL, which is based on the GenomegaMap model designed to track adaptive mutations in bacteria. My work will involve applying TOMBOMBADIL to detect selection signals in two common gut commensals, P. vulgatus and B. uniformis. Additionally, I will reimplement the tool in Python and convert it into JAX code, a machine learning framework. This model has the potential to predict bacterial mutations and evolutionary patterns.
-
-Prior to this internship, I studied BSc Biomedical Science at Anglia Ruskin University and MRes Neurotechnology at Imperial College London. My master’s thesis explored the interpretability of neural networks, often perceived as “black boxes” in machine learning. Employing response-weighted averaging, a technique inspired by neuroscience, the research examined the mechanisms underpinning neural networks, focusing on a robotic arm’s control in goal-oriented tasks. A key aim was to investigate how proprioception—the body’s sense of spatial position—could emerge solely from visual inputs.
-
-*Languages and tools*: Python
-
-_sanchezh at ebi dot ac dot uk_
-
-**Andrea Sanchez Serrano** is a is a visiting PhD student.
-
-{{< figure src="/images/group/AndreaSanchezSerrano_crop.jpg" >}}
-
-In my thesis project, I am studying the molecular epidemiology of *Neisseria gonorrhoeae* in a region of eastern Spain with a particularly high prevalence, in collaboration with local hospitals. During my visit, I will continue analyzing the pathogen's genomes to identify potential unknown mechanisms of antimicrobial resistance using GWAS.
-
-I previously completed a Biology degree and a Master's in Bioinformatics in Valencia, Spain. In my Master's thesis, I began working on molecular epidemiology with complete bacterial genomes,
- and I am eager to continue advancing in this field.
-
-*Languages*: R, Python
-
-_aserrano at ebi dot ac dot uk_
-
-{{< icon_wrapper name="Andrea" >}}
-    {{< social_icon github "https://github.com/Andrea-SS" >}}
-{{< /icon_wrapper >}}
-
 **Alireza Tajmirriahi** is a research intern.
 
 {{< figure src="/images/group/alireza_tajmirriahi.jpg" >}}
@@ -237,11 +210,17 @@ _wachsmannj at ebi dot ac dot uk_
 
 ### Alumni
 
+**Aya Ben Taghaline** (2025) was a master's student from Université Paris-Saclay.
+
+**Ines Sanchez-Hombria** (2025) was an intern.
+
+**Andrea Sanchez Serrano** (2025) was a visiting PhD student from the University of Valencia.
+
 **Oluwaremilekun Grace Ajakaye** (2024) was a visiting scientist (based at Adekunle Ajasin University).
 
 **Lale Maouloud** (2024) was a master's student from the University of Rouen Normandy.
 
-**Antoine Andréoletti** (2024) was a  master's student from the Ecole Polytechnique in Paris.
+**Antoine Andréoletti** (2024) was a master's student from the Ecole Polytechnique in Paris.
 
 **Berk Gonenc** (2023) was an intern.
 
