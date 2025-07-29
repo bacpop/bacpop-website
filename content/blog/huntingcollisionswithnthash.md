@@ -5,13 +5,13 @@ date: 2025-07-22T23:06:29+01:00
 type: "post"
 draft: false
 author: "Víctor Rodríguez Bouza"
-featured_image: '/images/header3.jpg'
+featured_image: '/images/header20.jpg'
 ---
 
 {{< toc >}}
 
 
-This blog post summarises some checks and comprobations done while developing [Sparrowhawk](https://github.com/bacpop/sparrowhawk) after we discovered an unsettling surprise.
+This blog post summarises some checks and comprobations done while developing [Sparrowhawk](https://github.com/bacpop/sparrowhawk) after we discovered an unsettling surprise. The first two sections explain quickly what a genomic assembler is and the issue we found during the development (bad performance when assembling at large k values), and why it prompted us to study hash collisions as a potential cause for this. **If you are here only for the hashes and the collisions**, jump directly to the third section (ntHash and collisions).
 
 ## A quick introduction
 
@@ -55,9 +55,9 @@ For some reason, usually after something like k=50-60, the values of the observa
 
 This poses a problem, as discussed [in this GitHub issue](https://github.com/bcgsc/ntHash/issues/7). When you hash k-mers with k>64, given that rotating a cycle either to left or right the same number of times as its length gives you the same result, you could end up with, inside the hash calculation,
 
-hash = rol(h(s[0]), 64) ^ ... ^ rol(h(s[64]), 0) = rol(h(s[0]), 0) ^ ... ^ rol(h(s[64]), 0)
+hash = **rol(h(s[0]), 64)** ^ ... ^ rol(h(s[64]), 0) = rol(h(s[0]), 0) ^ ... ^ **rol(h(s[64]), 0)**
 
-with ^ representing XOR, and rol(a, b) being the rotate to the left b times the a word. But, as XOR is commutative and a ^ a = 0, then those two terms can be eliminated if e.g. they correspond to the same nucleotide. Consequently, the probability that ntHash gives the same hash for different k-mers (a "collision") when k>65 increases, as this symmetry can erase part of the variability of these hashes.
+with ^ representing XOR, and rol(a, b) being the rotate to the left b times the a word. But, as XOR is commutative and a ^ a = 0, then those two terms (with bold font in the example) can be eliminated if e.g. they correspond to the same nucleotide. Consequently, the probability that ntHash gives the same hash for different k-mers (a "collision") when k>65 increases, as this symmetry can erase part of the variability of these hashes.
 
 They fixed it in ntHash version 2, by replacing the rol function with srol. This essentially increases the period from 64 to a much larger number by simply rotating, instead of the entire 64 bit word, parts of it independently. For instance, the basic ntHash2 implementation splits the words into two: 33 bits at the left, and the remaining 31 at the right. Thus, the period in which the same situation happens will be when the periods of both "subwords" align, i.e. their least common multiple, which is 1023: two orders of magnitude larger than 64! This reduces the probability of these kind of collisions.
 
