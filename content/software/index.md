@@ -79,7 +79,7 @@ Poplation analysis PIPEline. Designed to be run downstream of PopPUNK, to obtain
 A Snakemake pipeline that requires some config modifications to run.
 
 * Code and download: https://github.com/bacpop/PopPIPE
-* Documentation: ttps://poppunk-docs.bacpop.org/subclustering.html
+* Documentation: https://poppunk-docs.bacpop.org/subclustering.html
 
 ## Modelling
 
