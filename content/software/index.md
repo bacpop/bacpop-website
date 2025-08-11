@@ -62,7 +62,7 @@ to adjust observed frequencies.
 
 ### {{< logo "images/poppunk_logo.png" >}} PopPUNK
 
-List of databases is on the [PopPUNK page]({{< ref "/poppunk" >}}).
+List of databases is on the [PopPUNK page]({{< ref "/poppunk-databases" >}}).
 
 Tools for bacterial genomic epidemiology. Quickly find core and accessory distances between whole-genome sequences, and use these to find genetically clusters. New data can be rapidly ‘queried’ against existing clusters, giving consistent nomenclature.
 *In collaboration with [Nicholas Croucher](https://www.imperial.ac.uk/people/n.croucher).*
@@ -70,7 +70,7 @@ Tools for bacterial genomic epidemiology. Quickly find core and accessory distan
 * Download (conda): https://anaconda.org/bioconda/poppunk
 * Download (pip): https://pypi.org/project/poppunk/
 * Paper: https://doi.org/10.1101/gr.241455.118
-* Documentation: https://poppunk.readthedocs.io
+* Documentation: https://poppunk-docs.bacpop.org
 * Code: https://github.com/bacpop/poppunk
 
 ### PopPIPE
@@ -79,7 +79,7 @@ Poplation analysis PIPEline. Designed to be run downstream of PopPUNK, to obtain
 A Snakemake pipeline that requires some config modifications to run.
 
 * Code and download: https://github.com/bacpop/PopPIPE
-* Documentation: https://poppunk.readthedocs.io/en/latest/subclustering.html
+* Documentation: ttps://poppunk-docs.bacpop.org/subclustering.html
 
 ## Modelling
 
