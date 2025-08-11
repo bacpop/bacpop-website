@@ -12,10 +12,10 @@ are publications and software, but other types are listed here.
 
 ## Databases
 
-### [PopPUNK databases](https://www.bacpop.org/poppunk-databases/)
+### [PopPUNK databases]({{< ref "/poppunk-databases" >}})
 
 A list of pre-built databases for [PopPUNK](https://poppunk-docs.bacpop.org/) can be found
-at https://www.bacpop.org/poppunk-databases/.
+at {{< ref "/poppunk-databases" >}}.
 
 ## Training and teaching
 
