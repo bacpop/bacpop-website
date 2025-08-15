@@ -19,6 +19,13 @@ A list of pre-built databases for [PopPUNK](https://poppunk-docs.bacpop.org/) ca
 
 ## Training and teaching
 
+### [Introduction to modelling course](https://www.ebi.ac.uk/training/online/courses/mathematical-modelling-biologists)
+
+Written by Leonie Lorenz and Eva Geissen, this free online course will take you through
+introductory concepts on the use of mathematical models for biological problems: https://www.ebi.ac.uk/training/online/courses/mathematical-modelling-biologists
+
+The course includes examples from both molecular biology and epidemiology.
+
 ### [Intermediate programming course](https://iprogramming.bacpop.org)
 
 This course which is aimed at helping improve programming skills of bioinformatics/computational biology graduate students and postdocs. The notes are self-contained and are freely available:
