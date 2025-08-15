@@ -26,23 +26,6 @@ I am a PhD student at the Wellcome Sanger Institute in [Prof. Stephen Bentley’
 
 _raymond at ebi dot ac dot uk_
 
-**Joel Hellewell** is an [EIPOD](https://www.embl.org/about/info/postdoctoral-programme/eipod-linc-exploring-life-in-context/) fellow
-
-{{< figure src="/images/group/joel_hellewell.jpeg" >}}
-
-My background is in transmission modelling and statistics. I did my PhD at Imperial College London in the Malaria group with Tom Churcher and Azra Ghani. I then did a post-doc at the London School of Hygiene and Tropical Medicine in Sebastian Funk's group. I contributed towards models that performed routine short-term forecasts of COVID-19 deaths, hospitalisations, and reported cases in the United Kingdom. I also worked on reproduction number estimates and modelling the sensitivity of PCR tests over the course of a COVID-19 infection.
-
-I am now interested in integrating genetic and epidemiological models and data to see if this improves the answers to key questions that were repeatedly asking during the COVID-19 pandemic. For example, how early can we tell that the number of infections is increasing? Does this novel variant have a transmission advantage? Does this novel variant cause infections with more serious outcomes?
-
-*Languages and tools*: R, stan
-
-_joel at ebi dot ac dot uk_
-
-{{< icon_wrapper name="Joel" >}}
-    {{< social_icon github "https://github.com/jhellewell14" >}}
-    {{< social_icon twitter "https://mobile.twitter.com/HellewellJoel" >}}
-{{< /icon_wrapper >}}
-
 **Samuel Horsfield** is a postdoctoral fellow
 
 {{< figure src="/images/group/sam_horsfield_photo.jpg" >}}
@@ -155,21 +138,6 @@ _mjrussell at ebi dot ac dot uk_
     {{< social_icon github "https://github.com/mtrsl" >}}
 {{< /icon_wrapper >}}
 
-**Alireza Tajmirriahi** is a research intern.
-
-{{< figure src="/images/group/alireza_tajmirriahi.jpg" >}}
-
-During my internship, I will develop a database and an AI-driven tool for analyzing pneumococcal capsular biosynthetic loci, the primary target of Pneumococcal Conjugate Vaccines (PCVs). Additionally, I will have the opportunity to deploy both tools on a web-based platform utilizing WebAssembly.
-
-I am currently pursuing my MSc in Bioinformatics at Aalto University in Finland. Previously, I earned my Bachelor's degree in Computer Engineering, during which my thesis focused on multi-omics integration for discovering novel cancer biomarkers.
-
-_tajmirri at ebi dot ac dot uk_
-
-{{< icon_wrapper name="Alireza" >}}
-    {{< social_icon github "https://github.com/AlirezaT99" >}}
-    {{< social_icon linkedin "https://www.linkedin.com/in/alireza-tajmirriahi" >}}
-{{< /icon_wrapper >}}
-
 **Jacqueline Toussaint** is a PhD student
 
 {{< figure src="/images/group/jacqueline_toussaint.jpg" >}}
@@ -209,6 +177,10 @@ _wachsmannj at ebi dot ac dot uk_
 {{< /icon_wrapper >}}
 
 ### Alumni
+
+**Joel Hellewell** (2022-2025) was a postdoc, then EIPOD fellow, and founding group member. He's now at MSF and the Jean Golding Institute at the University of Bristol.
+
+**Alireza Tajmirriahi** (2025) was a research intern from Aalto University.
 
 **Aya Ben Taghaline** (2025) was a master's student from Université Paris-Saclay.
 
