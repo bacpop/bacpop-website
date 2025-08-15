@@ -19,10 +19,10 @@ A list of pre-built databases for [PopPUNK](https://poppunk-docs.bacpop.org/) ca
 
 ## Training and teaching
 
-### [Introduction to modelling course](https://www.ebi.ac.uk/training/online/courses/mathematical-modelling-biologists)
+### [Introduction to modelling course](https://www.doi.org/10.6019/TOL.maths-biologists-t.2025.00001.1)
 
 Written by Leonie Lorenz and Eva Geissen, this free online course will take you through
-introductory concepts on the use of mathematical models for biological problems: https://www.ebi.ac.uk/training/online/courses/mathematical-modelling-biologists
+introductory concepts on the use of mathematical models for biological problems: [doi:10.6019/TOL.maths-biologists-t.2025.00001.1](https://www.doi.org/10.6019/TOL.maths-biologists-t.2025.00001.1)
 
 The course includes examples from both molecular biology and epidemiology.
 
