@@ -104,6 +104,24 @@ _macalasdair at ebi dot ac dot uk_
     {{< social_icon github "https://github.com/nzmacalasdair" >}}
 {{< /icon_wrapper >}}
 
+**Ouli Xie** is an [ESPOD](https://www.ebi.ac.uk/research/postdocs/espods/) fellow
+
+{{< figure src="/images/group/ouli_xie.jpg" >}}
+
+I am an infectious diseases physician-researcher with an interest in applied bacterial genomics to understand how pathogens evolve and spread. I completed my PhD at the Doherty Institute, Australia, with [Steven Tong](https://www.doherty.edu.au/people/professor-steven-tong) and [Mark Davies](https://www.doherty.edu.au/people/dr-mark-davies). In my PhD I examined the clinical and evolutionary intersection between pathogenic streptococci integrating large-scale pathogen genomics, clinical, and surveillance data.
+
+In my fellowship, I work across the Lees Group, Bateman Group and [Harrison Group](https://www.sanger.ac.uk/person/harrison-ewan/) at EMBL-EBI and the Wellcome Sanger Institute to study determinants of _Staphylococcus aureus_ carriage. In particular, I examine co-evolution and competition between _Staphylococcus aureus_ and the nasal microbiome during carriage integrating large-scale pathogen, microbiome, and host data. 
+
+*Languages and tools*: Python, R
+
+*Organisms*: _Staphylococcus aureus_, streptococci, microbiome
+
+_oxie at ebi dot ac dot uk_
+
+{{< icon_wrapper name="Ouli" >}}
+    {{< social_icon github "https://github.com/oulixie" >}}
+{{< /icon_wrapper >}}
+
 **Víctor Rodríguez Bouza** is a Postdoctoral Fellow.
 
 {{< figure src="/images/group/victor_rodriguezbouza.jpeg" >}}
