@@ -194,6 +194,25 @@ _wachsmannj at ebi dot ac dot uk_
     {{< social_icon linkedin "https://www.linkedin.com/in/johanna-helene-von-wachsmann-191b91224/" >}}
 {{< /icon_wrapper >}}
 
+**Anlei Peng** is an intern working with Johanna
+
+{{< figure src="/images/group/anlei_peng_photo.jpeg" >}}
+
+I am working on automating quality control and model fitting in PopPUNK for clustering large genome datasets at the sub-species level.
+
+I did my Bachelor's degree and integrated master's degree at the University of Cambridge with a focus on Genetics and Systems Biology.
+
+*Languages*: Python, R
+
+*Organisms:* I worked on *Orientia tsutsugamushi* in my master's project in Dr Jeanne Salje's group at CIMR.
+
+_apeng at ebi dot ac dot uk_
+
+{{< icon_wrapper name="Anlei" >}}
+    {{< social_icon github "https://github.com/anleip" >}}
+    {{< social_icon linkedin "https://www.linkedin.com/in/anlei-peng-13005622a/" >}}
+{{< /icon_wrapper >}}
+
 ### Alumni
 
 **Joel Hellewell** (2022-2025) was a postdoc, then EIPOD fellow, and founding group member. He's now at MSF and the Jean Golding Institute at the University of Bristol.
