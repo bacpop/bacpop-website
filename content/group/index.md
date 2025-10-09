@@ -96,7 +96,7 @@ _macalasdair at ebi dot ac dot uk_
 
 **Anlei Peng** is an intern
 
-{{< figure src="/images/group/anlei_peng_photo.jpeg" >}}
+{{< figure src="/images/group/anlei_peng_photo.jpg" >}}
 
 I am working on automating quality control and model fitting in PopPUNK for clustering large genome datasets at the sub-species level.
 
