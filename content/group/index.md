@@ -251,7 +251,7 @@ _oxie at ebi dot ac dot uk_
 
 {{< figure src="/images/group/2025_cp_3.jpg">}}
 
-{{< figure src="/images/group/2025_cp_4.jpg"> caption="Collage of destruction"}}
+{{< figure src="/images/group/2025_cp_4.jpg" caption="Collage of destruction">}}
 
 
 #### EMBO course: Genomics and Modelling. Sept 2025
