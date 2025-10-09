@@ -16,16 +16,6 @@ current and past group members, who we work with, and some nice pictures.
 
 ## Lab members
 
-**Hsueh-Chien (Raymond) Cheng** is a visiting PhD student (based at the Wellcome Sanger Institute)
-
-{{< figure src="/images/group/raymond_cheng.jpg" >}}
-
-I am a PhD student at the Wellcome Sanger Institute in [Prof. Stephen Bentley’s group](https://bentleygroup.sanger.ac.uk/#team) and also under the supervision of Dr. John Lees at the EBI. My current work is focusing on quantifying the invasiveness of *Streptococcus pneumoniae* with different genetic backgrounds by using the WGS data among populations. I am also interested in studying various modes of evolution in pathogenic bacteria and how they shape different population structures.
-
-*Languages*: Python, R
-
-_raymond at ebi dot ac dot uk_
-
 **Samuel Horsfield** is a postdoctoral fellow
 
 {{< figure src="/images/group/sam_horsfield_photo.jpg" >}}
@@ -104,22 +94,23 @@ _macalasdair at ebi dot ac dot uk_
     {{< social_icon github "https://github.com/nzmacalasdair" >}}
 {{< /icon_wrapper >}}
 
-**Ouli Xie** is an [ESPOD](https://www.ebi.ac.uk/research/postdocs/espods/) fellow
+**Anlei Peng** is an intern
 
-{{< figure src="/images/group/ouli_xie.jpg" >}}
+{{< figure src="/images/group/anlei_peng_photo.jpeg" >}}
 
-I am an infectious diseases physician-researcher with an interest in applied bacterial genomics to understand how pathogens evolve and spread. I completed my PhD at the Doherty Institute, Australia, with [Steven Tong](https://www.doherty.edu.au/people/professor-steven-tong) and [Mark Davies](https://www.doherty.edu.au/people/dr-mark-davies). In my PhD I examined the clinical and evolutionary intersection between pathogenic streptococci integrating large-scale pathogen genomics, clinical, and surveillance data.
+I am working on automating quality control and model fitting in PopPUNK for clustering large genome datasets at the sub-species level.
 
-In my fellowship, I work across the Lees Group, Bateman Group and [Harrison Group](https://www.sanger.ac.uk/person/harrison-ewan/) at EMBL-EBI and the Wellcome Sanger Institute to study determinants of _Staphylococcus aureus_ carriage. In particular, I examine co-evolution and competition between _Staphylococcus aureus_ and the nasal microbiome during carriage integrating large-scale pathogen, microbiome, and host data. 
+I did my Bachelor's degree and integrated master's degree at the University of Cambridge with a focus on Genetics and Systems Biology.
 
-*Languages and tools*: Python, R
+*Languages*: Python, R
 
-*Organisms*: _Staphylococcus aureus_, streptococci, microbiome
+*Organisms:* I worked on *Orientia tsutsugamushi* in my master's project in Dr Jeanne Salje's group at CIMR.
 
-_oxie at ebi dot ac dot uk_
+_apeng at ebi dot ac dot uk_
 
-{{< icon_wrapper name="Ouli" >}}
-    {{< social_icon github "https://github.com/oulixie" >}}
+{{< icon_wrapper name="Anlei" >}}
+    {{< social_icon github "https://github.com/anleip" >}}
+    {{< social_icon linkedin "https://www.linkedin.com/in/anlei-peng-13005622a/" >}}
 {{< /icon_wrapper >}}
 
 **Víctor Rodríguez Bouza** is a Postdoctoral Fellow.
@@ -194,26 +185,29 @@ _wachsmannj at ebi dot ac dot uk_
     {{< social_icon linkedin "https://www.linkedin.com/in/johanna-helene-von-wachsmann-191b91224/" >}}
 {{< /icon_wrapper >}}
 
-**Anlei Peng** is an intern working with Johanna
+**Ouli Xie** is an [ESPOD](https://www.ebi.ac.uk/research/postdocs/espods/) fellow
 
-{{< figure src="/images/group/anlei_peng_photo.jpeg" >}}
+{{< figure src="/images/group/ouli_xie.jpg" >}}
 
-I am working on automating quality control and model fitting in PopPUNK for clustering large genome datasets at the sub-species level.
+I am an infectious diseases physician-researcher with an interest in applied bacterial genomics to understand how pathogens evolve and spread. I completed my PhD at the Doherty Institute, Australia, with [Steven Tong](https://www.doherty.edu.au/people/professor-steven-tong) and [Mark Davies](https://www.doherty.edu.au/people/dr-mark-davies). In my PhD I examined the clinical and evolutionary intersection between pathogenic streptococci integrating large-scale pathogen genomics, clinical, and surveillance data.
 
-I did my Bachelor's degree and integrated master's degree at the University of Cambridge with a focus on Genetics and Systems Biology.
+In my fellowship, I work across the Lees Group, Bateman Group and [Harrison Group](https://www.sanger.ac.uk/person/harrison-ewan/) at EMBL-EBI and the Wellcome Sanger Institute to study determinants of _Staphylococcus aureus_ carriage. In particular, I examine co-evolution and competition between _Staphylococcus aureus_ and the nasal microbiome during carriage integrating large-scale pathogen, microbiome, and host data.
 
-*Languages*: Python, R
+*Languages and tools*: Python, R
 
-*Organisms:* I worked on *Orientia tsutsugamushi* in my master's project in Dr Jeanne Salje's group at CIMR.
+*Organisms*: _Staphylococcus aureus_, streptococci, microbiome
 
-_apeng at ebi dot ac dot uk_
+_oxie at ebi dot ac dot uk_
 
-{{< icon_wrapper name="Anlei" >}}
-    {{< social_icon github "https://github.com/anleip" >}}
-    {{< social_icon linkedin "https://www.linkedin.com/in/anlei-peng-13005622a/" >}}
+{{< icon_wrapper name="Ouli" >}}
+    {{< social_icon github "https://github.com/oulixie" >}}
 {{< /icon_wrapper >}}
 
 ### Alumni
+
+**Daniel Anderson** (2024-2025) was a rehomed PhD student, supervised by Zam Iqbal. Now at Basecamp Research.
+
+**Raymond Cheng** (2022-2025) was a visiting PhD student, co-supervised with Stephen Bentley at the Wellcome Sanger Institute. Now in Nick Croucher's group at Imperial College London.
 
 **Joel Hellewell** (2022-2025) was a postdoc, then EIPOD fellow, and founding group member. He's now at MSF and the Jean Golding Institute at the University of Bristol.
 
@@ -249,15 +243,30 @@ _apeng at ebi dot ac dot uk_
 
 ### 2025
 
-#### Away day
+#### Group retreat, Center Parcs. October 2025
 
-### Group away day, Cambridge/Bury St Edmunds. February 2025
+{{< figure src="/images/group/2025_cp_1.jpg">}}
+
+{{< figure src="/images/group/2025_cp_2.jpg">}}
+
+{{< figure src="/images/group/2025_cp_3.jpg">}}
+
+{{< figure src="/images/group/2025_cp_4.jpg"> caption="Collage of destruction"}}
+
+
+#### EMBO course: Genomics and Modelling. Sept 2025
+
+{{< figure src="/images/group/2025_embo.jpg">}}
+
+#### Group away day, Cambridge/Bury St Edmunds. February 2025
 
 {{< figure src="/images/group/gokarting_1.jpg">}}
 
 {{< figure src="/images/group/gokarting_2.jpg">}}
 
 {{< figure src="/images/group/gokarting_3.jpg" caption="Gracious winners">}}
+
+### 2024
 
 #### Winter 2024
 
