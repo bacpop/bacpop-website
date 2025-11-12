@@ -253,7 +253,7 @@ We welcome contributions for new species, or expansions of these databases [via 
     <td><i>Streptococcus canis</i></td>
     <td style="text-align:center">v1</td>
     <td>820</td>
-    <td style="text-align:center">/td>
+    <td style="text-align:center"></td>
     <td style="text-align:center"><a href="https://ftp.ebi.ac.uk/pub/databases/pp_dbs/Streptococcus_canis_v1_refs.tar.bz2">Download</a></td>
     <td style="text-align:center"><a href="https://ftp.ebi.ac.uk/pub/databases/pp_dbs/Streptococcus_canis_v1_full.tar.bz2">Download</a></td>
     <td></td>
