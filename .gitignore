@@ -2,3 +2,4 @@
 .hugo_build.lock
 
 tmp.txt
+public/
