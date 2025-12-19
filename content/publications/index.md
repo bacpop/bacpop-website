@@ -181,7 +181,7 @@ ggCaller packages a lot of the [steps for analysis](https://ggcaller.readthedocs
 - Basic phylogenetics and visualisation.
 
 See the code on the [software]({{< ref "/software#genomic-epidemiology--bioinformatics" >}}) page,
-and also [Sam's blog post]({{< ref "/ggCaller" >}}).
+and also [Sam's blog post]({{< ref "blog/ggCaller" >}}).
 
 {{< figure src="/images/publications/ggcaller_fig1.png" >}}
 

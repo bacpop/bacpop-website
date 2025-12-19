@@ -2,7 +2,7 @@
 title: "Bacterial population genomics"
 
 description: "Methods, software and models for analysing bacterial populations and genomes"
-theme_version: '2.8.2'
+theme_version: '2.12.1'
 cascade:
   featured_image: '/images/header1.jpg'
 ---

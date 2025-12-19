@@ -1,14 +1,19 @@
 title = "Pathogen Informatics and Modelling Group"
 baseURL = "https://www.bacpop.org"
 languageCode = "en-gb"
-theme = "ananke"
 resourceDir = "../resources"
 
 DefaultContentLanguage = "en"
 SectionPagesMenu = "main"
-Paginate = 10 # this is set low for demonstrating with dummy content. Set to a higher number
 googleAnalytics = "G-T91W04JTYS"
 enableRobotsTXT = true
+
+[module]
+    [[module.imports]]
+        disable = false
+        ignoreConfig = false
+        ignoreImports = false
+        path = 'github.com/theNewDynamic/gohugo-theme-ananke/v2'
 
 [sitemap]
     changefreq = "monthly"

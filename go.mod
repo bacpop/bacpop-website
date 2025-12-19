@@ -1,3 +1,5 @@
-module github.com/theNewDynamic/gohugo-theme-ananke/v2
+module github.com/bacpop/bacpop-website
 
-go 1.21
+go 1.24.2
+
+require github.com/theNewDynamic/gohugo-theme-ananke/v2 v2.12.1 // indirect
