@@ -28,21 +28,28 @@ enableRobotsTXT = true
     description = "Methods, software and models for analysing bacterial populations and genomes"
     # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
     background_color_class = "bg-black"
-    recent_posts_number = 3
     googleAnalyticsNew = "G-T91W04JTYS"
 
-    [[params.ananke_socials]]
-    name = "github"
-    url = "https://github.com/bacpop"
-    label = "bacpop github"
+    [params.ananke]
+    show_recent_posts = true
+    recent_posts_number = 3
 
-    [[params.ananke_socials]]
-    name = "youtube"
-    url = "https://youtube.com/@bacpop"
-    label = "Bacpop/ScientificProgramming YouTube channel"
+    [params.ananke.social.follow]
+    new_window_icon = true # show a little "opens in new window" icon next to the link
+    networks = [
+    "github",
+    "bluesky",
+    ]
 
-[markup]
-  [markup.tableOfContents]
-    endLevel = 2
-    ordered = false
-    startLevel = 2
+    [params.ananke.social.github]
+    username = "bacpop"
+
+    [params.ananke.social.bluesky]
+    username = "bacpop.org"
+    profilelink = "https://bsky.app/profile/bacpop.org"
+
+    [markup]
+    [markup.tableOfContents]
+        endLevel = 2
+        ordered = false
+        startLevel = 2

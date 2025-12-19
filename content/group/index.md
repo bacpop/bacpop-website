@@ -26,40 +26,25 @@ for bacterial pangenomes that works on pangenome graphs. In my Postdoc, I'm work
 graph methods to improve Nanopore sequencing for enrichment of the accessory genome, using
 large population datasets to understand pangenome evolution, and developing large language models to simulate bacterial populations.
 
-*Languages and tools*: C++, Rython, R
-
-*Organisms*: Bacteria (*S. pneumoniae*, *E. coli* and many more) and viruses (polio).
-
 _shorsfield at ebi dot ac dot uk_
 
-{{< icon_wrapper name="Sam" >}}
-    {{< social_icon github "https://github.com/samhorsfield96" >}}
-    {{< social_icon twitter "https://mobile.twitter.com/samuelhorsfield" >}}
-    {{< social_icon linkedin "https://uk.linkedin.com/in/samuel-horsfield-280754101" >}}
-{{< /icon_wrapper >}}
+_github: https://github.com/samhorsfield96_
 
 **John Lees** is a research group leader
 
 {{< figure src="/images/group/john_lees_photo.jpg" >}}
 
-My previous work has attempted to understand the pathogenesis and transmission
-of infectious diseases. I primarily work on statistical genetics, genomic epidemiology and
-genome evolution of pathogenic bacteria. I have also worked on infectious disease
-modelling, GPU algorithms, and visualisation. I write methods and software to scale
-these analyses and make them more accessible to others in attempts to democratise bioinformatics.
+Outside of my main role of running the group, I also keep our software updated and running,
+and make occasional additions to our newer packages (e.g. [sketchlib.rust](https://github.com/bacpop/sketchlib.rust)).
 
-*Languages and tools*: C++, CUDA, python, R, rust, stan
-
-*Organisms*: Any microbe, but especially *Streptococcal* bacteria.
+I also develop our [resources]({{< ref "resources/" >}}), including training materials and reusable code. I am currently
+co-running the [AllTheBacteria](https://www.allthebacteria.org) initiative with Zam Iqbal.
 
 My personal website is www.johnlees.me and you can find [my papers here](https://scholar.google.co.uk/citations?user=UVV3P4UAAAAJ&hl=en).
 
 _jlees at ebi dot ac dot uk_
 
-{{< icon_wrapper name="John" >}}
-    {{< social_icon github "https://github.com/johnlees" >}}
-    {{< social_icon twitter "https://mobile.twitter.com/johnlees6" >}}
-{{< /icon_wrapper >}}
+_github: https://github.com/johnlees_
 
 **Leonie Lorenz** is a PhD student
 
@@ -75,10 +60,7 @@ the Helmholtz Association.
 
 _llorenz at ebi dot ac dot uk_
 
-{{< icon_wrapper name="Leonie" >}}
-    {{< social_icon github "https://github.com/LeonieLorenz" >}}
-    {{< social_icon linkedin "https://www.linkedin.com/in/leonie-lorenz-8629a2a3/" >}}
-{{< /icon_wrapper >}}
+_github: https://github.com/LeonieLorenz_
 
 **Neil MacAlasdair** is an [EIPOD](https://www.embl.org/about/info/postdoctoral-programme/eipod-linc-exploring-life-in-context/) fellow
 
@@ -90,9 +72,7 @@ Previously, I was a [Scientia Fellow](https://www.med.uio.no/english/research/sc
 
 _macalasdair at ebi dot ac dot uk_
 
-{{< icon_wrapper name="Neil" >}}
-    {{< social_icon github "https://github.com/nzmacalasdair" >}}
-{{< /icon_wrapper >}}
+_github: https://github.com/nzmacalasdair_
 
 **Anlei Peng** is an intern
 
@@ -102,16 +82,9 @@ I am working on automating quality control and model fitting in PopPUNK for clus
 
 I did my Bachelor's degree and integrated master's degree at the University of Cambridge with a focus on Genetics and Systems Biology.
 
-*Languages*: Python, R
-
-*Organisms:* I worked on *Orientia tsutsugamushi* in my master's project in Dr Jeanne Salje's group at CIMR.
-
 _apeng at ebi dot ac dot uk_
 
-{{< icon_wrapper name="Anlei" >}}
-    {{< social_icon github "https://github.com/anleip" >}}
-    {{< social_icon linkedin "https://www.linkedin.com/in/anlei-peng-13005622a/" >}}
-{{< /icon_wrapper >}}
+_github: https://github.com/anleip_
 
 **Víctor Rodríguez Bouza** is a Postdoctoral Fellow.
 
@@ -119,19 +92,11 @@ _apeng at ebi dot ac dot uk_
 
 After high school, I started a BSc in Bioinformatics, but I decided to change after a year to Mathematics and Physics, both in the Universidad de Oviedo (Asturias, Spain). After a MSc in High Energy Physics (in the UAB in Barcelona, Spain), I did my PhD thesis in the same field in the Universidad de Oviedo, as a member of the CMS Collaboration at CERN. Now I have returned to the bio-sciences and started as a postdoctoral fellow in the Lees Group.
 
-
-*Languages, tools*: Python, C++, R, ROOT.
-
-~~Organisms~~ *Quarks*: I have worked mainly in top quark physics.
-
 _vrbouza at ebi dot ac dot uk_
 
-{{< icon_wrapper name="Víctor" >}}
-    {{< social_icon github "https://github.com/vrbouza" >}}
-    {{< social_icon linkedin "https://www.linkedin.com/in/vrbouza" >}}
-{{< /icon_wrapper >}}
+_github: https://github.com/vrbouza_
 
-**Matt Russell** is a postdoctoral fellow.
+**Matt Russell** is an ARISE2 postdoctoral fellow.
 
 {{< figure src="/images/group/matt_russell.jpg" >}}
 
@@ -139,13 +104,9 @@ Currently, I'm working on a project to catalogue and characterise bacterial caps
 
 My background is in applied mathematics, mathematical biology, and computer science. My PhD was supervised by Oliver Jensen and Tobias Galla at the University of Manchester and focussed on mathematical models of transport processes in spatially disordered media. After that, I was a postdoc at the University of Nottingham working with Bindi Brook on models of chemokine gradient formation and immune cell migration.
 
-*Languages and tools*: C++, CUDA, Mathematica, R, Rust, Stan
-
 _mjrussell at ebi dot ac dot uk_
 
-{{< icon_wrapper name="Matt" >}}
-    {{< social_icon github "https://github.com/mtrsl" >}}
-{{< /icon_wrapper >}}
+_github: https://github.com/mtrsl_
 
 **Jacqueline Toussaint** is a PhD student
 
@@ -155,16 +116,9 @@ I'm broadly focused on developing more efficient and accurate methods for perfor
 
 I previously studied biochemistry and microbiology at Montana State University, USA, with my Bachelor's thesis research focused on generating and analyzing multi-omics datasets. I’m excited to further my education in the lab of Dr. John Lees at EMBL-EBI and the University of Cambridge, UK.
 
-*Languages and tools*: python, R, Rust, Stan
-
-*Organisms:* I work with a diverse set of microbes, including *Streptococcus*, *Klebsiella*, and *Neisseria*.
-
 _lilyjacqueline at ebi dot ac dot uk_
 
-{{< icon_wrapper name="Jacqueline" >}}
-    {{< social_icon github "https://github.com/qtoussaint" >}}
-    {{< social_icon linkedin "https://uk.linkedin.com/in/jackie-toussaint" >}}
-{{< /icon_wrapper >}}
+_github: https://github.com/qtoussaint_
 
 **Johanna von Wachsmann** is a PhD student (based in [Rob Finn's](https://www.ebi.ac.uk/research/finn/) lab).
 
@@ -175,15 +129,9 @@ I did my master’s degree in bioinformatics with a focus on advanced algorithms
 I am now working on developing tools and algorithms for the analysis of large metagenomic
 datasets.
 
-*Languages*: C++, Python, R
-
 _wachsmannj at ebi dot ac dot uk_
 
-{{< icon_wrapper name="Johanna" >}}
-    {{< social_icon github "https://github.com/johannahelene" >}}
-    {{< social_icon twitter "https://twitter.com/vWachsmann" >}}
-    {{< social_icon linkedin "https://www.linkedin.com/in/johanna-helene-von-wachsmann-191b91224/" >}}
-{{< /icon_wrapper >}}
+_github: https://github.com/johannahelene_
 
 **Ouli Xie** is an [ESPOD](https://www.ebi.ac.uk/research/postdocs/espods/) fellow
 
@@ -193,17 +141,13 @@ I am an infectious diseases physician-researcher with an interest in applied bac
 
 In my fellowship, I work across the Lees Group, Bateman Group and [Harrison Group](https://www.sanger.ac.uk/person/harrison-ewan/) at EMBL-EBI and the Wellcome Sanger Institute to study determinants of _Staphylococcus aureus_ carriage. In particular, I examine co-evolution and competition between _Staphylococcus aureus_ and the nasal microbiome during carriage integrating large-scale pathogen, microbiome, and host data.
 
-*Languages and tools*: Python, R
-
-*Organisms*: _Staphylococcus aureus_, streptococci, microbiome
-
 _oxie at ebi dot ac dot uk_
 
-{{< icon_wrapper name="Ouli" >}}
-    {{< social_icon github "https://github.com/oulixie" >}}
-{{< /icon_wrapper >}}
+_github: https://github.com/oulixie_
 
 ### Alumni
+
+**Daria Frolova** (2024-2025) was a rehomed PhD student, supervised by Zam Iqbal. Now at University of Lausanne.
 
 **Daniel Anderson** (2024-2025) was a rehomed PhD student, supervised by Zam Iqbal. Now at Basecamp Research.
 
