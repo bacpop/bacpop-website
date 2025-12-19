@@ -1,7 +1,7 @@
 ---
 title: "Publications"
 description: "Papers and preprints from the group"
-featured_image: '/images/header10.jpg'
+featured_image: '/images/ska-align/ska_align_2.png'
 type: 'page'
 menu:
   main:
@@ -12,6 +12,40 @@ A list of some of the papers directly from our group, with some short explanatio
 
 {{< toc >}}
 
+## 2026
+
+Upcoming preprints (details will be added early 2026)
+
+### AllTheBacteria
+
+https://www.biorxiv.org/content/10.1101/2024.03.08.584059v7.abstract
+
+https://www.allthebacteria.org
+
+### NFDS/Stubentiger
+
+Preprint coming soon
+
+### MIC GWAS
+
+Preprint coming soon
+
+### Gemsparcl
+
+Preprint coming soon
+
+### PopPUNK-mod
+
+Preprint coming soon
+
+### panBART
+
+Preprint coming soon
+
+### Sparrowhawk
+
+Preprint coming soon
+
 ## 2025
 
 
@@ -19,9 +53,9 @@ A list of some of the papers directly from our group, with some short explanatio
 
 Leonie J. Lorenz, Antoine Andréoletti, Tung V. N. Nguyen, Henning Hermjakob, Richard G. FitzJohn, Rahuman S. Malik Sheriff, John A. Lees (2025).
 **SBMLtoOdin and Menelmacar: Interactive visualisation of systems biology models for expert and non-expert audiences**
-*arxiv*
+*Bioinformatics, 41(9), btaf484*
 
-https://arxiv.org/abs/2504.20710
+https://doi.org/10.1093/bioinformatics/btaf484
 
 Mathematical modelling is a powerful approach to describe, investigate, and predict the behaviour of biological systems. EMBL-EBI's database BioModels contains thousands of published models for systems biology.  But even re-using existing mathematical models usually requires expertise in coding and mathematics.
 
@@ -181,7 +215,7 @@ ggCaller packages a lot of the [steps for analysis](https://ggcaller.readthedocs
 - Basic phylogenetics and visualisation.
 
 See the code on the [software]({{< ref "/software#genomic-epidemiology--bioinformatics" >}}) page,
-and also [Sam's blog post]({{< ref "/ggCaller" >}}).
+and also [Sam's blog post]({{< ref "blog/ggCaller" >}}).
 
 {{< figure src="/images/publications/ggcaller_fig1.png" >}}
 

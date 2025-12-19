@@ -1,7 +1,7 @@
 ---
 title: "Resources"
 description: "Databases and training materials"
-featured_image: '/images/header14.jpg'
+featured_image: '/images/group/2025_embo.jpg'
 type: 'page'
 menu:
   main:
@@ -12,12 +12,33 @@ are publications and software, but other types are listed here.
 
 ## Databases
 
+### [AMR portal](https://www.ebi.ac.uk/amr)
+
+We are involved in EBI's newest resource, the [AMR portal](https://www.ebi.ac.uk/amr). This brings together
+phenotypic AMR (often MIC) from the [CABBAGE project](https://www.biorxiv.org/content/10.1101/2025.11.12.688105v2)
+with genotype calls from AMRFinderPlus. We encourage users to download and reuse data from the resource.
+
+### {{< logo "images/ATB_logo.png" 200 120 >}} [AllTheBacteria](https://www.allthebacteria.org)
+
+We co-run the AllTheBacteria project with [Zamin Iqbal](https://researchportal.bath.ac.uk/en/persons/zamin-iqbal/).
+
+The resources includes around 2.5M publicly available bacterial isolates, uniformly assembled and annotated. The
+genomes are searchable, and community resources to expand the annotation are also available.
+
 ### [PopPUNK databases]({{< ref "/poppunk-databases" >}})
 
 A list of pre-built databases for [PopPUNK](https://poppunk-docs.bacpop.org/) can be found
 [here]({{< ref "/poppunk-databases" >}}).
 
 ## Training and teaching
+
+### [Infectious disease modelling using genomics](https://www.ebi.ac.uk/training/materials/infectious-disease-modelling-using-genomics-materials/)
+
+This course is for bioinformaticians to learn how to apply mathematical models (from epidemiology
+and phylodynamics) to their work.
+
+We initiated this EMBO course in 2025, and materials are [available online](https://www.ebi.ac.uk/training/materials/infectious-disease-modelling-using-genomics-materials/). We anticiapte running the course in-person
+again in 2027.
 
 ### [Introduction to modelling course](https://www.doi.org/10.6019/TOL.maths-biologists-t.2025.00001.1)
 

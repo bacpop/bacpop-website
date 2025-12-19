@@ -1,7 +1,7 @@
 ---
 title: "Software"
 description: "Packages we have written or contributed to"
-featured_image: '/images/header9.jpg'
+featured_image: '/images/ggCaller/ggCaller_graph_example.jpg'
 type: 'page'
 menu:
   main:
@@ -9,6 +9,7 @@ menu:
 ---
 
 {{< toc >}}
+
 
 ##  Bioinformatics
 
@@ -34,19 +35,22 @@ This enables downstream analysis such as phylogenetics or sequence completeness.
 * Documentation: https://docs.rs/ska/latest
 * Code: https://github.com/bacpop/ska.rust
 
+###  {{< logo "images/sketchlib.rust_logo.png" >}} sketchlib.rust
+
+A rust rewrite of pp-sketchlib particularly targeted at very large datasets by using a new file format. To find nearest neighbours or
+perform subset queries, this code is an improvement over pp-sketchlib.
+
+* Download (cargo): https://crates.io/crates/sketchlib
+* Download (conda): https://anaconda.org/channels/bioconda/packages/sketchlib
+* Documentation: https://docs.rs/sketchlib
+* Code: https://github.com/bacpop/sketchlib.rust
+
 ### {{< logo "images/sketchlib_logo.png" >}} pp-sketchlib
 
 Library of sketching functions used to rapidly calculate core and accessory distances between bacterial genomes. Designed as a faster drop-in back-end for PopPUNK, you can also use to replace mash (100x speedup, further 50x with GPUs).
 
 * Download (conda): https://anaconda.org/bioconda/pp-sketchlib
 * Code: https://github.com/bacpop/pp-sketchlib
-
-### sketchlib.rust (beta)
-
-A rust rewrite of pp-sketchlib particularly targeted at very large datasets by using a new file format. To find nearest neighbours or
-perform subset queries, this code is an improvement over pp-sketchlib.
-
-* Code: https://github.com/bacpop/sketchlib.rust
 
 ### {{< logo "images/celebrimbor_logo.png" >}} CELEBRIMBOR
 
@@ -57,6 +61,12 @@ to adjust observed frequencies.
 * Download (model): https://crates.io/crates/cgt_bacpop
 * Code (pipeline): https://github.com/bacpop/CELEBRIMBOR
 * Code (model): https://github.com/bacpop/cgt
+
+### {{< logo "images/sparrowhawk_logo.png" >}} Sparrowhawk
+
+A lightweight short-read assembler
+
+* Code: https://github.com/bacpop/sparrowhawk
 
 ## Genomic epidemiology
 
@@ -81,7 +91,25 @@ A Snakemake pipeline that requires some config modifications to run.
 * Code and download: https://github.com/bacpop/PopPIPE
 * Documentation: https://poppunk-docs.bacpop.org/subclustering.html
 
+### PanBART (beta)
+
+Transformer (BART + longformer) model for bacterial gene order, specifically for genomic epidemiology
+
+* Code: https://github.com/samhorsfield96/panBART
+
 ## Modelling
+
+### {{< logo "images/STUBENTIGER_logo.png" 200 120 >}} Stubentiger
+
+(der) Stubentiger
+
+**STU**dying **B**alancing **E**volution (**N**FDS) **T**o **I**nvestigate **GE**nome **R**eplacement
+
+This is an R package to simulate and fit a population genetic model with parameters for vaccination effectiveness, negative frequency-dependent selection (NFDS) and immigration. Based on the model of [Corander et al](https://www.nature.com/articles/s41559-017-0337-x), and implemented as an
+odin.dust model.
+
+* Code: https://github.com/bacpop/Stubentiger
+
 
 ### {{< logo "images/dust_logo.png" >}} odin, dust and mcstate
 
@@ -108,6 +136,13 @@ An R package to download and translate models in SBML format (e.g. from BioModel
 
 https://github.com/bacpop/SBMLtoOdin
 
+## Simulation
+
+### Pansim
+
+Forward simulation of pangenome dynamics and selection, based on a Wright-Fisher model
+
+* Code: https://github.com/bacpop/Pansim
 
 ## Statistical genetics
 
@@ -147,22 +182,33 @@ In collaboration with [Gerry Tonkin-Hill](https://gtonkinhill.github.io/).
 
 ## Web tools
 
-### {{< logo "images/Menelmacar_logo.png" 200 120>}} [Menelmacar](https://biomodels.bacpop.org/) (Making Execution of (Nearly) Every Life-science Model ACcessible to All Researchers)
+### [DATACIN](https://datacin.bacpop.org/) (beta)
+
+Draw-a-tree-and-colour-it-in
+
+Genomic epidemiology directly in your browser
+
+* Web: https://datacin.bacpop.org/
+* Code: https://github.com/bacpop/DATACIN
+
+### {{< logo "images/Menelmacar_logo.png" 200 120>}} [Menelmacar](https://biomodels.bacpop.org/)
+
+Making Execution of (Nearly) Every Life-science Model ACcessible to All Researchers
 
 Interactive visualisations of mathematical models from BioModels.
 
-Code: https://github.com/bacpop/Menelmacar
+* Web: https://biomodels.bacpop.org/
+* Code: https://github.com/bacpop/Menelmacar
 
-### {{< logo "images/beebop_logo_transparent.png" 200 120 >}} [BeeBOP](https://beebop.dide.ic.ac.uk/) (*beta*)
+### {{< logo "images/beebop_logo_transparent.png" 200 120 >}} [BeeBOP](https://beebop.dide.ic.ac.uk/)
 
 An in-browser AMR and strain prediction tool for *Streptococcus pneumoniae*.
 
-Code:
-* Front-end: https://github.com/bacpop/beebop/
+* Web: https://beebop.dide.ic.ac.uk/
+* Code: https://github.com/bacpop/beebop/
 
 ### [mandrake-web](https://gtonkinhill.github.io/mandrake-web/)
 
 A WebAssembly version of the mandrake stochastic cluster embedding tool. Written by [Gerry Tonkin-Hill](https://gtonkinhill.github.io/).
 
-Code:
-* https://github.com/gtonkinhill/mandrake-web
+* Code: https://github.com/gtonkinhill/mandrake-web
