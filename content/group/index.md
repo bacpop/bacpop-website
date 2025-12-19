@@ -147,6 +147,10 @@ _github: https://github.com/oulixie_
 
 ### Alumni
 
+**Ines Ngoh Atuh** (2024-2025) was a visting scientist (based at the University of Bamenda, Cameroon)
+
+**Nikki Cannon** (2024, 2025) was a PhD student from Jordi van Gestel's lab in EMBL Heidelberg.
+
 **Daria Frolova** (2024-2025) was a rehomed PhD student, supervised by Zam Iqbal. Now at University of Lausanne.
 
 **Daniel Anderson** (2024-2025) was a rehomed PhD student, supervised by Zam Iqbal. Now at Basecamp Research.
@@ -163,7 +167,7 @@ _github: https://github.com/oulixie_
 
 **Andrea Sanchez Serrano** (2025) was a visiting PhD student from the University of Valencia.
 
-**Oluwaremilekun Grace Ajakaye** (2024) was a visiting scientist (based at Adekunle Ajasin University).
+**Oluwaremilekun Grace Ajakaye** (2024) was a visiting scientist (based at Adekunle Ajasin University, Nigeria).
 
 **Lale Maouloud** (2024) was a master's student from the University of Rouen Normandy.
 
@@ -186,6 +190,20 @@ _github: https://github.com/oulixie_
 ## Social and photos
 
 ### 2025
+
+### Xmas 2025
+
+{{< figure src="/images/group/2025_xmas.jpeg">}}
+
+{{< figure src="/images/group/2025_xmas1.jpeg" caption="When you win the software logo stickers">}}
+
+### LEGEND conference, Aussois. December 2025
+
+{{< figure src="/images/group/2025_legend1.jpeg">}}
+
+{{< figure src="/images/group/2025_legend2.jpeg">}}
+
+{{< figure src="/images/group/2025_legend3.jpeg">}}
 
 #### Group retreat, Center Parcs. October 2025
 

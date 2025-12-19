@@ -18,7 +18,7 @@ We are involved in EBI's newest resource, the [AMR portal](https://www.ebi.ac.uk
 phenotypic AMR (often MIC) from the [CABBAGE project](https://www.biorxiv.org/content/10.1101/2025.11.12.688105v2)
 with genotype calls from AMRFinderPlus. We encourage users to download and reuse data from the resource.
 
-### [AllTheBacteria](https://www.allthebacteria.org)
+### {{< logo "images/ATB_logo.png" 200 120 >}} [AllTheBacteria](https://www.allthebacteria.org)
 
 We co-run the AllTheBacteria project with [Zamin Iqbal](https://researchportal.bath.ac.uk/en/persons/zamin-iqbal/).
 
