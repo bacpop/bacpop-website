@@ -1,7 +1,7 @@
 ---
 title: "Resources"
 description: "Databases and training materials"
-featured_image: '/images/header14.jpg'
+featured_image: '/images/group/2025_embo.jpg'
 type: 'page'
 menu:
   main:

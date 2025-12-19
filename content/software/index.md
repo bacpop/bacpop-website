@@ -1,7 +1,7 @@
 ---
 title: "Software"
 description: "Packages we have written or contributed to"
-featured_image: '/images/header9.jpg'
+featured_image: '/images/ggCaller/ggCaller_graph_example.jpg'
 type: 'page'
 menu:
   main:

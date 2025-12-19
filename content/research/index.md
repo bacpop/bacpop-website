@@ -1,7 +1,7 @@
 ---
 title: "Research"
 description: "Overview of current projects"
-featured_image: '/images/header13.jpg'
+featured_image: '/images/bacpop_header.png'
 type: 'page'
 menu:
   main:

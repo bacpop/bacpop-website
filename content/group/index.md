@@ -1,7 +1,7 @@
 ---
 title: "About us"
 description: "The Pathogen Informatics and Modelling group"
-featured_image: '/images/header2.jpg'
+featured_image: '/images/group/2024_retreat2_1.jpg'
 type: 'page'
 menu:
   main:
