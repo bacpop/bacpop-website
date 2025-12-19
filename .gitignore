@@ -2,5 +2,6 @@
 .hugo_build.lock
 
 tmp.txt
+go.sum
 public/
 resources/

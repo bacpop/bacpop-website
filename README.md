@@ -6,16 +6,26 @@ Set-up
 ------
 Run:
 ```
-git clone --recursive git@github.com:bacpop/bacpop-website.git
+git clone git@github.com:bacpop/bacpop-website.git
 ```
 
 [Install hugo](https://gohugo.io/getting-started/installing/) (with homebrew is easiest)
+We are currently using v0.145.0.
 
 Run the site locally with:
 ```
 hugo server -D --disableFastRender
 ```
 this should appear on http://localhost:1313/
+
+Any issues, you may first need to download the theme with:
+```
+hugo mod get -u
+hugo mod tidy
+```
+
+If this doesn't work, when you make a PR netlify will give you a preview, so you can
+view changes there.
 
 Making changes
 --------------
@@ -46,11 +56,8 @@ html to insert videos and so on.
 for inserting one is `{{< figure src="/images/fig1.jpg" title="Figure 1" >}}`.
 * It's currently best to resize and change quality of images in something like photoshop
 so they aren't too large, rather than using the hugo resizing tools.
-* If you want to add accounts to your about me, have a look at the examples. You
-can see the available types under `themes/ananke/assets/ananke/socials/`.
 * To change your header image, there are some defaults 1-13 under `static/images` you
-can use, but feel free to add your own. Wide aspect ratio photos look best. No need
-to relate to page content!
+can use, but feel free to add your own. Wide aspect ratio photos look best.
 * Logos for software and the like go in `assets/images`. See the software page
 for examples of how to insert and rescale them.
 * `{{< toc >}}` adds a table of contents with the second level headings.
