@@ -67,3 +67,12 @@ _You might have felt that your code is holding you back, and that if you could m
 _Sometimes seeing the impressive (but sometimes intractable!) code and methods we use for research in bioinformatics can feel intimidating, and I feel there isn't much formal guidance on how to engineer your code this way._
 
 _My hope is that this course will give you some extra skills and confidence when developing and improving your research code._
+
+## Internal resources
+
+### [Lab handbook](https://bacpop-handbook.pages.dev/)
+
+https://bacpop-handbook.pages.dev/ (requires login)
+
+Includes guide for new starters
+
