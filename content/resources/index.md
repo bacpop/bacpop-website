@@ -72,7 +72,7 @@ _My hope is that this course will give you some extra skills and confidence when
 
 ### [Lab handbook](https://bacpop-handbook.pages.dev/)
 
-https://bacpop-handbook.pages.dev/ (requires login)
+(requires login)
 
-Includes guide for new starters
+Includes [guide for new starters](https://bacpop-handbook.pages.dev/new_starters)
 
