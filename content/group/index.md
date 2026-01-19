@@ -108,7 +108,7 @@ _mjrussell at ebi dot ac dot uk_
 
 _github: https://github.com/mtrsl_
 
-**Jacqueline Toussaint** is a PhD student
+**Jackie Toussaint** is a PhD student
 
 {{< figure src="/images/group/jacqueline_toussaint.jpg" >}}
 
