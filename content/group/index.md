@@ -50,11 +50,9 @@ _github: https://github.com/johnlees_
 
 {{< figure src="/images/group/leonie_lorenz.jpg" >}}
 
-In my PhD, I will focus on jointly using epidemiological and genomic data for developing mathematical models of pathogen transmission. While the spreading and evolution of pathogens are
-often analysed separately, exploiting both data streams together as input for epidemiological models could increase the models' predictive power and result in new insights.
+My aim is to combine mathematical models and bioinformatics to increase our understanding of microbial evolution and selection. In a recent project, I investigated how negative frequency-dependent selection (NFDS) drives replacement dynamics in _Streptococcus pneumoniae_ after vaccine introductions. This work has just been published as a [preprint](https://www.biorxiv.org/content/10.64898/2025.12.18.695090v1/).
 
-I studied biomathematics at the University of Greifswald, Germany. For my master thesis, I developed a Boolean model for the regulation of apoptosis at the Max Delbrück Center for Molecular Medicine in
-the Helmholtz Association.
+I studied biomathematics at the University of Greifswald, Germany. For my master thesis, I developed a Boolean model for the regulation of apoptosis at the Max Delbrück Center for Molecular Medicine.
 
 *Languages and tools*: python, R
 
