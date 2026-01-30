@@ -279,12 +279,12 @@ We welcome contributions for new species, or expansions of these databases [via 
   </tr>
   <tr>
     <td><i>Streptococcus pneumoniae</i></td>
-    <td style="text-align:center">v4</td>
+    <td style="text-align:center">v10</td>
     <td>42157</td>
-    <td style="text-align:center"><a href="https://www.pneumogen.net/gps/">Website</a></td>
-    <td style="text-align:center"><a href="https://ftp.ebi.ac.uk/pub/databases/pp_dbs/Streptococcus_pneumoniae_v4_refs.tar.bz2">Download</a></td>
-    <td style="text-align:center"><a href="https://ftp.ebi.ac.uk/pub/databases/pp_dbs/Streptococcus_pneumoniae_v4_full.tar.bz2">Download</a></td>
-    <td style="text-align:center">GPSC</td>
+    <td style="text-align:center"><a href="https://www.pneumogen.net/gps/#/training#gpsc-assignment">Website</a></td>
+    <td style="text-align:center">NA</td>
+    <td style="text-align:center"><a href="https://gps-project.cog.sanger.ac.uk/GPS_v10.tar.gz">Download</a></td>
+    <td style="text-align:center"><a href="https://gps-project.cog.sanger.ac.uk/GPS_v10_external_clusters.csv">GPSC</a></td>
   </tr>
   <tr>
     <td><i>Streptococcus pyogenes</i></td>
