@@ -242,11 +242,11 @@ We welcome contributions for new species, or expansions of these databases [via 
   </tr>
     <tr>
     <td><i>Streptococcus agalactiae</i></td>
-    <td style="text-align:center">v1</td>
-    <td>18029</td>
-    <td style="text-align:center"><a href="https://doi.org/10.12688/wellcomeopenres.14826.1">Paper</a></td>
-    <td style="text-align:center"><a href="https://ftp.ebi.ac.uk/pub/databases/pp_dbs/Streptococcus_agalactiae_v1_refs.tar.gz">Download</a></td>
-    <td style="text-align:center"><a href="https://ftp.ebi.ac.uk/pub/databases/pp_dbs/Streptococcus_agalactiae_v1_full.tar.gz">Download</a></td>
+    <td style="text-align:center">v2</td>
+    <td>25183</td>
+    <td style="text-align:center"><a href="http://www.gbsgen.net/">Website</a></td>
+    <td style="text-align:center"><a href="https://ftp.ebi.ac.uk/pub/databases/pp_dbs/Streptococcus_agalactiae_v2_refs.tar.gz">Download</a></td>
+    <td style="text-align:center"><a href="https://ftp.ebi.ac.uk/pub/databases/pp_dbs/Streptococcus_agalactiae_v2_full.tar.gz">Download</a></td>
     <td></td>
   </tr>
   <tr>
