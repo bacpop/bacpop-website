@@ -17,7 +17,7 @@ Each year, the [French Embassy in London](https://www.ebi.ac.uk/about/jobs/inter
 
 ### Open call for two internships
 
-#### - Your role
+#### Your role
 
 You will join the Lees group at EMBL-EBI to work on one of the following two projects (one internship each).
 
@@ -25,9 +25,9 @@ The **first** one is **PREVAIL** (*PRomoter EVolution And Infection Links*), a r
 
 **Second project:** TBC.
 
-#### - You have
+#### You have
 
-**First project (PREVAIL)**
+*First project (PREVAIL):*
 
 * A completed Bachelor degree in bioinformatics, computational biology, computer science, or a closely related field with a strong quantitative component (physics, mathematics, etc.).
 * An in-progress (or completed) Master degree in bioinformatics, computational biology, computer science, or a closely related field with a strong quantitative component (physics, mathematics, etc.).
@@ -37,13 +37,13 @@ The **first** one is **PREVAIL** (*PRomoter EVolution And Infection Links*), a r
 * Good written and spoken English.
 * Ability to work independently and communicate progress regularly.
 
-**Second project**
+*Second project:*
 TBC
 
 
-#### - You may also have
+#### You may also have
 
-**First project (PREVAIL)**
+*First project (PREVAIL):*
 
 * Experience and/or knowledge on bacterial genomic analyses (assembly, gene calling, annotation, etc.), or regulatory genomics.
 * Experience with version control (Git) and open-source software practices.
@@ -53,24 +53,23 @@ TBC
 * Knowledge of machine learning methods, especially those applied to biological sequences.
 * Experience working with high-performance computing (HPC) clusters.
 
-**Second project**
+*Second project:*
 TBC
 
 
-#### - Contract information
+#### Contract information
 
-**Both internships are paid**.
+Both internships are paid.
 
-**First project (PREVAIL)**
-This is a **fixed-term** internship position of **up to 7 months**, expected to start from the **1st June 2026** (or later if needed), and run until the **31st December 2026** (inclusively).
+*First project (PREVAIL):* this is a **fixed-term** internship position of **up to 7 months**, expected to start from the **1st June 2026** (or later if needed), and run until the **31st December 2026** (inclusively).
 
-**Second project**
-TBC
+*Second project:* TBC.
 
 
-#### - Application process
+#### Application process
 
-**First project (PREVAIL)**
+*First project (PREVAIL):*
+
 To apply, please send the following **in a compressed file** (`.tar.gz` or `.zip`) to [**vrbouza@ebi.ac.uk**](mailto:vrbouza@ebi.ac.uk) by the closing date.
 
 * **Curriculum vitae**, including in particular a short description (maximum 6 lines) of up to two programming projects you have worked in, explaining your contribution (if there is, providing link to the public repository is recommended).
@@ -78,21 +77,20 @@ To apply, please send the following **in a compressed file** (`.tar.gz` or `.zip
 
 Shortlisted candidates will be contacted by e-mail for an introductory call. We expect to complete the selection process by early May 2026 or sooner.
 
-**Second project**
-TBC
+*Second project:* TBC.
 
 
-#### - Why join us
+#### Why join us
 
 At EMBL-EBI, you will work at the forefront of life science data analysis, in one of the world's leading institutes for biological data and computational research. You will be embedded in an active research group working on problems directly relevant to global public health (antimicrobial resistance and infectious disease) and gain experience with the kind of large-scale genomic datasets that define modern microbial epidemiology. The Wellcome Genome Campus in Hinxton hosts a vibrant, international scientific community, with regular seminars, workshops, and social events, and the University of Cambridge is a world‑renowned centre of higher education and research. You will be supported throughout your internship, including potentially (first project/PREVAIL) the attendance to an international conference by early December.
 
 
-#### - What else you need to know
+#### What else you need to know
 
 This role is based on-site at EMBL-EBI, Hinxton, near Cambridge, UK. Candidates based overseas are encouraged to apply. EMBL-EBI strongly believes that inclusive and diverse teams benefit from higher levels of innovation and creative thought, and we encourage applications from candidates of all backgrounds, nationalities, and identities. Due to the intergovernmental organisation status of EMBL-EBI (as part of EMBL), candidates from abroad will be eligible for an exemption of migratory control (“exemption vignette”) for their contract duration.
 
 
-#### - Closing date
+#### Closing date
 
 The last valid day (Britain time/BST) for applications for **both projects** is **Sunday 12th April 2026**.
 
