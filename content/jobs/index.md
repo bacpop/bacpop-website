@@ -20,13 +20,13 @@ Each year, the [French Embassy in London](https://www.ebi.ac.uk/about/jobs/inter
 ### Open call for two internships
 #### First project: PREVAIL
 
-*Your role:*
+*Your role*
 
 You will join the Lees group at EMBL-EBI to work on PREVAIL (*PRomoter EVolution And Infection Links*), a research initiative aimed at characterising promoter sequence variation across hundreds of thousands of bacterial genomes at population scale for the first time in any species. 
 
 Your work will focus on two main tasks. First, you will contribute to the evaluation, benchmarking, and potential development of computational methods to extract and analyse promoter sequences from bacterial genome assemblies, with a focus on *Streptococcus pneumoniae*. Second, you will help apply the chosen methodology at scale using large public datasets, such as the AllTheBacteria or the Global Pneumococcal Sequencing projects’ data, and contribute to the downstream analysis linking promoter variants to strain lineages, antibiotic resistance, and virulence. You will work closely with other members of the group and be directly supervised by the postdoctoral researcher leading the project, gaining hands-on experience in bacterial genomics, large-scale data analysis, and bioinformatics methods development.
 
-*You have:*
+*You have*
 
 * A completed Bachelor degree in bioinformatics, computational biology, computer science, or a closely related field with a strong quantitative component (physics, mathematics, etc.).
 * An in-progress (or completed) Master degree in bioinformatics, computational biology, computer science, or a closely related field with a strong quantitative component (physics, mathematics, etc.).
@@ -56,8 +56,8 @@ This internship **is paid**.
 
 To apply, please send the following **in a compressed file** (`.tar.gz` or `.zip`) to [**vrbouza@ebi.ac.uk**](mailto:vrbouza@ebi.ac.uk) by the closing date.
 
-* **Curriculum vitae**, including in particular a short description (maximum 6 lines) of up to two programming projects you have worked in, explaining your contribution (if there is, providing link to the public repository is recommended).
-* Short **cover letter** (maximum 1 page) describing your background, your interest in the project, and any relevant experience.
+* **Curriculum vitae** (PDF format), including in particular a short description (maximum 6 lines) of up to two programming projects you have worked in, explaining your contribution (if there is, providing link to the public repository is recommended).
+* Short **cover letter** (maximum 1 page, PDF format) describing your background, your interest in the project, and any relevant experience.
 
 Shortlisted candidates will be contacted by e-mail for an introductory call. We expect to complete the selection process by early May 2026 or sooner.
 
