@@ -20,13 +20,13 @@ Each year, the [French Embassy in London](https://www.ebi.ac.uk/about/jobs/inter
 ### Open call for two internships
 #### First project: PREVAIL
 
-*Your role:*
+*Your role*
 
 You will join the Lees group at EMBL-EBI to work on PREVAIL (*PRomoter EVolution And Infection Links*), a research initiative aimed at characterising promoter sequence variation across hundreds of thousands of bacterial genomes at population scale for the first time in any species. 
 
 Your work will focus on two main tasks. First, you will contribute to the evaluation, benchmarking, and potential development of computational methods to extract and analyse promoter sequences from bacterial genome assemblies, with a focus on *Streptococcus pneumoniae*. Second, you will help apply the chosen methodology at scale using large public datasets, such as the AllTheBacteria or the Global Pneumococcal Sequencing projects’ data, and contribute to the downstream analysis linking promoter variants to strain lineages, antibiotic resistance, and virulence. You will work closely with other members of the group and be directly supervised by the postdoctoral researcher leading the project, gaining hands-on experience in bacterial genomics, large-scale data analysis, and bioinformatics methods development.
 
-*You have:*
+*You have*
 
 * A completed Bachelor degree in bioinformatics, computational biology, computer science, or a closely related field with a strong quantitative component (physics, mathematics, etc.).
 * An in-progress (or completed) Master degree in bioinformatics, computational biology, computer science, or a closely related field with a strong quantitative component (physics, mathematics, etc.).
@@ -36,7 +36,7 @@ Your work will focus on two main tasks. First, you will contribute to the evalua
 * Good written and spoken English.
 * Ability to work independently and communicate progress regularly.
 
-*You may also have:*
+*You may also have*
 
 * Experience and/or knowledge on bacterial genomic analyses (assembly, gene calling, annotation, etc.), or regulatory genomics.
 * Experience with version control (Git) and open-source software practices.
@@ -46,13 +46,13 @@ Your work will focus on two main tasks. First, you will contribute to the evalua
 * Knowledge of machine learning methods, especially those applied to biological sequences.
 * Experience working with high-performance computing (HPC) clusters.
 
-*Contract information:*
+*Contract information*
 
 This is a **fixed-term** internship position of **up to 7 months**, expected to start from the **1st June 2026** (or later if needed), and run until the **31st December 2026** (inclusively).
 
 This internship **is paid**.
 
-*Application process:*
+*Application process*
 
 To apply, please send the following **in a compressed file** (`.tar.gz` or `.zip`) to [**vrbouza@ebi.ac.uk**](mailto:vrbouza@ebi.ac.uk) by the closing date.
 
