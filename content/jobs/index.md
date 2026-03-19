@@ -36,7 +36,7 @@ Your work will focus on two main tasks. First, you will contribute to the evalua
 * Good written and spoken English.
 * Ability to work independently and communicate progress regularly.
 
-*You may also have*
+*You may also have:*
 
 * Experience and/or knowledge on bacterial genomic analyses (assembly, gene calling, annotation, etc.), or regulatory genomics.
 * Experience with version control (Git) and open-source software practices.
@@ -46,18 +46,18 @@ Your work will focus on two main tasks. First, you will contribute to the evalua
 * Knowledge of machine learning methods, especially those applied to biological sequences.
 * Experience working with high-performance computing (HPC) clusters.
 
-*Contract information*
+*Contract information:*
 
 This is a **fixed-term** internship position of **up to 7 months**, expected to start from the **1st June 2026** (or later if needed), and run until the **31st December 2026** (inclusively).
 
 This internship **is paid**.
 
-*Application process*
+*Application process:*
 
 To apply, please send the following **in a compressed file** (`.tar.gz` or `.zip`) to [**vrbouza@ebi.ac.uk**](mailto:vrbouza@ebi.ac.uk) by the closing date.
 
-* **Curriculum vitae**, including in particular a short description (maximum 6 lines) of up to two programming projects you have worked in, explaining your contribution (if there is, providing link to the public repository is recommended).
-* Short **cover letter** (maximum 1 page) describing your background, your interest in the project, and any relevant experience.
+* **Curriculum vitae** (PDF format), including in particular a short description (maximum 6 lines) of up to two programming projects you have worked in, explaining your contribution (if there is, providing link to the public repository is recommended).
+* Short **cover letter** (maximum 1 page, PDF format) describing your background, your interest in the project, and any relevant experience.
 
 Shortlisted candidates will be contacted by e-mail for an introductory call. We expect to complete the selection process by early May 2026 or sooner.
 
