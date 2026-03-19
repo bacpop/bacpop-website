@@ -15,19 +15,18 @@ We currently have an **open call for two internships**, see below. We cannot rep
 
 Each year, the [French Embassy in London](https://www.ebi.ac.uk/about/jobs/internships/embl-ebi-french-embassy-london-internships) and [Embassy of the Kingdom of the Netherlands](https://www.ebi.ac.uk/about/jobs/internships/embl-ebi-netherlands-embassy-london-internships/) are able to fund some internships, with a usual closing application date at the beginning of December.
 
+---
+
 ### Open call for two internships
+#### First project: PREVAIL
 
-#### Your role
+*Your role:*
 
-You will join the Lees group at EMBL-EBI to work on one of the following two projects (one internship each).
+You will join the Lees group at EMBL-EBI to work on PREVAIL (*PRomoter EVolution And Infection Links*), a research initiative aimed at characterising promoter sequence variation across hundreds of thousands of bacterial genomes at population scale for the first time in any species. 
 
-The **first** one is **PREVAIL** (*PRomoter EVolution And Infection Links*), a research initiative aimed at characterising promoter sequence variation across hundreds of thousands of bacterial genomes at population scale for the first time in any species. Your work will focus on two main tasks. First, you will contribute to the evaluation, benchmarking, and potential development of computational methods to extract and analyse promoter sequences from bacterial genome assemblies, with a focus on *Streptococcus pneumoniae*. Second, you will help apply the chosen methodology at scale using large public datasets, such as the AllTheBacteria or the Global Pneumococcal Sequencing projects’ data, and contribute to the downstream analysis linking promoter variants to strain lineages, antibiotic resistance, and virulence. You will work closely with other members of the group and be directly supervised by the postdoctoral researcher leading the project, gaining hands-on experience in bacterial genomics, large-scale data analysis, and bioinformatics methods development.
+Your work will focus on two main tasks. First, you will contribute to the evaluation, benchmarking, and potential development of computational methods to extract and analyse promoter sequences from bacterial genome assemblies, with a focus on *Streptococcus pneumoniae*. Second, you will help apply the chosen methodology at scale using large public datasets, such as the AllTheBacteria or the Global Pneumococcal Sequencing projects’ data, and contribute to the downstream analysis linking promoter variants to strain lineages, antibiotic resistance, and virulence. You will work closely with other members of the group and be directly supervised by the postdoctoral researcher leading the project, gaining hands-on experience in bacterial genomics, large-scale data analysis, and bioinformatics methods development.
 
-**Second project:** TBC.
-
-#### You have
-
-*First project (PREVAIL):*
+*You have:*
 
 * A completed Bachelor degree in bioinformatics, computational biology, computer science, or a closely related field with a strong quantitative component (physics, mathematics, etc.).
 * An in-progress (or completed) Master degree in bioinformatics, computational biology, computer science, or a closely related field with a strong quantitative component (physics, mathematics, etc.).
@@ -37,13 +36,7 @@ The **first** one is **PREVAIL** (*PRomoter EVolution And Infection Links*), a r
 * Good written and spoken English.
 * Ability to work independently and communicate progress regularly.
 
-*Second project:*
-TBC
-
-
-#### You may also have
-
-*First project (PREVAIL):*
+*You may also have*
 
 * Experience and/or knowledge on bacterial genomic analyses (assembly, gene calling, annotation, etc.), or regulatory genomics.
 * Experience with version control (Git) and open-source software practices.
@@ -53,22 +46,13 @@ TBC
 * Knowledge of machine learning methods, especially those applied to biological sequences.
 * Experience working with high-performance computing (HPC) clusters.
 
-*Second project:*
-TBC
+*Contract information*
 
+This is a **fixed-term** internship position of **up to 7 months**, expected to start from the **1st June 2026** (or later if needed), and run until the **31st December 2026** (inclusively).
 
-#### Contract information
+This internship **is paid**.
 
-Both internships are paid.
-
-*First project (PREVAIL):* this is a **fixed-term** internship position of **up to 7 months**, expected to start from the **1st June 2026** (or later if needed), and run until the **31st December 2026** (inclusively).
-
-*Second project:* TBC.
-
-
-#### Application process
-
-*First project (PREVAIL):*
+*Application process*
 
 To apply, please send the following **in a compressed file** (`.tar.gz` or `.zip`) to [**vrbouza@ebi.ac.uk**](mailto:vrbouza@ebi.ac.uk) by the closing date.
 
@@ -77,8 +61,8 @@ To apply, please send the following **in a compressed file** (`.tar.gz` or `.zip
 
 Shortlisted candidates will be contacted by e-mail for an introductory call. We expect to complete the selection process by early May 2026 or sooner.
 
-*Second project:* TBC.
-
+#### Second project
+TBC
 
 #### Why join us
 
@@ -94,6 +78,7 @@ This role is based on-site at EMBL-EBI, Hinxton, near Cambridge, UK. Candidates 
 
 The last valid day (Britain time/BST) for applications for **both projects** is **Sunday 12th April 2026**.
 
+---
 
 ## PhDs
 
