@@ -58,7 +58,7 @@ To apply, please send in a single e-mail the following **in a compressed file** 
 
 * **Curriculum vitae** (PDF format), including in particular a short description (maximum 6 lines) of up to two programming projects you have worked in, explaining your contribution (if there is, providing link to the public repository is recommended).
 * Short **cover letter** (maximum 1 page, PDF format) describing your background, your interest in the project, and any relevant experience.
-* One **reference letter/letter of recommendation** (PDF format). Alternatively, this can be sent by the letter's author directly in another e-mail to the same address([vrbouza@ebi.ac.uk](mailto:vrbouza@ebi.ac.uk)), with subject *[Application-PREVAIL] Recommendation - NAME LASTNAME(S)*, replacing accordingly NAME and LASTNAME(s) by the applicant's name, and last name(s).
+* One **reference letter/letter of recommendation** (PDF format). Alternatively, this can be sent by the letter's author directly in another e-mail to the same address ([vrbouza@ebi.ac.uk](mailto:vrbouza@ebi.ac.uk)), with subject *[Application-PREVAIL] Recommendation - NAME LASTNAME(S)*, replacing accordingly NAME and LASTNAME(s) by the applicant's name, and last name(s).
 
 Shortlisted candidates will be contacted by e-mail for an introductory call. We expect to complete the selection process by early May 2026 or sooner.
 
