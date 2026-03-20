@@ -54,9 +54,9 @@ This internship **is paid**.
 
 *Application process*
 
-To apply, please send in a single e-mail the following **in a compressed file** (`.tar.gz` or `.zip`) to [**vrbouza@ebi.ac.uk**](mailto:vrbouza@ebi.ac.uk), **with subject** `[Application-PREVAIL] NAME LASTNAME(s)` (replacing `NAME` and `LASTNAME(s)` accordingly) by the closing date.
+To apply, please send a single e-mail with the following items **in a compressed file** (`.tar.gz` or `.zip`) to [**vrbouza@ebi.ac.uk**](mailto:vrbouza@ebi.ac.uk), **with subject** `[Application-PREVAIL] NAME LASTNAME(s)` (replacing `NAME` and `LASTNAME(s)` accordingly) by the closing date.
 
-* **Curriculum vitae** (PDF format), including in particular a short description (maximum 6 lines) of up to two programming projects you have worked in, explaining your contribution (if there is, providing link to the public repository is recommended).
+* **Curriculum vitae** (PDF format), including in particular a short description (maximum 6 lines) of up to two programming projects you have worked in, explaining your contribution. These don't need to be fully self-owned or finished projects, they can be e.g. programming projects from your Master's courses, or from your Bachelor's. If there is, providing link to the public repository is recommended.
 * Short **cover letter** (maximum 1 page, PDF format) describing your background, your interest in the project, and any relevant experience.
 * One **reference letter/letter of recommendation** (PDF format). Alternatively, this can be sent by the letter's author directly in another e-mail to the same address ([vrbouza@ebi.ac.uk](mailto:vrbouza@ebi.ac.uk)), with subject `[Application-PREVAIL] Recommendation - NAME LASTNAME(S)`, replacing accordingly `NAME` and `LASTNAME(s)` by the applicant's name, and last name(s).
 
