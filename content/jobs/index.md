@@ -62,8 +62,48 @@ To apply, please send a single e-mail with the following items **in a compressed
 
 Shortlisted candidates will be contacted by e-mail for an introductory call. We expect to complete the selection process by early May 2026 or sooner.
 
-#### Second project
-TBC
+#### Second project: Protein structure search
+
+*Your role*
+
+You will join the Lees group at EMBL-EBI to work on a project searching for and characterising polysaccharide capsules, important virulence factors that also allow bacteria to evade host immune responses. Using a range of structure-based search and alignment tools, you will search for proteins involved in producing capsules in databases of millions of bacterial genomes. Structure search tools are based on a variety of underlying methods, such as machine learning, distance matrix alignment, physics, etc., making it difficult to define a "good hit" and compare results between tools. You will evaluate and benchmark various structure search tools, aiding the identification of structural homologs of capsular synthesis proteins.
+
+This is a collaborative project and you will work closely with members of the Bentley group at the Wellcome Sanger Institute.
+
+*You have*
+
+* Completed a Bachelor's degree in bioinformatics, computational biology, computer science, physics, mathematics or a similar subject with a strong quantitative or computational component.
+* A Master's degree (completed or in-progress) in a subject above.
+* Experience in at a common programming language, e.g. Python, R, etc.
+* Familiarity with the Unix command-line environment and Bash scripts.
+* An interest in computing, bioinformatics, protein structure or genomics.
+* Good written and spoken English.
+* The ability to work independently and communicate progress regularly.
+
+*You may also have*
+
+* Experience using protein structure prediction tools.
+* Experience with version control (Git) and open-source software practices.
+* Experience in more programming languages.
+* Knowledge of machine learning methods, especially for protein structure embedding.
+* Experience working with high-performance computing (HPC) clusters.
+
+*Contract information*
+
+This is a **fixed-term**, **paid** internship position for **up to 4 months** to be completed during 2026.
+
+*Application process*
+
+To apply, please send a e-mail to [**marussel@ebi.ac.uk**](mailto:marussel@ebi.ac.uk) making sure to include the following (in PDF format):
+
+* A **curriculum vitae**, including a short description of a project you have worked on that involved programming or computation. These can be projects from university courses, hobby projects, contributions to open-source projects, etc.
+* A short **cover letter** (maximum 1/2 page) describing your background, your interest in the project, and any relevant experience.
+* One **reference letter/letter of recommendation**. Alternatively, this can be sent by the letter's author directly to [**marussel@ebi.ac.uk**](mailto:marussel@ebi.ac.uk).
+
+Shortlisted candidates will be contacted by e-mail for an introductory call. We expect to complete the selection process by early May 2026.
+
+If you have any questions don't hesitate to get in touch via email to either [**marussel@ebi.ac.uk**](mailto:marussel@ebi.ac.uk) or [**tm24@sanger.ac.uk](mailto:tm24@sanger.ac.uk).
+
 
 #### Why join us
 
