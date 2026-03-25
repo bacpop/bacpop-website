@@ -66,7 +66,7 @@ Shortlisted candidates will be contacted by e-mail for an introductory call. We 
 
 *Your role*
 
-You will join the Lees group at EMBL-EBI to work on a project searching for and characterising polysaccharide capsules, important virulence factors that also allow bacteria to evade host immune responses. Using a range of structure-based search and alignment tools, you will search for proteins involved in producing capsules in databases of millions of bacterial genomes. Structure search tools are based on a variety of underlying methods, such as machine learning, distance matrix alignment, physics, etc., making it difficult to define a "good hit" and compare results between tools. You will evaluate and benchmark various structure search tools, aiding the identification of structural homologs of capsular synthesis proteins.
+You will join the Lees group at EMBL-EBI to work on a project searching for and characterising polysaccharide capsules, important virulence factors that also allow bacteria to evade host immune responses. Using a range of structure-based search and alignment tools, you will search for proteins involved in producing capsules in large databases. Structure search tools are based on a variety of underlying methods, such as machine learning, distance matrix alignment, physics, etc., making it difficult to define a "good hit" and compare results between tools. You will evaluate and benchmark various structure search tools, aiding the identification of structural homologs of capsular synthesis proteins.
 
 This is a collaborative project and you will work closely with members of the Bentley group at the Wellcome Sanger Institute.
 
