@@ -102,7 +102,7 @@ To apply, please send a e-mail to [**marussel@ebi.ac.uk**](mailto:marussel@ebi.a
 
 Shortlisted candidates will be contacted by e-mail for an introductory call. We expect to complete the selection process by early May 2026.
 
-If you have any questions don't hesitate to get in touch via email to either [**marussel@ebi.ac.uk**](mailto:marussel@ebi.ac.uk) or [**tm24@sanger.ac.uk](mailto:tm24@sanger.ac.uk).
+If you have any questions don't hesitate to get in touch via email to either [**marussel@ebi.ac.uk**](mailto:marussel@ebi.ac.uk) or [**tm24@sanger.ac.uk**](mailto:tm24@sanger.ac.uk).
 
 
 #### Why join us
