@@ -10,7 +10,7 @@ This is a brief update to the [previous menB analysis]({{< relref "menB" >}}) we
 UKHSA have released a [technical briefing](https://www.gov.uk/government/publications/invasive-meningococcal-disease-outbreak-2026-technical-briefings/invasive-meningococcal-disease-outbreak-2026-technical-briefing-1) and [further data](https://www.gov.uk/government/publications/invasive-meningococcal-disease-statistical-releases/notified-cases-of-invasive-meningococcal-disease#further-information-about-genomic-sequencing) which includes four further isolates from the outbreak, and a high quality hybrid assembly of the first isolates.
 
 I repeated our analysis from before mapping everything to this new reference, and including the new genomes. In summary:
-- Certainly looks like a very closely related outbreak, I find one likely SNP separating the isolates.
+- Certainly looks like a very closely related outbreak, there is only a single likely SNP separating the isolates.
 - There are no recombination events found within the outbreak.
 - As before, pilus and PorB recombinations would be what I'd investigate further, but I still think it will be hard to distinguish between diversifying selection and more invasive.
 - The alignment had 196083 as ancestral to the other samples, but when doing stricter filtering on the SNPs this went away. Ideally I'd want the reads to confirm this, and to ultimately match with any contact tracing data.
@@ -24,6 +24,3 @@ Of the ['further studies' proposed by UKHSA](https://www.gov.uk/government/publi
 ## Data download
 
 This two bundle (unzip with `tar xf <file>`) can be loaded in https://jameshadfield.github.io/phandango to view the recomination results: [mapping to internal reference](/menB_internal_ref_gubbins.tar.bz2).
-- [Mapping to nearby draft](/menB_draft_gubbins.tar.bz2)
-
-
