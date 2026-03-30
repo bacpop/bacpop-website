@@ -23,4 +23,4 @@ Of the ['further studies' proposed by UKHSA](https://www.gov.uk/government/publi
 
 ## Data download
 
-This two bundle (unzip with `tar xf <file>`) can be loaded in https://jameshadfield.github.io/phandango to view the recomination results: [mapping to internal reference](/menB_internal_ref_gubbins.tar.bz2).
+This bundle (unzip with `tar xf <file>`) can be loaded in https://jameshadfield.github.io/phandango to view the recomination results: [mapping to internal reference](/menB_internal_ref_gubbins.tar.bz2).
