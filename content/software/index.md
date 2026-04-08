@@ -182,14 +182,12 @@ In collaboration with [Gerry Tonkin-Hill](https://gtonkinhill.github.io/).
 
 ## Web tools
 
-### [DATACIN](https://datacin.bacpop.org/) (beta)
-
-Draw-a-tree-and-colour-it-in
+### [Sparrowhawk](https://sparrowhawk.bacpop.org/) (beta)
 
 Genomic epidemiology directly in your browser
 
-* Web: https://datacin.bacpop.org/
-* Code: https://github.com/bacpop/DATACIN
+* Web: https://sparrowhawk.bacpop.org/
+* Code: https://github.com/bacpop/sparrowhawk-web
 
 ### {{< logo "images/Menelmacar_logo.png" 200 120>}} [Menelmacar](https://biomodels.bacpop.org/)
 

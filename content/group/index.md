@@ -16,20 +16,6 @@ current and past group members, who we work with, and some nice pictures.
 
 ## Lab members
 
-**Samuel Horsfield** is a postdoctoral fellow
-
-{{< figure src="/images/group/sam_horsfield_photo.jpg" >}}
-
-My PhD focused on pangenome evolution in pathogenic bacteria. I designed and
-developed [ggcaller](https://github.com/samhorsfield96/ggCaller), a new annotation tool
-for bacterial pangenomes that works on pangenome graphs. In my Postdoc, I'm working on
-graph methods to improve Nanopore sequencing for enrichment of the accessory genome, using
-large population datasets to understand pangenome evolution, and developing large language models to simulate bacterial populations.
-
-_shorsfield at ebi dot ac dot uk_
-
-_github: https://github.com/samhorsfield96_
-
 **John Lees** is a research group leader
 
 {{< figure src="/images/group/john_lees_photo.jpg" >}}
@@ -64,25 +50,13 @@ _github: https://github.com/LeonieLorenz_
 
 {{< figure src="/images/group/neil_macalasdair.jpg" >}}
 
-My fellowship project studies speciation in microbes -- particularly in two genera of upper respiratory tract bacteria, _Neisseria_ and _Haemophilus_ -- using large collections of whole-genome sequence data. These are opportune genera for this research because each contains well-sampled disease causing species, they inhabit the same niche (the human nasopharynx) and have similar life histories, but are distantly related. To advance this work, I use and develop pangenomic methods to cope with the scale and diversity of genus-wide data. 
+My fellowship project studies speciation in microbes -- particularly in two genera of upper respiratory tract bacteria, _Neisseria_ and _Haemophilus_ -- using large collections of whole-genome sequence data. These are opportune genera for this research because each contains well-sampled disease causing species, they inhabit the same niche (the human nasopharynx) and have similar life histories, but are distantly related. To advance this work, I use and develop pangenomic methods to cope with the scale and diversity of genus-wide data.
 
 Previously, I was a [Scientia Fellow](https://www.med.uio.no/english/research/scientia-fellows/our-fellows/population-genomics-gene-regulation/) with [Jukka Corander](https://www.med.uio.no/imb/english/research/groups/probabilistic-inference-lab/index.html) at the University of Oslo, where I primarily studied the global population structure of _Haemophilus influenzae_ and developed methods to infer recombination-free phylogenies from core genome alignments derived from pangenome methods such as panaroo. Prior to that I was a [PhD student](https://www.sanger.ac.uk/person/macalasdair-neil/) at the Wellcome Sanger Institute with [Stephen Bentley](https://www.sanger.ac.uk/group/genomics-of-pneumonia-meningitis-and-neonatal-sepsis/), during which I studied the global population strucure and pangenome of _Neisseria meningitidis_.
 
 _macalasdair at ebi dot ac dot uk_
 
 _github: https://github.com/nzmacalasdair_
-
-**Anlei Peng** is an intern
-
-{{< figure src="/images/group/anlei_peng_photo.jpg" >}}
-
-I am working on automating quality control and model fitting in PopPUNK for clustering large genome datasets at the sub-species level.
-
-I did my Bachelor's degree and integrated master's degree at the University of Cambridge with a focus on Genetics and Systems Biology.
-
-_apeng at ebi dot ac dot uk_
-
-_github: https://github.com/anleip_
 
 **Víctor Rodríguez Bouza** is a Postdoctoral Fellow.
 
@@ -143,7 +117,11 @@ _github: https://github.com/oulixie_
 
 ### Alumni
 
+**Anlei Peng** (2025-2026) was an intern from the University of Cambridge.
+
 **Ines Ngoh Atuh** (2024-2025) was a visting scientist (based at the University of Bamenda, Cameroon)
+
+**Sam Horsfield** (2022-2026) was a PhD student (the first), then postdoc, and founding group member. He's now in Dan Croll's group at the University of Neuchatel.
 
 **Nikki Cannon** (2024, 2025) was a PhD student from Jordi van Gestel's lab in EMBL Heidelberg.
 

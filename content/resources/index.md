@@ -22,7 +22,7 @@ with genotype calls from AMRFinderPlus. We encourage users to download and reuse
 
 We co-run the AllTheBacteria project with [Zamin Iqbal](https://researchportal.bath.ac.uk/en/persons/zamin-iqbal/).
 
-The resources includes around 2.5M publicly available bacterial isolates, uniformly assembled and annotated. The
+The resources includes around 2.7M (and growing) publicly available bacterial isolates, uniformly assembled and annotated. The
 genomes are searchable, and community resources to expand the annotation are also available.
 
 ### [PopPUNK databases]({{< ref "/poppunk-databases" >}})
@@ -70,9 +70,9 @@ _My hope is that this course will give you some extra skills and confidence when
 
 ## Internal resources
 
-### [Lab handbook](https://bacpop-handbook.pages.dev/)
+### [Lab handbook](https://handbook.bacpop.org/)
 
 (requires login)
 
-Includes [guide for new starters](https://bacpop-handbook.pages.dev/new_starters)
+Includes [guide for new starters](https://handbook.bacpop.org/new_starters)
 
