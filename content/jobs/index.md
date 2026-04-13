@@ -17,7 +17,7 @@ Each year, the [French Embassy in London](https://www.ebi.ac.uk/about/jobs/inter
 
 ---
 
-### Open call for two internships
+### Closed call for two internships
 #### First project: PREVAIL
 
 *Your role*
