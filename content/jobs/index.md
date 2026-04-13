@@ -10,14 +10,14 @@ menu:
 
 ## Master's and Internships
 
-We currently have an **open call for two internships**, see below. We cannot reply to unsolicited requests for internships.
-<!-- We do not currently have any internships available. We cannot reply to unsolicited requests for internships. -->
+<!-- We currently have an **open call for two internships**, see below. We cannot reply to unsolicited requests for internships. -->
+We do not currently have any internships available. We cannot reply to unsolicited requests for internships.
 
 Each year, the [French Embassy in London](https://www.ebi.ac.uk/about/jobs/internships/embl-ebi-french-embassy-london-internships) and [Embassy of the Kingdom of the Netherlands](https://www.ebi.ac.uk/about/jobs/internships/embl-ebi-netherlands-embassy-london-internships/) are able to fund some internships, with a usual closing application date at the beginning of December.
 
 ---
 
-### Open call for two internships
+### Closed call for two internships
 #### First project: PREVAIL
 
 *Your role*
@@ -54,12 +54,7 @@ This internship **is paid**.
 
 *Application process*
 
-To apply, please send a single e-mail with the following items **in a compressed file** (`.tar.gz` or `.zip`) to [**vrbouza@ebi.ac.uk**](mailto:vrbouza@ebi.ac.uk), **with subject** `[Application-PREVAIL] NAME LASTNAME(s)` (replacing `NAME` and `LASTNAME(s)` accordingly) by the closing date.
-
-* **Curriculum vitae** (PDF format), including in particular a short description (maximum 6 lines) of up to two programming projects you have worked in, explaining your contribution. These don't need to be fully self-owned or finished projects, they can be e.g. programming projects from your Master's courses, or from your Bachelor's. If there is, providing link to the public repository is recommended.
-* Short **cover letter** (maximum 1 page, PDF format) describing your background, your interest in the project, and any relevant experience.
-* One **reference letter/letter of recommendation** (PDF format). Alternatively, this can be sent by the letter's author directly in another e-mail to the same address ([vrbouza@ebi.ac.uk](mailto:vrbouza@ebi.ac.uk)), with subject `[Application-PREVAIL] Recommendation - NAME LASTNAME(S)`, replacing accordingly `NAME` and `LASTNAME(s)` by the applicant's name, and last name(s).
-
+**Applications are now closed**.
 Shortlisted candidates will be contacted by e-mail for an introductory call. We expect to complete the selection process by early May 2026 or sooner.
 
 #### Second project: Protein structure search
@@ -94,15 +89,8 @@ This is a **fixed-term**, **paid** internship position for **up to 4 months** to
 
 *Application process*
 
-To apply, please send a e-mail to [**marussel@ebi.ac.uk**](mailto:marussel@ebi.ac.uk) making sure to include the following (in PDF format):
-
-* A **curriculum vitae**, including a short description of a project you have worked on that involved programming or computation. These can be projects from university courses, hobby projects, contributions to open-source projects, etc.
-* A short **cover letter** (maximum 1/2 page) describing your background, your interest in the project, and any relevant experience.
-* One **reference letter/letter of recommendation**. Alternatively, this can be sent by the letter's author directly to [**marussel@ebi.ac.uk**](mailto:marussel@ebi.ac.uk).
-
+**Applications are now closed**.
 Shortlisted candidates will be contacted by e-mail for an introductory call. We expect to complete the selection process by early May 2026.
-
-If you have any questions don't hesitate to get in touch via email to either [**marussel@ebi.ac.uk**](mailto:marussel@ebi.ac.uk) or [**tm24@sanger.ac.uk**](mailto:tm24@sanger.ac.uk).
 
 
 #### Why join us
