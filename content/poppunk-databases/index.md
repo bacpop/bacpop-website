@@ -280,7 +280,7 @@ We welcome contributions for new species, or expansions of these databases [via 
   <tr>
     <td><i>Streptococcus pneumoniae</i></td>
     <td style="text-align:center">v11</td>
-    <td>42157</td>
+    <td>45035</td>
     <td style="text-align:center"><a href="https://www.pneumogen.net/gps/#/training#gpsc-assignment">Website</a></td>
     <td style="text-align:center">NA</td>
     <td style="text-align:center"><a href="https://gps-project.cog.sanger.ac.uk/GPS_v11.tar.gz">Download</a></td>
