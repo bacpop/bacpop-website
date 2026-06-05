@@ -163,6 +163,16 @@ _github: https://github.com/oulixie_
 
 ## Social and photos
 
+### 2026
+
+### Ely away day
+
+{{< figure src="/images/group/2026_ely_group.jpg">}}
+
+{{< figure src="/images/group/2026_ely_1.jpg" caption="Why can't I hold all of these artefacts">}}
+
+{{< figure src="/images/group/2026_ely_2.jpg">}}
+
 ### 2025
 
 ### Xmas 2025
