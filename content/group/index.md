@@ -169,9 +169,9 @@ _github: https://github.com/oulixie_
 
 {{< figure src="/images/group/2026_ely_group.jpg">}}
 
-{{< figure src="/images/group/2026_ely_1.jpg" caption="Why can't I hold all of these artefacts">}}
-
 {{< figure src="/images/group/2026_ely_2.jpg">}}
+
+{{< figure src="/images/group/2026_ely_1.jpg" caption="Why can't I hold all of these artefacts">}}
 
 ### 2025
 
