@@ -115,6 +115,18 @@ _oxie at ebi dot ac dot uk_
 
 _github: https://github.com/oulixie_
 
+**Ina Campan** is a scientific trainee from ENSAE Paris.
+
+{{< figure src="/images/group/ina_campan_photo.jpg" width="40%">}}
+
+I am a Master’s student in Mathematics, Economics, and Statistics at ENSAE Paris. I completed my Bachelor’s degree in Mathematics and Computer Science at Sorbonne University. I am interested in computational approaches applied to health and genomic data, including machine learning and deep learning, mathematical modeling, and biostatistics. I am now working with Víctor Rodríguez Bouza on bacterial pangenome construction methods.
+
+_Languages and tools : python, R, C/C++_
+
+_campan at ebi dot ac dot uk_
+
+_github : https://github.com/inaelenacampan_
+
 ### Alumni
 
 **Anlei Peng** (2025-2026) was an intern from the University of Cambridge.
