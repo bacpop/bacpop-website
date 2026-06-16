@@ -119,7 +119,7 @@ _github: https://github.com/oulixie_
 
 {{< figure src="/images/group/ina_campan_photo.jpg" width="40%">}}
 
-I am a Master’s student in Mathematics, Economics, and Statistics at ENSAE Paris. I completed my Bachelor’s degree in Mathematics and Computer Science at Sorbonne University. I am interested in computational approaches applied to health and genomic data, including machine learning and deep learning, mathematical modeling, and biostatistics. I am now working with Víctor Rodríguez Bouza on bacterial pangenome construction methods.
+I am a Master’s student in Mathematics, Economics, and Statistics at ENSAE Paris. I completed my Bachelor’s degree in Mathematics and Computer Science at Sorbonne University. I am interested in computational approaches for the analysis of biomedical and genomic data, including machine learning and deep learning, mathematical modeling, and biostatistics. I am now working with Víctor Rodríguez Bouza on bacterial pangenome construction methods.
 
 _Languages and tools : python, R, C/C++_
 
