@@ -135,6 +135,18 @@ _fierro at ebi dot ac dot uk_
 
 _github: https://github.com/JoseFierroB_
 
+**Varunika Savla** is a Visiting Intern
+
+{{< figure src="/images/group/varunika_savla_photo.jpg" width="25%">}}
+
+I completed my MSc in Bioinformatics at Univeristy of Michigan, where I worked on projects involving virtual screening, protein-ligand interactions, and machine learning approaches for drug discovery. Before that, I earned a BSc in Biochemistry and Chemical Biology from Wayne State University, where I worked on a project involving molecular dynamics.
+
+My research interests lie in structural biology and machine learning approaches for studying proteins. My project is in collaboration with the Wellcome Sanger Institute and involves evaluating and benchmarking protein structure search methods to identify structural homologs of bacterial capsular synthesis proteins.
+
+_savla at ebi dot ac dot uk_
+
+_github: https://github.com/vmsavla_
+
 ### Alumni
 
 **Anlei Peng** (2025-2026) was an intern from the University of Cambridge.
