@@ -16,7 +16,7 @@ A list of some of the papers directly from our group, with some short explanatio
 
 ### AllTheBacteria (w/ Zam Iqbal)
 
-https://www.biorxiv.org/content/10.1101/2024.03.08.584059v7.abstract
+https://www.biorxiv.org/content/10.1101/2024.03.08.584059v8.abstract
 
 https://www.allthebacteria.org
 
