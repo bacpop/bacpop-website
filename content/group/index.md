@@ -205,15 +205,19 @@ _github: https://github.com/clararehmann_
 
 ### Group Retreat, Kingham. October 2026
 
+{{< figure src="/images/group/2026_group_retreat1.jpg">}}
+
+{{< figure src="/images/group/2026_group_retreat2.jpg">}}
+
+{{< figure src="/images/group/2026_group_retreat3.jpg" caption="Completely unthreatened by the cows">}}
+
+### Summer events
+
 {{< figure src="/images/group/2026_summer1.JPG" caption="ECCB Geneva">}}
 
 {{< figure src="/images/group/2026_summer2.JPG" caption="Pub bike (Bees in the Wall)">}}
 
 {{< figure src="/images/group/2026_summer3.JPG" caption="Cats in pubs">}}
-
-### Summer events
-
-{{< figure src="/images/group/2026_group_retreat1.jpg">}}
 
 ### Ely away day, April 2026
 
