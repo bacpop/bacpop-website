@@ -80,11 +80,11 @@ _mjrussell at ebi dot ac dot uk_
 
 _github: https://github.com/mtrsl_
 
-**Jackie Toussaint** is a PhD student
+**Jackie Toussaint** is a postdoctoral fellow.
 
 {{< figure src="/images/group/jacqueline_toussaint.jpg" >}}
 
-I'm a 4th-year PhD student developing bacterial GWAS and pangenome graphing methods; more broadly, I'm interested in Bayesian and machine learning models for bacterial population genomics with an emphasis on big data. I previously studied biochemistry and microbiology at Montana State University, with my Bachelor's thesis research focused on generating and analyzing multi-omics datasets.
+I develop bacterial GWAS and pangenome graphing methods; more broadly, I'm interested in Bayesian and machine learning models for bacterial population genomics with an emphasis on big data. I joined the Lees group as a PhD student in 2022, and have continued my work as a postdoctoral fellow this year.
 
 _lilyjacqueline at ebi dot ac dot uk_
 
