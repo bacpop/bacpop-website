@@ -64,9 +64,12 @@ to adjust observed frequencies.
 
 ### {{< logo "images/sparrowhawk_logo.png" >}} Sparrowhawk
 
-A lightweight short-read assembler
+Platform for bacterial genomic analyses on your own browser using Rust and WebAssembly. It includes a mixture of novel methodologies (a lightweight short read assembler, and an efficient AMR detector) and existing ones.
 
+* Website: https://sparrowhawk.bacpop.org
 * Code: https://github.com/bacpop/sparrowhawk
+* Code (assembler): https://github.com/bacpop/sparrowhawk-asm
+* Code (AMR detector): https://github.com/bacpop/sparrowhawk-amr
 
 ## Genomic epidemiology
 
