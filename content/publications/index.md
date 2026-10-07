@@ -44,7 +44,7 @@ We show that Bayesian ordered logistic regression GWAS models can recover known 
 
 ### Rapid and Consistent Genome Clustering at the Scale of Millions of MAGs and Isolates (Gemsparcl) w/ Rob Finn
 
-[Preprint](https://www.biorxiv.org/content/10.64898/2025.12.30.695181v1.abstract)
+[Preprint](https://www.biorxiv.org/content/10.64898/2025.12.30.695181v2)
 
 Have you ever wanted to rapidly and consistently cluster millions of MAGs and isolate genomes? But annoyed by how long that might take, even with sketching? We use an inverted index to achieve sub-quadratic clustering times, and cluster >5M samples into 'GCUs' (genomically cohesive units -- like species, but genome-based).
 

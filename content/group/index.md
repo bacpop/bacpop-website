@@ -94,10 +94,12 @@ _github: https://github.com/qtoussaint_
 
 {{< figure src="/images/group/johanna_von_wachsmann_photo.jpeg" >}}
 
-I did my master’s degree in bioinformatics with a focus on advanced algorithms at the Freie Universität Berlin. I wrote my master’s thesis under the supervision of Dr. John Lees.
+I did my undergrad and master’s degree in bioinformatics at the Freie 
+Universität and focused on advanced algorithms. I wrote my master's thesis under the supervision of Dr. John Lees.
 
-I am now working on developing tools and algorithms for the analysis of large metagenomic
-datasets.
+In the first part of my PhD, I developed a method, [gemsparcl](https://github.com/johannahelene/gemsparcl), for clustering millions of bacterial genomes in a rapid time. Find out more [here]({{< ref "/publications" >}}).
+
+Now I am focusing on automating poppunk to partition any given population into sub-populations and run pangenome analyses across all major species from my previous project, which includes around 3,000 species.
 
 _wachsmannj at ebi dot ac dot uk_
 

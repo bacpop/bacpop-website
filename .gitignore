@@ -5,3 +5,5 @@ tmp.txt
 go.sum
 public/
 resources/
+/.quarto/
+**/*.quarto_ipynb
