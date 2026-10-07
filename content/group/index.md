@@ -207,7 +207,7 @@ _github: https://github.com/clararehmann_
 
 {{< figure src="/images/group/2026_group_retreat1.jpg">}}
 
-{{< figure src="/images/group/2026_group_retreat2.jpg">}}
+{{< figure src="/images/group/2026_group_retreat2.jpg" caption="PhDs handed in">}}
 
 {{< figure src="/images/group/2026_group_retreat3.jpg" caption="Completely unthreatened by the cows">}}
 
