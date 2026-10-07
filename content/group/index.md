@@ -115,18 +115,6 @@ _oxie at ebi dot ac dot uk_
 
 _github: https://github.com/oulixie_
 
-**Ina Campan** is a scientific trainee from ENSAE Paris.
-
-{{< figure src="/images/group/ina_campan_photo.jpg" width="40%">}}
-
-I am a Master’s student in Mathematics, Economics, and Statistics at ENSAE Paris. I completed my Bachelor’s degree in Mathematics and Computer Science at Sorbonne University. I am interested in computational approaches for the analysis of biomedical and genomic data, including machine learning and deep learning, mathematical modeling, and biostatistics. I am now working with Víctor Rodríguez Bouza on bacterial pangenome construction methods.
-
-_Languages and tools : python, R, C/C++_
-
-_campan at ebi dot ac dot uk_
-
-_github : https://github.com/inaelenacampan_
-
 **Jose Fierro Bustos** is a Trainee
 
 I have a bachelor's degree in Molecular Biotechnology and am currently a master's student in Bioinformatics. After an undergraduate background focused on wet-lab work, I transitioned into bioinformatics, specialising in metagenomics from extreme environments and the research and annotation of horizontal transference genes (HTGs) in environmental and clinical samples. I have now joined the Lees Group as a Trainee, where I'm working on promoter identification and characterisation in *Streptococcus pneumoniae*.
@@ -149,21 +137,25 @@ _github: https://github.com/vmsavla_
 
 ### Alumni
 
+**Ina Campan** (2026) was an intern from ENSAE Paris.
+
+**Alice Magnoni** (2026) was a visiting PhD student from the University of Ferrara.
+
 **Anlei Peng** (2025-2026) was an intern from the University of Cambridge.
 
 **Ines Ngoh Atuh** (2024-2025) was a visting scientist (based at the University of Bamenda, Cameroon)
 
-**Sam Horsfield** (2022-2026) was a PhD student (the first), then postdoc, and founding group member. He's now in Dan Croll's group at the University of Neuchatel.
+**Sam Horsfield** (2022-2026) was a PhD student (the first), then postdoc, and founding group member.
 
 **Nikki Cannon** (2024, 2025) was a PhD student from Jordi van Gestel's lab in EMBL Heidelberg.
 
-**Daria Frolova** (2024-2025) was a rehomed PhD student, supervised by Zam Iqbal. Now at University of Lausanne.
+**Daria Frolova** (2024-2025) was a rehomed PhD student, supervised by Zam Iqbal.
 
-**Daniel Anderson** (2024-2025) was a rehomed PhD student, supervised by Zam Iqbal. Now at Basecamp Research.
+**Daniel Anderson** (2024-2025) was a rehomed PhD student, supervised by Zam Iqbal.
 
-**Raymond Cheng** (2022-2025) was a visiting PhD student, co-supervised with Stephen Bentley at the Wellcome Sanger Institute. Now in Nick Croucher's group at Imperial College London.
+**Raymond Cheng** (2022-2025) was a visiting PhD student, co-supervised with Stephen Bentley at the Wellcome Sanger Institute.
 
-**Joel Hellewell** (2022-2025) was a postdoc, then EIPOD fellow, and founding group member. He's now at MSF and the Jean Golding Institute at the University of Bristol.
+**Joel Hellewell** (2022-2025) was a postdoc, then EIPOD fellow, and founding group member.
 
 **Alireza Tajmirriahi** (2025) was a research intern from Aalto University.
 
@@ -189,15 +181,27 @@ _github: https://github.com/vmsavla_
 
 **Timothy Russell** (2023) was a visiting scientist (based at London School of Hygiene and Tropical Medicine).
 
-**Gherard Batisti Biffignandi** (2022) was a visiting PhD student (based at the University of Pavia). Now at the University of Cambridge ([Kate Baker's lab](https://baker-lab.github.io/)) and still a visitor at PIM.
+**Gherard Batisti Biffignandi** (2022) was a visiting PhD student (based at the University of Pavia).
 
-**Bruhad Dave** (2022) was an intern, now at the Wellcome Sanger Institute.
+**Bruhad Dave** (2022) was an intern.
 
 ## Social and photos
 
 ### 2026
 
-### Ely away day
+### Group Retreat, Kingham. October 2026
+
+{{< figure src="/images/group/2026_summer1.JPG" caption="ECCB Geneva">}}
+
+{{< figure src="/images/group/2026_summer2.JPG" caption="Pub bike (Bees in the Wall)">}}
+
+{{< figure src="/images/group/2026_summer3.JPG" caption="Cats in pubs">}}
+
+### Summer events
+
+{{< figure src="/images/group/2026_group_retreat1.jpg">}}
+
+### Ely away day, April 2026
 
 {{< figure src="/images/group/2026_ely_group.jpg">}}
 

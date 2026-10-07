@@ -46,7 +46,7 @@ enableRobotsTXT = true
 
     [params.ananke.social.bluesky]
     username = "bacpop.org"
-    profilelink = "https://bsky.app/profile/bacpop.org"
+    profilelink = "https://bsky.app/profile/johnlees.bacpop.org"
 
     [markup]
     [markup.tableOfContents]
