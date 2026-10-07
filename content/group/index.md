@@ -156,6 +156,7 @@ I'm interested in how geographic and genomic data can inform control of vector-b
 My background is in spatial population genetics, and I completed my PhD at the University of Oregon in the [Kern Ralph co-lab](https://kr-colab.github.io/) using simulation-based methods to inform analysis of geographically-structured populations. My research included using machine learning methods for identifying co-geography between vectors and pathogens and finding positively-selected variation using geographic population structure. 
 
 _rehmann at ebi dot ac dot uk_
+
 _github: https://github.com/clararehmann_
 
 ### Alumni
