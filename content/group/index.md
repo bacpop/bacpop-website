@@ -36,7 +36,7 @@ _github: https://github.com/johnlees_
 
 {{< figure src="/images/group/leonie_lorenz.jpg" >}}
 
-My aim is to combine mathematical models and bioinformatics to increase our understanding of microbial evolution and selection. In a recent project, I investigated how negative frequency-dependent selection (NFDS) drives replacement dynamics in _Streptococcus pneumoniae_ after vaccine introductions. This work has just been published as a [preprint](https://www.biorxiv.org/content/10.64898/2025.12.18.695090v1/).
+I combine mathematical models and bioinformatics to increase our understanding of microbial evolution and selection. In a recent project, I investigated how negative frequency-dependent selection (NFDS) drives replacement dynamics in _Streptococcus pneumoniae_ after vaccine introductions. This model has also been published in form of an R package, Stubentiger. Currently, I am developing a new method to estimate diversifying selection using dN/dS in large bacterial datasets.
 
 I studied biomathematics at the University of Greifswald, Germany. For my master thesis, I developed a Boolean model for the regulation of apoptosis at the Max Delbrück Center for Molecular Medicine.
 
@@ -72,7 +72,9 @@ _github: https://github.com/vrbouza_
 
 {{< figure src="/images/group/matt_russell.jpg" >}}
 
-Currently, I'm working on a project to catalogue and characterise bacterial capsules, which are important for both infection and as vaccination targets, across all sequenced bacteria. In addition to this, I am improving the GPU backend of the `dust` stochastic simulation package. The idea is that we can exploit the dependency structure of the underlying model to automatically produce a more efficient set of GPU kernels.
+My fellowship project is to develop and implement GPU-accelerated bioinformatics algorithms, and deploy them in user-facing services.
+
+I'm also part of a project on bacterial capsules. We are searching across all sequenced bacterial genomes to identify capsule production systems by looking for both sequence and structural homologues of known capsule-associated proteins. We will then use this to investigate broader questions about capsule diversity and evolution.
 
 My background is in applied mathematics, mathematical biology, and computer science. My PhD was supervised by Oliver Jensen and Tobias Galla at the University of Manchester and focussed on mathematical models of transport processes in spatially disordered media. After that, I was a postdoc at the University of Nottingham working with Bindi Brook on models of chemokine gradient formation and immune cell migration.
 
@@ -80,11 +82,11 @@ _mjrussell at ebi dot ac dot uk_
 
 _github: https://github.com/mtrsl_
 
-**Jackie Toussaint** is a PhD student
+**Jackie Toussaint** is a postdoctoral fellow.
 
 {{< figure src="/images/group/jacqueline_toussaint.jpg" >}}
 
-I'm a 4th-year PhD student developing bacterial GWAS and pangenome graphing methods; more broadly, I'm interested in Bayesian and machine learning models for bacterial population genomics with an emphasis on big data. I previously studied biochemistry and microbiology at Montana State University, with my Bachelor's thesis research focused on generating and analyzing multi-omics datasets.
+I develop bacterial GWAS and pangenome graphing methods; more broadly, I'm interested in Bayesian and machine learning models for bacterial population genomics with an emphasis on big data. I joined the Lees group as a PhD student in 2022, and have continued my work as a postdoctoral fellow this year.
 
 _lilyjacqueline at ebi dot ac dot uk_
 
@@ -134,6 +136,18 @@ My research interests lie in structural biology and machine learning approaches 
 _savla at ebi dot ac dot uk_
 
 _github: https://github.com/vmsavla_
+
+**Clara Rehmann** is a postdoctoral fellow
+
+{{< figure src="/images/group/clara.png" width="25%">}}
+
+I'm interested in how geographic and genomic data can inform control of vector-borne disease. I'm working with the Lees group at EBI and the [Lawniczak group at Sanger](https://www.sanger.ac.uk/group/lawniczak-group/) to develop methods that can realistically model how gene drive (modified genes with non-Mendilian inheritance patterns) will spread through *Anopheles* malaria vectors and suppress population sizes. The goal of these methods is to identify what will maximize the success of gene drive release efforts, and understanding how genetic variation moves through geographically-structured populations is critical for this.
+
+My background is in spatial population genetics, and I completed my PhD at the University of Oregon in the [Kern Ralph co-lab](https://kr-colab.github.io/) using simulation-based methods to inform analysis of geographically-structured populations. My research included using machine learning methods for identifying co-geography between vectors and pathogens and finding positively-selected variation using geographic population structure. 
+
+_rehmann at ebi dot ac dot uk_
+
+_github: https://github.com/clararehmann_
 
 ### Alumni
 
