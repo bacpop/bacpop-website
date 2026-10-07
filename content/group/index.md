@@ -72,7 +72,9 @@ _github: https://github.com/vrbouza_
 
 {{< figure src="/images/group/matt_russell.jpg" >}}
 
-Currently, I'm working on a project to catalogue and characterise bacterial capsules, which are important for both infection and as vaccination targets, across all sequenced bacteria. In addition to this, I am improving the GPU backend of the `dust` stochastic simulation package. The idea is that we can exploit the dependency structure of the underlying model to automatically produce a more efficient set of GPU kernels.
+My fellowship project is to develop and implement GPU-accelerated bioinformatics algorithms, and deploy them in user-facing services.
+
+I'm also part of a project on bacterial capsules. We are searching across all sequenced bacterial genomes to identify capsule production systems by looking for both sequence and structural homologues of known capsule-associated proteins. We will then use this to investigate broader questions about capsule diversity and evolution.
 
 My background is in applied mathematics, mathematical biology, and computer science. My PhD was supervised by Oliver Jensen and Tobias Galla at the University of Manchester and focussed on mathematical models of transport processes in spatially disordered media. After that, I was a postdoc at the University of Nottingham working with Bindi Brook on models of chemokine gradient formation and immune cell migration.
 
