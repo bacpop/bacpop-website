@@ -97,6 +97,14 @@ Transformer (BART + longformer) model for bacterial gene order, specifically for
 
 * Code: https://github.com/samhorsfield96/panBART
 
+### TOMBOMBADIL
+
+**T**ree-free **O**mega **M**apping **B**y **O**bserving **M**utations of **B**ases and **A**mino acids **D**istributed **I**nside **L**oci
+
+TOMBOMBADIL is a dN/dS method that estimates diversifying selection directly from codon counts in alignments, without relying on phylogenetic trees, making it scalable to large bacterial datasets. It is implemented in JAX, which is a Python library for automatic differentiation that parallelises code automatically. Inference can be done with optimisers to obtain maximum a posteriori (MAP) estimates or with MCMC No-U-Turn (NUTS) sampling to obtain parameter posteriors.
+
+* Code and download: https://github.com/bacpop/TOMBOMBADIL
+
 ## Modelling
 
 ### {{< logo "images/STUBENTIGER_logo.png" 200 120 >}} Stubentiger

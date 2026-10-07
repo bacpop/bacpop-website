@@ -28,7 +28,9 @@ For fans of scale and/or AI, you may also find our gene calls and clusters for A
 
 ### A reusable model of pangenome selection informs optimal surveillance strategies over vaccine introductions (Stubentiger)
 
-[Preprint](https://www.biorxiv.org/content/10.64898/2025.12.18.695090v1.abstract)
+Lorenz, L.J., Hellewell, J., Horsfield, S.T. et al. A reusable model of pangenome selection informs optimal surveillance strategies over vaccine introductions. Genome Med 18, 131 (2026). 
+
+https://doi-org.ezp.lib.cam.ac.uk/10.1186/s13073-026-01672-4
 
 The ['NFDS model' of Corander & Croucher & more](https://doi.org/10.1038/s41559-017-0337-x) is a predictive model for multi-strain pathogen evolution, which invokes negative-frequency dependent selection on accessory genes (along with vaccine and migration effects) to explain post-vaccine dynamics.
 
