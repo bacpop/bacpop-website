@@ -119,6 +119,8 @@ _github: https://github.com/oulixie_
 
 **Jose Fierro Bustos** is a Trainee
 
+{{< figure src="/images/group/jose_fierro_photo.jpeg" width="25%">}}
+
 I have a bachelor's degree in Molecular Biotechnology and am currently a master's student in Bioinformatics. After an undergraduate background focused on wet-lab work, I transitioned into bioinformatics, specialising in metagenomics from extreme environments and the research and annotation of horizontal transference genes (HTGs) in environmental and clinical samples. I have now joined the Lees Group as a Trainee, where I'm working on promoter identification and characterisation in *Streptococcus pneumoniae*.
 
 _fierro at ebi dot ac dot uk_
