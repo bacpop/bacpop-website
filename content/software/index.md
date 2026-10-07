@@ -71,6 +71,14 @@ Platform for bacterial genomic analyses on your own browser using Rust and WebAs
 * Code (assembler): https://github.com/bacpop/sparrowhawk-asm
 * Code (AMR detector): https://github.com/bacpop/sparrowhawk-amr
 
+### TOMBOMBADIL
+
+**T**ree-free **O**mega **M**apping **B**y **O**bserving **M**utations of **B**ases and **A**mino acids **D**istributed **I**nside **L**oci
+
+TOMBOMBADIL is a dN/dS method that estimates diversifying selection directly from codon counts in alignments, without relying on phylogenetic trees, making it scalable to large bacterial datasets. It is implemented in JAX, which is a Python library for automatic differentiation that parallelises code automatically. Inference can be done with optimisers to obtain maximum a posteriori (MAP) estimates or with MCMC No-U-Turn (NUTS) sampling to obtain parameter posteriors.
+
+* Code and download: https://github.com/bacpop/TOMBOMBADIL
+
 ## Genomic epidemiology
 
 ### {{< logo "images/poppunk_logo.png" >}} PopPUNK
@@ -99,14 +107,6 @@ A Snakemake pipeline that requires some config modifications to run.
 Transformer (BART + longformer) model for bacterial gene order, specifically for genomic epidemiology
 
 * Code: https://github.com/samhorsfield96/panBART
-
-### TOMBOMBADIL
-
-**T**ree-free **O**mega **M**apping **B**y **O**bserving **M**utations of **B**ases and **A**mino acids **D**istributed **I**nside **L**oci
-
-TOMBOMBADIL is a dN/dS method that estimates diversifying selection directly from codon counts in alignments, without relying on phylogenetic trees, making it scalable to large bacterial datasets. It is implemented in JAX, which is a Python library for automatic differentiation that parallelises code automatically. Inference can be done with optimisers to obtain maximum a posteriori (MAP) estimates or with MCMC No-U-Turn (NUTS) sampling to obtain parameter posteriors.
-
-* Code and download: https://github.com/bacpop/TOMBOMBADIL
 
 ## Modelling
 
@@ -215,9 +215,3 @@ An in-browser AMR and strain prediction tool for *Streptococcus pneumoniae*.
 
 * Web: https://beebop.dide.ic.ac.uk/
 * Code: https://github.com/bacpop/beebop/
-
-### [mandrake-web](https://gtonkinhill.github.io/mandrake-web/)
-
-A WebAssembly version of the mandrake stochastic cluster embedding tool. Written by [Gerry Tonkin-Hill](https://gtonkinhill.github.io/).
-
-* Code: https://github.com/gtonkinhill/mandrake-web
