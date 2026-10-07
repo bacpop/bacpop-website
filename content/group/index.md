@@ -149,7 +149,7 @@ _github: https://github.com/vmsavla_
 
 **Clara Rehmann** is a postdoctoral fellow
 
-{{< figure src="/images/group/clara.png" >}}
+{{< figure src="/images/group/clara.png" width="25%">}}
 
 I'm interested in how geographic and genomic data can inform control of vector-borne disease. I'm working with the Lees group at EBI and the [Lawniczak group at Sanger](https://www.sanger.ac.uk/group/lawniczak-group/) to develop methods that can realistically model how gene drive (modified genes with non-Mendilian inheritance patterns) will spread through *Anopheles* malaria vectors and suppress population sizes. The goal of these methods is to identify what will maximize the success of gene drive release efforts, and understanding how genetic variation moves through geographically-structured populations is critical for this.
 
