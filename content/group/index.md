@@ -151,6 +151,18 @@ _rehmann at ebi dot ac dot uk_
 
 _github: https://github.com/clararehmann_
 
+**Marie Becker** is a PhD student
+
+{{< figure src="/images/group/marie_becker.jpeg" width="25%">}}
+
+I completed my Master’s degree in Bioinformatics at ETH Zurich, working in the groups of [Tanja Stadler](https://bsse.ethz.ch/cevo) and [Richard Neher](https://www.biozentrum.unibas.ch/research/research-groups/research-groups-a-z/overview/unit/research-group-richard-neher). During this time, I worked on several projects, including estimating the fitness of SARS-CoV-2 variants, investigating how coalescent prior assumptions influence node height estimation in time-resolved phylogenetic trees, and using bacterial pangenome graphs to study the evolutionary dynamics of accessory genome hotspots.
+
+In autumn 2026, I joined the Lees group as a PhD student, where I continue to work on bacterial phylogenetics. My current research focuses on bacterial capsule evolution,  leveraging the AllTheBacteria database.
+
+_marie dot becker at ebi dot ac dot uk_
+
+_github: https://github.com/marie3003_
+
 ### Alumni
 
 **Ina Campan** (2026) was an intern from ENSAE Paris.
