@@ -19,7 +19,9 @@ In either case only the reference genomes will actually be used for query assign
 
 See the [distributing models documentation page](https://poppunk.readthedocs.io/en/latest/model_distribution.html) for more details.
 
-We welcome contributions for new species, or expansions of these databases [via our github](https://github.com/bacpop/PopPUNK/issues/new?assignees=johnlees&labels=enhancement&template=add-species-database.md&title=%5Bdatabase%5D).
+We welcome contributions for new species, or expansions of these databases [via our github](https://github.com/bacpop/PopPUNK/issues/new?assignees=johnlees&labels=enhancement&template=add-species-database.md&title=%5Bdatabase%5D). User contributed databases are at the end of the page.
+
+## Standard databases
 
 {{< rawhtml >}}
 <input type="text" id="search" size="50" placeholder="Type to search" title="Type in a name">
@@ -58,15 +60,6 @@ We welcome contributions for new species, or expansions of these databases [via 
     <td style="text-align:center"><a href="https://www.ncbi.nlm.nih.gov/pathogens/">Portal</a></td>
     <td style="text-align:center"><a href="https://ftp.ebi.ac.uk/pub/databases/pp_dbs/Campylobacter_jejuni_v1_refs.tar.bz2">Download</a></td>
     <td style="text-align:center"><a href="https://ftp.ebi.ac.uk/pub/databases/pp_dbs/Campylobacter_jejuni_v1_full.tar.bz2">Download</a></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td><i>Candida albicans</i></td>
-    <td style="text-align:center">v1</td>
-    <td></td>
-    <td style="text-align:center"></td>
-    <td style="text-align:center">Coming soon</td>
-    <td style="text-align:center"></td>
     <td></td>
   </tr>
     <tr>
@@ -112,15 +105,6 @@ We welcome contributions for new species, or expansions of these databases [via 
     <td style="text-align:center"></td>
     <td style="text-align:center"><a href="https://ftp.ebi.ac.uk/pub/databases/pp_dbs/Helicobacter_pylori_v1_refs.tar.bz2">Download</a></td>
     <td style="text-align:center"><a href="https://ftp.ebi.ac.uk/pub/databases/pp_dbs/Helicobacter_pylori_v1_full.tar.bz2">Download</a></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Influenza virus</td>
-    <td style="text-align:center">v1</td>
-    <td></td>
-    <td style="text-align:center"></td>
-    <td style="text-align:center">Coming soon</td>
-    <td style="text-align:center"></td>
     <td></td>
   </tr>
     <tr>
@@ -202,24 +186,6 @@ We welcome contributions for new species, or expansions of these databases [via 
     <td style="text-align:center"><a href="https://doi.org/10.1371/journal.pbio.3001421">Paper</a></td>
     <td style="text-align:center"><a href="https://ftp.ebi.ac.uk/pub/databases/pp_dbs/Pseudomonas_aeruginosa_v1_refs.tar.bz2">Download</a></td>
     <td style="text-align:center"><a href="https://ftp.ebi.ac.uk/pub/databases/pp_dbs/Pseudomonas_aeruginosa_v1_full.tar.bz2">Download</a></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td><i>Saccharomyces cerevisiae</i></td>
-    <td style="text-align:center">v1</td>
-    <td></td>
-    <td style="text-align:center"></td>
-    <td style="text-align:center">Coming soon</td>
-    <td style="text-align:center"></td>
-    <td></td>
-  </tr>
-    <tr>
-    <td><i>Salmonella sp.</i></td>
-    <td style="text-align:center">v1</td>
-    <td>335647</td>
-    <td style="text-align:center"></td>
-    <td style="text-align:center">Coming soon</td>
-    <td style="text-align:center"></td>
     <td></td>
   </tr>
   <tr>
@@ -326,3 +292,21 @@ $('#search').keyup(function() {
 });
 </script>
 {{< /rawhtml >}}
+
+### User contributed databases
+
+- *Pseudomonas aeruginosa v2*. Above database with 10658 genomes added (by: Jenny Zhang).
+  - github issue: https://github.com/bacpop/PopPUNK/issues/377
+  - Database: https://ucsf.app.box.com/s/78gwvh0xj0uevg9r4hhsry0l4ni75rjn
+- *Citrobacter freundii* species complex. 373 genomes (by: Dorottya Nagy)
+  - github issue: https://github.com/bacpop/PopPUNK/issues/380
+  - Database: https://doi.org/10.6084/m9.figshare.33317367
+- *Enterobacter cloacae* complex. 1109 genomes (by: Dorottya Nagy)
+  - github issue: https://github.com/bacpop/PopPUNK/issues/381
+  - Database: https://figshare.com/s/2ec43deb8b258a984ae7?file=67776378
+- *Klebsiella oxytoca* species complex. 282 genomes (by: Dorottya Nagy)
+  - github issue: https://github.com/bacpop/PopPUNK/issues/382
+  - Database: https://doi.org/10.6084/m9.figshare.33320343
+- *Klebsiella areogenes*. 252 genomes (by: Dorottya Nagy)
+  - github issue: https://github.com/bacpop/PopPUNK/issues/383
+  - Database: https://doi.org/10.6084/m9.figshare.33322683
