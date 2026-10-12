@@ -62,15 +62,6 @@ We welcome contributions for new species, or expansions of these databases [via 
     <td style="text-align:center"><a href="https://ftp.ebi.ac.uk/pub/databases/pp_dbs/Campylobacter_jejuni_v1_full.tar.bz2">Download</a></td>
     <td></td>
   </tr>
-  <tr>
-    <td><i>Candida albicans</i></td>
-    <td style="text-align:center">v1</td>
-    <td></td>
-    <td style="text-align:center"></td>
-    <td style="text-align:center">Coming soon</td>
-    <td style="text-align:center"></td>
-    <td></td>
-  </tr>
     <tr>
     <td><i>Enterococcus faecalis</i></td>
     <td style="text-align:center">v1</td>
@@ -114,15 +105,6 @@ We welcome contributions for new species, or expansions of these databases [via 
     <td style="text-align:center"></td>
     <td style="text-align:center"><a href="https://ftp.ebi.ac.uk/pub/databases/pp_dbs/Helicobacter_pylori_v1_refs.tar.bz2">Download</a></td>
     <td style="text-align:center"><a href="https://ftp.ebi.ac.uk/pub/databases/pp_dbs/Helicobacter_pylori_v1_full.tar.bz2">Download</a></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Influenza virus</td>
-    <td style="text-align:center">v1</td>
-    <td></td>
-    <td style="text-align:center"></td>
-    <td style="text-align:center">Coming soon</td>
-    <td style="text-align:center"></td>
     <td></td>
   </tr>
     <tr>
@@ -204,24 +186,6 @@ We welcome contributions for new species, or expansions of these databases [via 
     <td style="text-align:center"><a href="https://doi.org/10.1371/journal.pbio.3001421">Paper</a></td>
     <td style="text-align:center"><a href="https://ftp.ebi.ac.uk/pub/databases/pp_dbs/Pseudomonas_aeruginosa_v1_refs.tar.bz2">Download</a></td>
     <td style="text-align:center"><a href="https://ftp.ebi.ac.uk/pub/databases/pp_dbs/Pseudomonas_aeruginosa_v1_full.tar.bz2">Download</a></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td><i>Saccharomyces cerevisiae</i></td>
-    <td style="text-align:center">v1</td>
-    <td></td>
-    <td style="text-align:center"></td>
-    <td style="text-align:center">Coming soon</td>
-    <td style="text-align:center"></td>
-    <td></td>
-  </tr>
-    <tr>
-    <td><i>Salmonella sp.</i></td>
-    <td style="text-align:center">v1</td>
-    <td>335647</td>
-    <td style="text-align:center"></td>
-    <td style="text-align:center">Coming soon</td>
-    <td style="text-align:center"></td>
     <td></td>
   </tr>
   <tr>
@@ -329,7 +293,7 @@ $('#search').keyup(function() {
 </script>
 {{< /rawhtml >}}
 
-### User contributed databases:
+### User contributed databases
 
 - *Pseudomonas aeruginosa v2*. Above database with 10658 genomes added (by: Jenny Zhang).
   - github issue: https://github.com/bacpop/PopPUNK/issues/377
