@@ -163,6 +163,16 @@ _marie dot becker at ebi dot ac dot uk_
 
 _github: https://github.com/marie3003_
 
+**Audrey Dickinson** is a PhD student
+
+{{< figure src="/images/group/audrey.jpg" width="25%">}}
+
+I study the ecology and evolution of antibiotic resistance genes (ARGs), focusing on their horizontal transfer between hosts and transmission across habitats. I work with the Lees group at EMBL-EBI and the [Bork group](https://www.bork.embl.de/) at EMBL Heidelberg, combining pathogen genomics with microbial community ecology to understand ARG flux across human, animal, and environmental systems. In particular, I’m using the [TREC](https://www.embl.org/about/info/trec/) dataset, comprising soil, sediment, and seawater metagenomes from 115 coastal land-sea transects, and the [SPIRE](https://spire.embl.de/) database, a set of 1.16 million metagenome-assembled genomes (MAGs).
+
+I completed my BA in Biology at the University of Oxford, where I specialised in ecology, evolutionary biology, and conservation. I then worked at the [San Diego Botanic Garden](https://sdbg.org/science-conservation-projects/), studying plant genomics in agricultural and conservation contexts. I’m interested in using biodiversity science to improve human and environmental health, and my work on antibiotic resistance applies ecological approaches to a major public health problem.
+
+_dickinson at ebi dot ac dot uk_
+
 ### Alumni
 
 **Ina Campan** (2026) was an intern from ENSAE Paris.
