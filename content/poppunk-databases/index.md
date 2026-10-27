@@ -297,7 +297,7 @@ $('#search').keyup(function() {
 
 - *Pseudomonas aeruginosa v2*. Above database with 10658 genomes added (by: Jenny Zhang).
   - github issue: https://github.com/bacpop/PopPUNK/issues/377
-  - Database: https://ucsf.app.box.com/s/78gwvh0xj0uevg9r4hhsry0l4ni75rjn
+  - Database: https://datadryad.org/downloads/file_stream/5010922
 - *Citrobacter freundii* species complex. 373 genomes (by: Dorottya Nagy)
   - github issue: https://github.com/bacpop/PopPUNK/issues/380
   - Database: https://doi.org/10.6084/m9.figshare.33317367
